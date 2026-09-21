@@ -1,0 +1,29 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Held-out split lives in a separate private repo, never here
+heldout/
+
+# Raw third-party downloads (re-fetched by scripts, licence-checked separately)
+data/external/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Response cache is committed later deliberately; scratch runs are not
+runs/scratch/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
