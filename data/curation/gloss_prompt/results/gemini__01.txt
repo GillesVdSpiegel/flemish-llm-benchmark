@@ -1,0 +1,200 @@
+w0001|actie tijdens de sperperiode
+w0002|pruimenboom
+w0003|moegetergd; afgemat door geterg
+w0004|stengel bleekselderij; selderij
+w0005|iemand die wadloopt
+w0006|verpest; verbroid
+w0007|deuken
+w0008|vrijwel; nagenoeg
+w0009|geadresseerde
+w0010|begrijpen; verwerken; aankunnen
+w0011|glazen wand; glazen gevel
+w0012|dienster; kelnerin
+w0013|troffel
+w0014|jongerenruimte; jeugdcentrum
+w0015|stamgast; toogzitter
+w0016|opzien tegen; tegenaan hiken
+w0017|klein geldbedrag
+w0018|salarisschaal; loonschaal
+w0019|achterland
+w0020|spiraalvormig zoutje; spiraal
+w0021|absurd
+w0022|krotachtige bijgebouwen; verkaveling
+w0023|draagbare zendontvanger
+w0024|voorbereidend middelbaar beroepsonderwijs
+w0025|waterwinning; opvanging
+w0026|kaakbeen
+w0027|verzonnen; erdacht
+w0028|uitgewekene; vluchteling
+w0029|luiak; luiaard
+w0030|opzegtermijn; opzegging
+w0031|jas; vest
+w0032|zandige grond; zavel
+w0033|uitroep van afwijzing
+w0034|haastig en slordig afwerken
+w0035|verruiming; verrekking
+w0036|zeer slecht; heel slecht
+w0037|flauw hapje; nietigheid
+w0038|immigrant; nieuwkomer
+w0039|bovenin te zwaar
+w0040|derde naamval; meewerkend voorwerp
+w0041|diepte; afgrond
+w0042|gisteren
+w0043|kleding betreffende
+w0044|gymkleding; gymspullen
+w0045|strooiweide
+w0046|akkerland; ploegland
+w0047|uniformmuts; pet
+w0048|opzoeking; onderzoek
+w0049|nevelig; licht mistig
+w0050|waaide
+w0051|dagelijks; alledaags
+w0052|op goed geluk
+w0053|grootvader; opa
+w0054|kinesitherapeut; kinesitherapie
+w0055|tuig; gespuis
+w0056|houten steiger; plankier
+w0057|stokbrood met friet en vlees
+w0058|grote springbal met handvatten
+w0059|commercieel straatverkoper; ambulant handelaar
+w0060|onzin; mop; flauwekul
+w0061|schoonmaakploeg
+w0062|kwark
+w0063|luidruchtig opscheppen
+w0064|iemand die alles regelt
+w0065|deuk
+w0066|brandweerman
+w0067|fijne vleeswaren
+w0068|vruchtenlimonade
+w0069|vleier; kruiper
+w0070|weerspannigheid; opstandigheid
+w0071|peuteren; poken
+w0072|woning van een deken
+w0073|mogelijk; wellicht
+w0074|bestrijden
+w0075|volledig casco gedekt
+w0076|zonnesteek
+w0077|het afhalen; ophalen
+w0078|vloeken; kankeren
+w0079|uitgelekte yoghurt
+w0080|het giechelen
+w0081|niet geliefd
+w0082|er financieel op achteruitgaan
+w0083|drukte; herrie
+w0084|kleine of middelgrote onderneming
+w0085|huisautomatisering
+w0086|mislukken door regen
+w0087|aziatische koolsoort
+w0088|statiegeldverpakking; lege verpakking
+w0089|schrokken; schranken
+w0090|koelbox
+w0091|parallelweg
+w0092|betrekking hebbend op contact
+w0093|uitroep van spijt of verdriet
+w0094|pantoffel; slof
+w0095|blauwe hardsteen
+w0096|traditioneel vleesgerecht
+w0097|rommel; chaos
+w0098|heel graag
+w0099|een biljoenste seconde
+w0100|balpen
+w0101|wastafel
+w0102|haalbaar; doenlijk
+w0103|schoolreis naar zee
+w0104|afvoerputje
+w0105|de baan betreffende
+w0106|iemands taak; iemands zaak
+w0107|opschepperig; luidruchtig
+w0108|hogereburgerschool
+w0109|heel schoon; smetteloos
+w0110|veldrijden
+w0111|overheidssubsidie; toelage
+w0112|botanische tuin
+w0113|langzaam aankomen; slenteren
+w0114|tussenverdieping
+w0115|beloning; salariëring
+w0116|knoeien; prutsen
+w0117|lomp persoon; kinkel
+w0118|schroef
+w0119|recycling; hergebruik
+w0120|zeurpiet; zeurder
+w0121|vroeg wandelen in de natuur
+w0122|bloedvat verwijden
+w0123|kinderarts
+w0124|bier drinken; zakken
+w0125|de kust betreffende
+w0126|krabbel; teykeningetje
+w0127|te zwaar tillen
+w0128|klein kind; ukkepuk
+w0129|ingedijkt land; polder
+w0130|kerstbrood met spijs
+w0131|straffen; benadelen
+w0132|topper; uitblinker
+w0133|touwslagerij
+w0134|fysiotherapeut
+w0135|oplichter; nepartikel
+w0136|grote drukte; hectiek
+w0137|zich verslapen
+w0138|stamppot van verschillende groenten
+w0139|theelichtje; paraffine
+w0140|wet inzake levensmiddelen
+w0141|kleingesneden soepvlees
+w0142|boerenpummel; onnozel mens
+w0143|ruzij; herrie
+w0144|achterzijde
+w0145|dringend smeken; bedelen
+w0146|vierde naamval
+w0147|vuilak; smeerpoets
+w0148|bitumineuze dakbedekking; roofing
+w0149|autoped; step
+w0150|erelijst
+w0151|alledaagse kleding; pakje
+w0152|opschepper
+w0153|verpesten; verknoeien
+w0154|spattend zwemmen; knoeien
+w0155|vak waarvoor men zakt
+w0156|vismarkt
+w0157|beroepsethiek
+w0158|voordeeltje; meevaller
+w0159|casino; kuurhotel
+w0160|telefonische hulpdienst
+w0161|inruimen; een plek geven
+w0162|korte film
+w0163|knoeien; klungelen
+w0164|gips
+w0165|werkloosheidsuitkering
+w0166|spaarbewijs; termijnbon
+w0167|opruimen; inpakken
+w0168|verkeersreglement
+w0169|hulpeloos; ontredderd
+w0170|vaatdoek
+w0171|woedend; zeer kwaad
+w0172|verhoging; toename
+w0173|illegaal afval storten
+w0174|badplaats
+w0175|paardenbloem
+w0176|van geld voorzien; begiftigen
+w0177|zeurpiet; zeurder
+w0178|saai; truttig
+w0179|boormachine
+w0180|ontgroening van eerstejaars
+w0181|modder; viezigheid
+w0182|geplaatste speler; rami-hoofd
+w0183|ringband
+w0184|wijden; heiligen
+w0185|feestdag
+w0186|herzien; bewerken
+w0187|vakkennis
+w0188|ordner; opbergmap
+w0189|zaagsel
+w0190|brancard; draagbaar
+w0191|wildpark; wandelpark
+w0192|kaartspel wiezen
+w0193|neus; gezicht
+w0194|oliebol
+w0195|dorpsplein
+w0196|vervelend persoon
+w0197|stamppot
+w0198|bleekwater
+w0199|overheidsretributie; rechten
+w0200|ophaler van groenteafval
