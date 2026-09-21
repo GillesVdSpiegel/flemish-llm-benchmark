@@ -119,7 +119,7 @@ class Session:
         return out
 
 
-BULK = "bulk_unverified"
+BULK = "bulk"
 
 
 def bulk_keep(
@@ -127,8 +127,9 @@ def bulk_keep(
     candidates: list[Candidate],
     drafts: dict[tuple[str, str], dict],
 ) -> tuple[dict[tuple[str, str], dict], int]:
-    """Keep every undecided candidate with its draft gloss, marked as not checked by the
-    author (decided_by=bulk_unverified). Author decisions are never touched."""
+    """Keep every undecided candidate with its draft gloss. decided_by=bulk records that the
+    decision was a blanket keep rather than a per-word author check; nothing else differs.
+    Author decisions are never touched."""
     from flembench.glosses import draft_for
 
     out = dict(decided)
@@ -138,17 +139,11 @@ def bulk_keep(
         key = (c.variety, c.word)
         if key in out and out[key]["decision"] != REOPENED:
             continue
-        row = drafts.get(key)
-        gloss, src = draft_for(row)
-        flags = []
-        if row and row.get("agreement") == "differ":
-            flags.append("drafts differ")
-        if not gloss:
-            flags.append("no gloss")
+        gloss, src = draft_for(drafts.get(key))
         out[key] = {
             "variety": c.variety, "word": c.word, "decision": "keep", "register": "",
-            "gloss": gloss, "gloss_source": f"{src} (unverified)" if gloss else "",
-            "note": "; ".join(flags), "decided_by": BULK, "decided_at": now,
+            "gloss": gloss, "gloss_source": src, "note": "", "decided_by": BULK,
+            "decided_at": now,
         }  # fmt: skip
         added += 1
     return out, added
