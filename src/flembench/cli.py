@@ -169,6 +169,23 @@ def lex_curate(seed: int = 0) -> None:
     console.print_json(data=s.counts())
 
 
+@lex.command("bulk-keep")
+def lex_bulk_keep() -> None:
+    """Keep all remaining undecided candidates with their draft gloss (marked unverified)."""
+    from collections import Counter
+
+    from flembench import curate
+    from flembench import glosses as gl
+
+    df = pd.read_csv(lexicon.CANDIDATES, keep_default_na=False)
+    cands = [curate.Candidate(r.variety, r.spelling) for r in df.itertuples()]
+    decided, added = curate.bulk_keep(curate.load_decisions(), cands, gl.load())
+    curate.save_decisions(decided)
+    by = Counter((r["decided_by"], r["decision"]) for r in decided.values())
+    console.print(f"bulk-kept {added} words")
+    console.print_json(data={f"{a}:{b}": n for (a, b), n in sorted(by.items())})
+
+
 @lex.command("pair")
 def lex_pair(tol_own: float = 0.03, tol_gap: float = 0.05) -> None:
     """Match kept BE and NL words into prevalence-matched pairs."""

@@ -119,6 +119,41 @@ class Session:
         return out
 
 
+BULK = "bulk_unverified"
+
+
+def bulk_keep(
+    decided: dict[tuple[str, str], dict],
+    candidates: list[Candidate],
+    drafts: dict[tuple[str, str], dict],
+) -> tuple[dict[tuple[str, str], dict], int]:
+    """Keep every undecided candidate with its draft gloss, marked as not checked by the
+    author (decided_by=bulk_unverified). Author decisions are never touched."""
+    from flembench.glosses import draft_for
+
+    out = dict(decided)
+    now = datetime.now(UTC).isoformat(timespec="seconds")
+    added = 0
+    for c in candidates:
+        key = (c.variety, c.word)
+        if key in out and out[key]["decision"] != REOPENED:
+            continue
+        row = drafts.get(key)
+        gloss, src = draft_for(row)
+        flags = []
+        if row and row.get("agreement") == "differ":
+            flags.append("drafts differ")
+        if not gloss:
+            flags.append("no gloss")
+        out[key] = {
+            "variety": c.variety, "word": c.word, "decision": "keep", "register": "",
+            "gloss": gloss, "gloss_source": f"{src} (unverified)" if gloss else "",
+            "note": "; ".join(flags), "decided_by": BULK, "decided_at": now,
+        }  # fmt: skip
+        added += 1
+    return out, added
+
+
 def reopen(decided: dict[tuple[str, str], dict], variety: str, word: str, note: str = "") -> dict:
     """Mark a decided word as pending again, as an author decision."""
     key = (variety, word)
