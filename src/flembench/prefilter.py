@@ -1,15 +1,18 @@
-"""Optional LLM prefilter for lexicon candidates — form-based rejections only.
+"""Optional LLM prefilter for lexicon candidates — strict, route-only.
 
 LLMs are asked ONLY whether a word is a brand, a proper name or an abbreviation. They are never
-asked about meaning, regional origin or quality, and they can never accept a word: an LLM can
-only confidently "accept" words it knows, which would bias the benchmark towards words models
-already know and shrink the gap it measures.
+asked about meaning, regional origin or quality. The prefilter can never accept or reject a
+word; it can only ROUTE a word to the B1 (institutional) pool, which the author reviews when
+writing B1 items. A prefilter mistake therefore never removes a word from the benchmark.
+(Accepting is excluded because an LLM can only confidently accept words it knows, which would
+bias the benchmark towards words models already know and shrink the gap it measures.)
 
-A word is auto-decided only when at least MIN_MODELS different models all return the same
-NAME or ABBR verdict. BRAND verdicts are never applied: genericised brands (Belgian "bic" for a
-ballpoint pen, Netherlands "kliko") are legitimate regional vocabulary, so the author decides.
-A seeded AUDIT_SHARE of the auto-decisions is held back and curated blind by the author;
-`prefilter-report` then gives the prefilter's agreement with the author.
+A word is routed only when at least MIN_MODELS different models all return the same NAME or
+ABBR verdict. BRAND verdicts are never applied: genericised brands (Belgian "bic" for a
+ballpoint pen, Netherlands "ranja") are legitimate regional vocabulary, so the author decides.
+NAME routes to B1 rather than being rejected because organisation and institution names
+(Belgian "teleonthaal") are B1 material. A seeded AUDIT_SHARE of the routed words is held back
+and curated blind by the author; `prefilter-report` then gives the prefilter's agreement.
 
 Files (all committed; words and verdicts only, no prevalence values):
     data/curation/prefilter/PROMPT.md           the prompt to paste
@@ -40,10 +43,12 @@ PROMPT_FILE = DIR / "PROMPT.md"
 
 CATEGORY_DECISION = {
     "BRAND": None,  # flagged but never auto-applied (see module docstring)
-    "NAME": "reject_brand_or_name",
+    "NAME": "move_to_b1",
     "ABBR": "move_to_b1",
     "NONE": None,
 }
+# Invariant: the prefilter can only route. Enforced in tests.
+ALLOWED_AUTO_DECISIONS = {"move_to_b1"}
 MIN_MODELS = 2
 AUDIT_SHARE = 0.10
 MIN_AUDIT = 5

@@ -29,10 +29,12 @@ Words are shown in a seeded random order, alternating BE and NL, without prevale
 (to avoid anchoring). You can stop at any time and resume where you left off. Decisions live in
 `data/curation/lexicon_decisions.csv`, which is committed; the prevalence values are not.
 
-### Optional: LLM prefilter (form-based rejections only)
+### Optional: LLM prefilter (strict: route-only)
 
-Saves time on the obvious rejections (brands, proper names, abbreviations) without letting LLMs
-choose which words stay. LLMs never accept a word and are never asked about meaning.
+Routes abbreviations and institution/organisation names to the B1 pool so they don't clutter
+lexicon curation. The prefilter **never accepts or rejects** a word and is never asked about
+meaning; the worst a mistake can do is put a word in the B1 pool, which you review anyway
+(`uv run flembench lexicon b1-pool`).
 
 ```
 uv run flembench lexicon prefilter-export     # prompt + 6 batches of 200 words
@@ -53,8 +55,7 @@ uv run flembench lexicon prefilter-export     # prompt + 6 batches of 200 words
 uv run flembench lexicon prefilter-import
 ```
 
-A word is auto-decided only if every model gave the same NAME (rejected) or ABBR (moved to B1)
-verdict. BRAND verdicts are counted but never applied, because genericised brands can be real
+A word is routed to the B1 pool only if every model gave the same NAME or ABBR verdict. BRAND verdicts are counted but never applied, because genericised brands can be real
 regional words. A word a model did not list counts as not flagged, so skipped words always come
 to you. 10% of the auto-decisions are held back and appear in your normal curation queue,
 unmarked. After curating, `uv run flembench lexicon prefilter-report` shows how often the
