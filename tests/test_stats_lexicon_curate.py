@@ -104,3 +104,39 @@ def test_render_mc(pair_items):
     assert "A. " in user and "D. " in user
     assert user.endswith("(A, B, C of D).")
     assert system == render(pair_items[1])[0]
+
+
+def test_reopen_requeues_word_and_undo_restores_marker():
+    cands = _cand_list()
+    by_key = {(c.variety, c.word): c for c in cands}
+    routed = {("nl", "n1"): {"variety": "nl", "word": "n1", "decision": "move_to_b1",
+                             "decided_by": "llm_prefilter"}}  # fmt: skip
+    decided = curate.reopen(routed, "nl", "n1", note="eponym")
+    row = decided[("nl", "n1")]
+    assert row["decision"] == curate.REOPENED and row["decided_by"] == "author"
+    assert "was move_to_b1 (llm_prefilter)" in row["note"]
+    s = curate.Session.create(cands, decided, seed=0)
+    assert ("nl", "n1") in {(c.variety, c.word) for c in s.queue} and len(s.queue) == 6
+    while s.current.word != "n1":
+        s.skip()
+    s.decide("k", register="standard", gloss="klierkoorts")
+    assert s.decided[("nl", "n1")]["decision"] == "keep"
+    s.undo(by_key)
+    assert s.decided[("nl", "n1")]["decision"] == curate.REOPENED
+
+
+def test_prefilter_does_not_reroute_reopened_word(tmp_path, monkeypatch):
+    from flembench import prefilter
+
+    # No audit hold-back, so the word would definitely be auto-routed if not protected.
+    monkeypatch.setattr(prefilter, "MIN_AUDIT", 0)
+    monkeypatch.setattr(prefilter, "AUDIT_SHARE", 0.0)
+    prefilter.export([("nl", "pfeiffer"), ("nl", "x"), ("be", "y")], root=tmp_path)
+    wid = next(i for i, w in prefilter.load_words(tmp_path).items() if w.word == "pfeiffer")
+    (tmp_path / "results").mkdir()
+    for m in ("a", "b"):
+        (tmp_path / "results" / f"{m}__01.txt").write_text(f"{wid};NAME\n", encoding="utf-8")
+    routed, stats = prefilter.apply({}, root=tmp_path)
+    assert routed[("nl", "pfeiffer")]["decision"] == "move_to_b1"  # control: it would route
+    after, _ = prefilter.apply(curate.reopen(routed, "nl", "pfeiffer"), root=tmp_path)
+    assert after[("nl", "pfeiffer")]["decision"] == curate.REOPENED

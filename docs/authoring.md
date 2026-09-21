@@ -34,7 +34,10 @@ Words are shown in a seeded random order, alternating BE and NL, without prevale
 Routes abbreviations and institution/organisation names to the B1 pool so they don't clutter
 lexicon curation. The prefilter **never accepts or rejects** a word and is never asked about
 meaning; the worst a mistake can do is put a word in the B1 pool, which you review anyway
-(`uv run flembench lexicon b1-pool`).
+(`uv run flembench lexicon b1-pool`). If a routed word is really an ordinary word, typically
+an eponym such as NL *pfeiffer* (glandular fever), put it back in your queue with
+`uv run flembench lexicon reopen pfeiffer`. That is recorded as your decision, so a later
+prefilter import cannot route it again.
 
 ```
 uv run flembench lexicon prefilter-export     # prompt + 6 batches of 200 words
