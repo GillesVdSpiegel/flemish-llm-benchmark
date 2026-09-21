@@ -1,0 +1,35 @@
+# Local model weights, pinned by SHA-256. `scripts/setup_local_models.py` downloads each file
+# (resumable), verifies the hash and registers it in Ollama under `ollama_name`.
+# Weights go to $FLEMBENCH_GGUF_DIR (default data/external/gguf, gitignored).
+#
+# The original authors do not publish GGUFs, so these are community quantisations
+# (mradermacher). Prompts are NOT formatted by the GGUF's embedded template: the harness renders
+# each model's original chat template (config/chat_templates/, copied from the model card repo).
+
+models:
+  eurollm-9b:
+    original: utter-project/EuroLLM-9B-Instruct-2512
+    licence: apache-2.0
+    repo: mradermacher/EuroLLM-9B-Instruct-2512-GGUF
+    file: EuroLLM-9B-Instruct-2512.Q8_0.gguf
+    size: 9728449664
+    sha256: 20ab1a90d8b3a2c5f7de04575a1dd59450d55eafa4894a38cb1b44e50e7bca67
+    ollama_name: flembench/eurollm-9b-instruct-2512:q8_0
+
+  geitje-7b-ultra:
+    original: BramVanroy/GEITje-7B-ultra
+    licence: cc-by-nc-4.0
+    repo: mradermacher/GEITje-7B-ultra-GGUF
+    file: GEITje-7B-ultra.Q8_0.gguf
+    size: 7695859360
+    sha256: f95d9057f7cca3e429e566348d4ea3d6006978fc465ad54d5db095761c4ede7d
+    ollama_name: flembench/geitje-7b-ultra:q8_0
+
+  chocollama-8b:
+    original: ChocoLlama/Llama-3-ChocoLlama-8B-instruct
+    licence: cc-by-nc-4.0
+    repo: mradermacher/Llama-3-ChocoLlama-8B-instruct-GGUF
+    file: Llama-3-ChocoLlama-8B-instruct.Q8_0.gguf
+    size: 8540773024
+    sha256: fa3ffbc3066987b9aa040a4bbcedff3371848f6b372d3144554abedaa40de456
+    ollama_name: flembench/chocollama-8b-instruct:q8_0

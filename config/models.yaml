@@ -27,24 +27,53 @@ models:
     reasoning: minimal (cannot be disabled)
     price: {input: 0.75, output: 3.75}  # introductory price until 2026-12-31
 
-  # Local models (Ollama on RTX 5070, 12 GB). model_id = Ollama tag; fixed in the pilot setup.
+  # Local models (Ollama on RTX 5070, 12 GB); weights pinned in config/local_models.yaml.
+  # num_ctx is fixed because Ollama's default depends on available VRAM.
+  # Community GGUFs are prompted with the ORIGINAL chat template (config/chat_templates/),
+  # rendered by the harness and sent raw.
   eurollm-9b:
     provider: ollama
-    model_id: TODO-eurollm-9b-instruct-q8
-    params: {temperature: 0, seed: 0}
+    model_id: flembench/eurollm-9b-instruct-2512:q8_0
+    params:
+      temperature: 0
+      seed: 0
+      num_ctx: 4096
+      chat_template: config/chat_templates/eurollm-9b.jinja
+      bos_token: ""
+      eos_token: "<|im_end|>"
     reasoning: none
     price: {input: 0, output: 0}
 
   geitje-7b-ultra:
     provider: ollama
-    model_id: TODO-geitje-7b-ultra-q8
-    params: {temperature: 0, seed: 0}
+    model_id: flembench/geitje-7b-ultra:q8_0
+    params:
+      temperature: 0
+      seed: 0
+      num_ctx: 4096
+      chat_template: config/chat_templates/geitje-7b-ultra.jinja
+      bos_token: ""
+      eos_token: "</s>"
     reasoning: none
     price: {input: 0, output: 0}
 
   chocollama-8b:
     provider: ollama
-    model_id: TODO-chocollama-8b-instruct-q8
-    params: {temperature: 0, seed: 0}
+    model_id: flembench/chocollama-8b-instruct:q8_0
+    params:
+      temperature: 0
+      seed: 0
+      num_ctx: 4096
+      chat_template: config/chat_templates/chocollama-8b.jinja
+      bos_token: ""
+      eos_token: "<|eot_id|>"
     reasoning: none
+    price: {input: 0, output: 0}
+
+  # Official Ollama-library build (Google QAT 4-bit); Ollama's own template is correct here.
+  gemma4-12b:
+    provider: ollama
+    model_id: gemma4:12b-it-qat
+    params: {temperature: 0, seed: 0, num_ctx: 4096, think: false}
+    reasoning: thinking disabled
     price: {input: 0, output: 0}

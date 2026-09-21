@@ -232,10 +232,19 @@ members of a pair** and balanced across pairs, so position bias cannot create a 
 | `gpt-5.6-terra` | OpenAI API | proprietary | most-used provider in Flemish business |
 | `claude-sonnet-5` | Anthropic API | proprietary | major provider |
 | `gemini-3.8-flash` | Gemini API (paid tier) | proprietary | major provider; paid tier so items are not used for training |
-| EuroLLM-9B-Instruct | local, Ollama, Q8 | Apache 2.0 | European open model |
-| GEITje-7B-ultra | local, Q8 | CC BY-NC 4.0 | Dutch-tuned, NL-centric data |
-| ChocoLlama-8B-instruct | local, Q8 | Llama 3 + NC data | Dutch-tuned, **includes Belgian data** |
-| one current general open model ≤ 12B (Gemma/Qwen) | local, Q8 | open | open-weight reference |
+| EuroLLM-9B-Instruct-2512 | local, Ollama, Q8_0 (community GGUF) | Apache 2.0 | European open model |
+| GEITje-7B-ultra | local, Q8_0 (community GGUF) | CC BY-NC 4.0 | Dutch-tuned, NL-centric data |
+| ChocoLlama-8B-instruct | local, Q8_0 (community GGUF) | CC BY-NC 4.0 | Dutch-tuned, **includes Belgian data** |
+| Gemma 4 12B (`gemma4:12b-it-qat`) | local, Google QAT 4-bit | Apache 2.0 | general open-weight reference |
+
+**Local-model fidelity.** The original authors of the three Dutch/European models publish no
+GGUFs, so community Q8_0 quantisations are used, pinned by SHA-256 in
+`config/local_models.yaml`. Embedded GGUF chat templates are unreliable, and a wrong template
+silently handicaps a model, so the harness renders each model's **original** chat template
+(copied from its model repo, rendered with the same Jinja settings as `transformers`) and sends
+the prompt raw. Gemma uses the official Ollama build and template. Quantisation differs (Q8 vs
+Google's QAT 4-bit) and is reported per model. `num_ctx` is fixed at 4096 because Ollama's
+default depends on free VRAM; the adapter refuses any response whose prompt was truncated.
 
 Optional, subset only: one frontier model (`claude-opus-5` or `gpt-5.6-sol`) to test H3 at
 the top end. Local models run on an RTX 5070 (12 GB); quantisation level is recorded and
