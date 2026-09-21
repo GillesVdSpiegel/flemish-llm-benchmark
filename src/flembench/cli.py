@@ -167,6 +167,38 @@ def lex_pair(tol_own: float = 0.03, tol_gap: float = 0.05) -> None:
     )
 
 
+@lex.command("prefilter-export")
+def lex_prefilter_export(batch_size: int = 200) -> None:
+    """Write the prefilter prompt, id map and batches for pasting into chat LLMs."""
+    from flembench import prefilter
+
+    c = pd.read_csv(lexicon.CANDIDATES, keep_default_na=False)
+    paths = prefilter.export(list(zip(c.variety, c.spelling, strict=True)), batch_size)
+    rel = prefilter.DIR.relative_to(ITEMS_DIR.parent).as_posix()
+    console.print(f"{len(c)} words in {len(paths)} batches → {rel}/batches/")
+    console.print(f"prompt: {rel}/PROMPT.md · save outputs as {rel}/results/<model>__NN.txt")
+
+
+@lex.command("prefilter-import")
+def lex_prefilter_import(seed: int = 0) -> None:
+    """Apply unanimous form-based verdicts (>= 2 models) and hold back a blind audit sample."""
+    from flembench import curate, prefilter
+
+    decided, stats = prefilter.apply(curate.load_decisions(), seed=seed)
+    curate.save_decisions(decided)
+    for p in stats.pop("problems"):
+        console.print(f"[yellow]![/] {p}")
+    console.print_json(data=stats)
+
+
+@lex.command("prefilter-report")
+def lex_prefilter_report() -> None:
+    """Prefilter vs author agreement on the blind audit sample."""
+    from flembench import curate, prefilter
+
+    console.print_json(data=prefilter.report(curate.load_decisions()))
+
+
 # ------------------------------------------------------------------ runs
 
 
