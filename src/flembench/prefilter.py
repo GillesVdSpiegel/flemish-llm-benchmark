@@ -6,8 +6,10 @@ only confidently "accept" words it knows, which would bias the benchmark towards
 already know and shrink the gap it measures.
 
 A word is auto-decided only when at least MIN_MODELS different models all return the same
-non-NONE category. A seeded AUDIT_SHARE of those auto-decisions is held back and curated
-blind by the author; `prefilter-report` then gives the prefilter's agreement with the author.
+NAME or ABBR verdict. BRAND verdicts are never applied: genericised brands (Belgian "bic" for a
+ballpoint pen, Netherlands "kliko") are legitimate regional vocabulary, so the author decides.
+A seeded AUDIT_SHARE of the auto-decisions is held back and curated blind by the author;
+`prefilter-report` then gives the prefilter's agreement with the author.
 
 Files (all committed; words and verdicts only, no prevalence values):
     data/curation/prefilter/PROMPT.md           the prompt to paste
@@ -37,7 +39,7 @@ AUDIT_FILE = DIR / "audit.csv"
 PROMPT_FILE = DIR / "PROMPT.md"
 
 CATEGORY_DECISION = {
-    "BRAND": "reject_brand_or_name",
+    "BRAND": None,  # flagged but never auto-applied (see module docstring)
     "NAME": "reject_brand_or_name",
     "ABBR": "move_to_b1",
     "NONE": None,
@@ -46,24 +48,27 @@ MIN_MODELS = 2
 AUDIT_SHARE = 0.10
 MIN_AUDIT = 5
 
+PROMPT_VERSION = "2"
 PROMPT = """\
 You are helping clean a list of Dutch words, from both Belgium and the Netherlands, before a
-linguist reviews every remaining word by hand.
+linguist reviews every remaining word by hand. Your only job is to spot three kinds of entries:
 
-For each word, decide ONLY whether it belongs to one of these form-based categories:
+BRAND  a brand, trademark or product name, INCLUDING brand names that have become everyday
+       words (for example "tipp-ex" or "luxaflex")
+NAME   a proper noun: a person, place, organisation, institution or event
+ABBR   an abbreviation, acronym or initialism. The list is lowercase, like a dictionary word
+       list, so abbreviations are written in lowercase too (for example "btw" for BTW)
 
-BRAND  a brand, trademark or commercial product name
-NAME   a proper noun: a person, place, organisation, institution name or event
-ABBR   an abbreviation, acronym or initialism
-NONE   none of the above: any ordinary word, including dialect, slang, informal words,
-       loanwords, and any word you do not recognise
+Everything else is an ordinary word: dialect, slang, informal words, loanwords, compounds,
+and any word you do not recognise. Ordinary words must NOT be listed.
 
 Rules:
-- Do NOT judge meaning, correctness, spelling, regional origin, register or how common a
-  word is. Those are not your task.
-- If you do not recognise a word, answer NONE.
-- If you are unsure, answer NONE. Only use BRAND, NAME or ABBR when you are confident.
-- Output exactly one line per input line, in the same order, in the form id;CATEGORY
+- Go through every word in the list. Do not stop early.
+- Do NOT judge meaning, correctness, spelling, regional origin, register or frequency.
+- If you do not recognise a word, it is an ordinary word: do not list it.
+- Only list a word when you are confident it is BRAND, NAME or ABBR.
+- Output one line per listed word, in the form id;CATEGORY (for example w0000;ABBR).
+- If no word qualifies, output exactly: NONE
 - Output nothing else: no header, no explanation, no code fences.
 
 Words:
@@ -115,7 +120,7 @@ def parse_output(text: str) -> tuple[dict[str, str], list[str]]:
     out: dict[str, str] = {}
     problems = []
     for line in text.splitlines():
-        if not line.strip() or line.strip().startswith("```"):
+        if not line.strip() or line.strip().startswith("```") or line.strip().upper() == "NONE":
             continue
         m = _LINE.match(line)
         if not m:
@@ -135,27 +140,28 @@ def load_words(root: Path = DIR) -> dict[str, Word]:
 
 
 def load_results(root: Path = DIR) -> tuple[dict[str, dict[str, str]], list[str]]:
-    """{model: {id: CATEGORY}} from results/<model>__<batch>.txt, plus problems found."""
+    """{model: {id: CATEGORY}} from results/<model>__<batch>.txt, plus problems found.
+
+    Outputs are sparse: models list only flagged words, so every other word of the batch
+    counts as NONE. A word a model skipped is therefore never auto-decided (it breaks
+    unanimity) and simply goes to the author — the safe direction."""
     verdicts: dict[str, dict[str, str]] = defaultdict(dict)
     problems = []
     for p in sorted((root / "results").glob("*.txt")):
         if "__" not in p.stem:
             problems.append(f"{p.name}: name must be <model>__<batch>.txt")
             continue
-        model = p.stem.split("__")[0]
-        parsed, probs = parse_output(p.read_text(encoding="utf-8"))
-        batch = p.stem.split("__")[1]
+        model, batch = p.stem.split("__", 1)
         expected = _batch_ids(root, batch)
-        if expected is not None:
-            missing = expected - parsed.keys()
-            extra = parsed.keys() - expected
-            if missing:
-                probs.append(f"{len(missing)} ids missing (e.g. {sorted(missing)[:3]})")
-            if extra:
-                probs.append(f"{len(extra)} ids not in batch {batch}")
-                parsed = {k: v for k, v in parsed.items() if k in expected}
+        if expected is None:
+            problems.append(f"{p.name}: no batch {batch}.txt")
+            continue
+        parsed, probs = parse_output(p.read_text(encoding="utf-8"))
+        extra = parsed.keys() - expected
+        if extra:
+            probs.append(f"{len(extra)} ids not in batch {batch}: {sorted(extra)[:3]}")
         problems += [f"{p.name}: {x}" for x in probs]
-        verdicts[model].update(parsed)
+        verdicts[model].update({wid: parsed.get(wid, "NONE") for wid in expected})
     return dict(verdicts), problems
 
 
@@ -195,7 +201,8 @@ def apply(
     """Merge unanimous prefilter verdicts into the decisions. Author decisions always win."""
     words = load_words(root)
     verdicts, problems = load_results(root)
-    agreed = unanimous(verdicts)
+    unanimous_all = unanimous(verdicts)
+    agreed = {k: v for k, v in unanimous_all.items() if CATEGORY_DECISION[v[0]]}
     auto, audit = split_audit(list(agreed), seed)
     now = datetime.now(UTC).isoformat(timespec="seconds")
     # Re-importing recomputes every prefilter decision from scratch.
@@ -223,6 +230,9 @@ def apply(
         "models": sorted(verdicts),
         "words_with_any_verdict": len({i for v in verdicts.values() for i in v}),
         "unanimous_flags": len(agreed),
+        "unanimous_brand_flags_left_to_author": sum(
+            v[0] == "BRAND" for v in unanimous_all.values()
+        ),
         "auto_decided": added,
         "held_back_for_blind_audit": len(audit),
         "problems": problems,

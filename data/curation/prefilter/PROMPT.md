@@ -1,20 +1,22 @@
 You are helping clean a list of Dutch words, from both Belgium and the Netherlands, before a
-linguist reviews every remaining word by hand.
+linguist reviews every remaining word by hand. Your only job is to spot three kinds of entries:
 
-For each word, decide ONLY whether it belongs to one of these form-based categories:
+BRAND  a brand, trademark or product name, INCLUDING brand names that have become everyday
+       words (for example "tipp-ex" or "luxaflex")
+NAME   a proper noun: a person, place, organisation, institution or event
+ABBR   an abbreviation, acronym or initialism. The list is lowercase, like a dictionary word
+       list, so abbreviations are written in lowercase too (for example "btw" for BTW)
 
-BRAND  a brand, trademark or commercial product name
-NAME   a proper noun: a person, place, organisation, institution name or event
-ABBR   an abbreviation, acronym or initialism
-NONE   none of the above: any ordinary word, including dialect, slang, informal words,
-       loanwords, and any word you do not recognise
+Everything else is an ordinary word: dialect, slang, informal words, loanwords, compounds,
+and any word you do not recognise. Ordinary words must NOT be listed.
 
 Rules:
-- Do NOT judge meaning, correctness, spelling, regional origin, register or how common a
-  word is. Those are not your task.
-- If you do not recognise a word, answer NONE.
-- If you are unsure, answer NONE. Only use BRAND, NAME or ABBR when you are confident.
-- Output exactly one line per input line, in the same order, in the form id;CATEGORY
+- Go through every word in the list. Do not stop early.
+- Do NOT judge meaning, correctness, spelling, regional origin, register or frequency.
+- If you do not recognise a word, it is an ordinary word: do not list it.
+- Only list a word when you are confident it is BRAND, NAME or ABBR.
+- Output one line per listed word, in the form id;CATEGORY (for example w0000;ABBR).
+- If no word qualifies, output exactly: NONE
 - Output nothing else: no header, no explanation, no code fences.
 
 Words:

@@ -89,3 +89,22 @@ def test_report_agreement(tmp_path):
     }
     r = prefilter.report(decided, root=tmp_path)
     assert r["agreement"] == "1/2" and "kliko" in r["disagreements"][0]
+
+
+def test_sparse_output_brand_not_applied_and_skips_go_to_author(tmp_path):
+    paths, words = _setup(tmp_path, n=30)
+    batch = [line.split(";")[0] for line in paths[0].read_text(encoding="utf-8").splitlines()]
+    abbr, brand, name = batch[0], batch[1], batch[2]
+    # Model a lists three words; model b agrees but skipped `name` (-> NONE for b).
+    _write(tmp_path, "a", "01", {abbr: "ABBR", brand: "BRAND", name: "NAME"})
+    _write(tmp_path, "b", "01", {abbr: "ABBR", brand: "BRAND"})
+    (tmp_path / "results" / "c__02.txt").write_text("NONE\n", encoding="utf-8")
+    verdicts, problems = prefilter.load_results(tmp_path)
+    assert verdicts["a"][batch[5]] == "NONE" and not problems
+    assert all(v == "NONE" for v in verdicts["c"].values()) and len(verdicts["c"]) == 15
+    decided, stats = prefilter.apply({}, root=tmp_path)
+    assert stats["unanimous_flags"] == 1  # only the ABBR: brand never applied, name not unanimous
+    assert stats["unanimous_brand_flags_left_to_author"] == 1
+    w = words[abbr]
+    # A single auto-decision falls entirely in the blind audit (minimum audit size).
+    assert (w.variety, w.word) not in decided and stats["held_back_for_blind_audit"] == 1
