@@ -1,0 +1,19 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --all-extras --locked
+      - run: uv run ruff check src tests
+      - run: uv run ruff format --check src tests
+      - run: uv run pytest -q
+      # Items are schema-validated on every push; fails if any authored item is invalid.
+      - run: uv run flembench validate
+      # The committed JSON Schema must match the pydantic model.
+      - run: uv run flembench schema && git diff --exit-code data/item.schema.json
