@@ -156,3 +156,22 @@ def test_bulk_keep_records_source_and_never_touches_author():
     assert b["decision"] == "keep" and b["decided_by"] == curate.BULK
     assert b["gloss_source"] == "claude-opus-5" and b["note"] == ""
     assert out[("nl", "c")]["gloss"] == ""
+
+
+def test_gloss_review_queue_and_set_gloss():
+    drafts = {
+        ("be", "a"): {"agreement": "differ"},
+        ("be", "b"): {"agreement": "differ"},
+        ("be", "c"): {"agreement": "same"},
+        ("nl", "d"): {"agreement": "differ"},
+    }
+    decided = {
+        ("be", "a"): {"decision": "keep", "gloss_source": "claude-opus-5", "decided_by": "bulk"},
+        ("be", "b"): {"decision": "keep", "gloss_source": "author", "decided_by": "author"},
+        ("be", "c"): {"decision": "keep", "gloss_source": "claude-opus-5", "decided_by": "bulk"},
+        ("nl", "d"): {"decision": "reject_obsolete", "decided_by": "author"},
+    }
+    assert curate.gloss_review_queue(decided, drafts) == [("be", "a")]
+    after = curate.set_gloss(decided, ("be", "a"), "x", "gemini (chosen by author)")
+    assert after[("be", "a")]["decided_by"] == "author" and after[("be", "a")]["gloss"] == "x"
+    assert curate.gloss_review_queue(after, drafts) == []

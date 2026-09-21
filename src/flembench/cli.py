@@ -186,6 +186,62 @@ def lex_bulk_keep() -> None:
     console.print_json(data={f"{a}:{b}": n for (a, b), n in sorted(by.items())})
 
 
+@lex.command("review-glosses")
+def lex_review_glosses() -> None:
+    """Resolve words where the Claude and Gemini glosses disagree. Saved after every word."""
+    import readchar
+    from rich.markup import escape
+
+    from flembench import curate
+    from flembench import glosses as gl
+
+    drafts = gl.load()
+    decided = curate.load_decisions()
+    queue = curate.gloss_review_queue(decided, drafts)
+    total = len(queue)
+    for n, key in enumerate(queue, start=1):
+        d, cur = drafts[key], decided[key]
+        console.clear()
+        label = (
+            "[cyan]Belgisch-Nederlands[/]"
+            if key[0] == "be"
+            else "[magenta]Nederlands-Nederlands[/]"
+        )
+        console.print(f"[dim]{n}/{total}[/]\n\n  {label}\n\n     [bold white]{key[1]}[/]\n")
+        console.print(f"  [bold]1[/] Claude  {escape(d['claude_gloss']) or '[dim]?[/]'}")
+        console.print(f"  [bold]2[/] Gemini  {escape(d['gemini_gloss']) or '[dim]?[/]'}")
+        console.print(
+            "\n  [bold]e[/] type your own   [bold]u[/] I don't know it (goes to the NL reviewer)"
+            "   [bold]space[/] skip   [bold]q[/] quit"
+        )
+        while True:
+            k = readchar.readkey().lower()
+            if k in {"1", "2", "e", "u", " ", "q"}:
+                break
+        if k == "q":
+            break
+        if k == " ":
+            continue
+        if k == "1":
+            decided = curate.set_gloss(
+                decided, key, d["claude_gloss"], "claude-opus-5 (chosen by author)"
+            )
+        elif k == "2":
+            src = d.get("gemini_model") or "gemini"
+            decided = curate.set_gloss(decided, key, d["gemini_gloss"], f"{src} (chosen by author)")
+        elif k == "e":
+            typed = console.input("\n  meaning: ").strip()
+            if not typed:
+                continue
+            decided = curate.set_gloss(decided, key, typed, "author")
+        elif k == "u":
+            decided = {**decided, key: {**cur, "decision": "needs_other_variety_speaker",
+                                        "decided_by": "author"}}  # fmt: skip
+        curate.save_decisions(decided)
+    left = len(curate.gloss_review_queue(decided, drafts))
+    console.print(f"\nsaved. {left} flagged words still open")
+
+
 @lex.command("pair")
 def lex_pair(tol_own: float = 0.03, tol_gap: float = 0.05) -> None:
     """Match kept BE and NL words into prevalence-matched pairs."""

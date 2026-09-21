@@ -149,6 +149,32 @@ def bulk_keep(
     return out, added
 
 
+def gloss_review_queue(
+    decided: dict[tuple[str, str], dict], drafts: dict[tuple[str, str], dict]
+) -> list[tuple[str, str]]:
+    """Kept words whose two drafts disagree, unless the author already typed or chose the gloss."""
+
+    def resolved(src: str) -> bool:
+        return src == "author" or src.endswith("(chosen by author)")
+
+    return sorted(
+        k
+        for k, r in drafts.items()
+        if r.get("agreement") == "differ"
+        and decided.get(k, {}).get("decision") == "keep"
+        and not resolved(decided[k].get("gloss_source", ""))
+    )
+
+
+def set_gloss(
+    decided: dict[tuple[str, str], dict], key: tuple[str, str], gloss: str, source: str
+) -> dict[tuple[str, str], dict]:
+    """Author-checked gloss for a kept word; the keep decision becomes the author's."""
+    row = {**decided[key], "gloss": gloss, "gloss_source": source, "decided_by": "author"}
+    row["decided_at"] = datetime.now(UTC).isoformat(timespec="seconds")
+    return {**decided, key: row}
+
+
 def reopen(decided: dict[tuple[str, str], dict], variety: str, word: str, note: str = "") -> dict:
     """Mark a decided word as pending again, as an author decision."""
     key = (variety, word)
