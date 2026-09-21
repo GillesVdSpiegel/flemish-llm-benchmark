@@ -1,0 +1,200 @@
+w0401|hoofdprijs; belangrijkste buit
+w0402|bijstandsuitkering
+w0403|vormloos kledingstuk
+w0404|brabbelen; borrelen
+w0405|een studiejaar overdoen
+w0406|autoweg met gescheiden rijbanen
+w0407|mononucleose; ziekte van Pfeiffer
+w0408|achterste; kont
+w0409|ventileren; frisse lucht binnenlaten
+w0410|fijn; prettig; leuk
+w0411|geluidstechnicus
+w0412|wedstrijd met prijzen
+w0413|verzachten; matigen
+w0414|gebreken; moeilijkheden
+w0415|dood; kapot
+w0416|enigszins bang
+w0417|garing; bereidingswijze
+w0418|plezier; pret
+w0419|verwaarlozen; verslonzen
+w0420|schuw voor vreemden
+w0421|klap; opdonder
+w0422|geconfijte schil van elektroenvrucht
+w0423|opleiding tot basisschoolleraar
+w0424|sjaal; omslagdoek
+w0425|traditioneel serviesmotief
+w0426|naargeestig persoon; nare vent
+w0427|luchtgeweer
+w0428|klodder; natte massa
+w0429|oosterse winkel; zaak
+w0430|snelgroeikip
+w0431|immigratie
+w0432|paneermeel
+w0433|afzoeken; rondstruinen
+w0434|geluksvogel; mazzelaar
+w0435|instuderen; oefenen
+w0436|heenwedstrijd
+w0437|schrapping als lid
+w0438|rijksdaalder; munt van 2,50
+w0439|dorpsagent; veldwachter
+w0440|voordelig; goedkoop; spaarzaam
+w0441|het zwalken; koersloos ronddolen
+w0442|veiligheidspen; borgingspen
+w0443|toernooien spelen; toernooien
+w0444|per zone geldend
+w0445|giebelende vrouw; karperachtige vis
+w0446|sukkel; arme drommel
+w0447|recyclen; hergebruiken
+w0448|grote stad; metropool
+w0449|keel-, neus- en oorarts
+w0450|glijbaan
+w0451|vierwielige speelgoedauto met pedalen
+w0452|zeemleer; zeem
+w0453|van invloed zijn; meewegen
+w0454|zalf die ontstekingen uittrekt
+w0455|onder elkaar; onderling
+w0456|heel kleine kans
+w0457|geïntroduceerde gast
+w0458|friteuse
+w0459|regeringszetel; Den Haag
+w0460|volwassen; rijp
+w0461|visafslag
+w0462|stofdoek
+w0463|gummiknuppel; politieknuppel
+w0464|zaak voor het assisenhof
+w0465|schoolreis naar een sneeuwgebied
+w0466|stembus; asurn
+w0467|knipperen met de ogen; blikken
+w0468|wagen voor klein chemisch afval
+w0469|somber zijn; piekeren
+w0470|produceren
+w0471|klein bedrag; koopje
+w0472|centrale verwarming; verwarming
+w0473|uitvaartcentrum; mortuarium
+w0474|op een skelter rijden
+w0475|pienter persoon; slimmerd
+w0476|vader; papa
+w0477|gevarentoeslag
+w0478|slagboom bij een spoorwegovergang
+w0479|geschrapt als lid
+w0480|door een sluis schutten
+w0481|in de media brengen
+w0482|adjunct-directeur van middelbare school
+w0483|zelfgedraaide sigaret
+w0484|beledigen; vernederen
+w0485|goederenverkeer; drukte; handel
+w0486|stokdoof
+w0487|bros zandgebakje
+w0488|Indische Nederlander
+w0489|1 aprilgrap
+w0490|homoseksuele man; mietje
+w0491|grote commerciële bank
+w0492|rakker; knul; vlegel
+w0493|taart met gestremde melk
+w0494|zeer hard; heel erg
+w0495|giechelen; stiekem lachen
+w0496|garagehouder; automecanicien
+w0497|eigen bijdrage in ziektekosten
+w0498|spijbelen
+w0499|op een lijst zetten; opsommen
+w0500|walnotenbomen; okkernootbomen
+w0501|zojuist; net
+w0502|arts voor botten en gewrichten
+w0503|klierkoorts; mononucleose
+w0504|slacentrifuge
+w0505|rondscharrelen; rondsnuffelen
+w0506|kersenboom
+w0507|welwillendheid; soepelheid
+w0508|zwaar en ondankbaar werk
+w0509|koppigaard; doordrijver
+w0510|vervelen; lastigvallen
+w0511|rommel; troep
+w0512|lang niet; in het geheel
+w0513|loskorrelig; ongebonden
+w0514|academische graad; master
+w0515|overloper; draaikont
+w0516|die; welke
+w0517|wilsverklaring voor orgaandonatie
+w0518|kleine zeetong
+w0519|regenmeter
+w0520|gepolijst maken; gladmaken
+w0521|tussenwoning; rijtjeshuis
+w0522|make-up; opmaak
+w0523|koppig persoon; stijfkop
+w0524|gymschoen; gymp
+w0525|zwachtel; windsel
+w0526|ammoniakzout; dropgrondstof
+w0527|kletsen; verstrengeld raken
+w0528|verborgen; heimelijk
+w0529|kruidenier
+w0530|podia voor popmuziek
+w0531|diefstal; plagiaat
+w0532|ambulancebroeder; ziekenvervoerder
+w0533|poep; uitwerpselen
+w0534|broekzak op de achterkant
+w0535|uitval van lessen
+w0536|zeer hevige regenbui
+w0537|luidruchtig; veel lawaai makend
+w0538|preek; stichtelijke toespraak
+w0539|universitair diploma
+w0540|spijbelaar
+w0541|uithoudingsvermogen om lang te zitten
+w0542|staar; grauwe staar
+w0543|café langs een doorgaande weg
+w0544|avondschemering; schemering
+w0545|moedertaal
+w0546|enigszins vies
+w0547|fiets
+w0548|vrouwelijk middelbaar scholier
+w0549|opscheppen; pochen
+w0550|eenling; solitair persoon
+w0551|kleinigheid; beuzelarij
+w0552|noodlottig; fnuikend
+w0553|het erg koud hebben
+w0554|kennismaken voor een studentenkamer
+w0555|gemachtigde; verkozene
+w0556|gierwagen; mestkar
+w0557|belangrijk persoon; hoge ome
+w0558|rente
+w0559|klemmen om dieren te vangen
+w0560|recht van overpad
+w0561|koninginnenhapje; pasteitje
+w0562|lomperik; lomp persoon
+w0563|smijten; gooien
+w0564|aan de onderzijde; onderaan
+w0565|hardloopbaan; atletiekbaan
+w0566|pleisterwerk; bepleistering
+w0567|onhandig persoon; knutselaar
+w0568|krentenbrood; rozijnenbrood
+w0569|hard zwoegen; zich uitsloven
+w0570|houvast; standvastig persoon
+w0571|jengelen; zeuren
+w0572|bemoeial
+w0573|ontevreden; mishaagd
+w0574|circulaire; mededeling
+w0575|vuurtje
+w0576|wildebras; doordrijver
+w0577|Belgische politiek; regering
+w0578|stortplaats voor afval
+w0579|zwalken; zwerven
+w0580|gericht op eenheidsstaat
+w0581|bemoeien
+w0582|blijken; er zo uitzien
+w0583|elektrisch gehandicaptenvoertuig
+w0584|houten spoorbielzen
+w0585|reputatie; goede naam
+w0586|veertoestel op speelplaats
+w0587|werkloos; zonder arbeid
+w0588|toetje met vla en yoghurt
+w0589|examen doen voor zwemdiploma
+w0590|kniesoor; zeurpiet
+w0591|waterpokken
+w0592|met gelijke vertegenwoordiging
+w0593|muggennet
+w0594|gehuil; luid geschreeuw
+w0595|lente-ui; bosuitje
+w0596|aanvechten; betwisten
+w0597|scheten laten
+w0598|onroerend goed; vastgoed
+w0599|gestoofd vleesgerecht
+w0600|lomperik; onbeleefd persoon
