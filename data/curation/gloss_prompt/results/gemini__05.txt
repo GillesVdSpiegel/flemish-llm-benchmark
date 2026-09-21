@@ -1,0 +1,200 @@
+w0801|vlaams; politieserie
+w0802|oom
+w0803|gierwagen
+w0804|gazon; grasveld
+w0805|gefrituurde bami-snack
+w0806|fastschroeven
+w0807|tappunt; schenkpunt
+w0808|visvergunning
+w0809|rozenstruik
+w0810|binnenshuis gelegen
+w0811|miauwen; zeuren
+w0812|aanzienlijk
+w0813|weidevogel
+w0814|zoals gezegd
+w0815|blond ondergistend bier
+w0816|vatbaar voor chantage
+w0817|gehoorspecialist
+w0818|opgave; verzorgde opgave
+w0819|eerstejaarsstudent
+w0820|gewrichtsband
+w0821|naakt persoon
+w0822|vordering; opeising
+w0823|toezichthouder; opzichter
+w0824|grootschalige vernietiging
+w0825|overloper; opportunist
+w0826|vrouwelijke arts
+w0827|prijswinnaar; geslaagde
+w0828|zoden steken
+w0829|surinaams-hindoestaans gerecht
+w0830|lomp; onbeschoft
+w0831|slechtgehumeurd
+w0832|vrije dag tussen feestdagen
+w0833|springen; huppelen
+w0834|vakman; ambachtsman
+w0835|iemand oplichten; bestelen
+w0836|peuterwerk; gefiets
+w0837|zonnebaarder
+w0838|dagschool
+w0839|nachtspiegel; pot
+w0840|domkop
+w0841|dringend poststuk
+w0842|vleier; slijmerd
+w0843|darter; pijltjeswerper
+w0844|metselen
+w0845|verbroud; verpest
+w0846|zwembad
+w0847|rockwedstrijd
+w0848|tuig; krapuul
+w0849|taaldompeling
+w0850|afknijpen; afsnijden
+w0851|etenblik; voerbak
+w0852|generaliseren
+w0853|ruk; stoot
+w0854|laagst klinkende stem
+w0855|walgelijk; fatterig
+w0856|klaarheid; licht
+w0857|vereniging zonder winstoogmerk
+w0858|eenvoudig; ongeschoold
+w0859|bloemententoonstelling
+w0860|voorvechter van vlaanderen
+w0861|geldautomaat
+w0862|poen; geld
+w0863|harde studeerder
+w0864|boze; heerszuchtige vrouw
+w0865|voogdijrecht; gezag
+w0866|oefening; veldoefening
+w0867|schrapping; opzegging
+w0868|friteuse
+w0869|geul; inham
+w0870|chocoladebol met slagroom
+w0871|beheerder van appartementen
+w0872|shagje; zware shag
+w0873|levensgenieter
+w0874|plassen; meuren
+w0875|terugvallen; opnieuw ziek worden
+w0876|draadknoppen maken
+w0877|tot ziens
+w0878|testfase; proeffase
+w0879|buitenplaats; universiteitscampus
+w0880|basketbal spelen
+w0881|vallen; struikelen
+w0882|te gelde maken
+w0883|nachtspiegel
+w0884|gecouter; gedaver
+w0885|belegd broodje
+w0886|opvouwen
+w0887|cassave
+w0888|vla
+w0889|knutselen
+w0890|hal; entree
+w0891|hoge schoen; laarsje
+w0892|uitrusten; voorzien
+w0893|middenstof; draagdoek
+w0894|chocoladebonbon met rum
+w0895|wetering; brede sloot
+w0896|zittend; vastverblijvend
+w0897|verstandskies
+w0898|jeugdjaren
+w0899|lopen over droogvallend wad
+w0900|spoel; klos
+w0901|late avond; laat feestje
+w0902|hoger beroepsonderwijs
+w0903|briefhoofd
+w0904|dwarsbomen; tegenwerken
+w0905|beroepsethisch
+w0906|haastwerk
+w0907|gelijksoortig; soortgelijk
+w0908|half; enigszins
+w0909|onaangenaam; onsympathiek
+w0910|café; tapperij
+w0911|galajurk
+w0912|sjoelbak; sjoelspel
+w0913|sukkel; onbenul
+w0914|bosuitje; lente-ui
+w0915|uitverkoopen; verkopen op straat
+w0916|ophef; kabaal
+w0917|proeven; genieten van
+w0918|vrij uur op school
+w0919|zeuren; miauwen
+w0920|bedelen; bietsen
+w0921|parcours voor conditietraining
+w0922|geheime verzamelplek
+w0923|voorbereidend wetenschappelijk onderwijs
+w0924|ambachtelijk
+w0925|kleine jongen; knaap
+w0926|vat; bierfust
+w0927|beunhazen; zwartwerken
+w0928|website
+w0929|vrouwelijke chef
+w0930|voetje voor voetje afdalen
+w0931|gebrek; tekort
+w0932|wachttoren met klokken
+w0933|ingang; hal
+w0934|mestput
+w0935|grootmoeder; oma
+w0936|druivenstruik; kalender
+w0937|lopen op schaatsen
+w0938|betrekking hebbend op gemeenschappen
+w0939|opspoelen; wikkelen
+w0940|moeder
+w0941|selderij
+w0942|droogkuis; stomerij
+w0943|koelkast
+w0944|hamster
+w0945|schijnheilige
+w0946|toegangsgeld
+w0947|kijven; ruziën
+w0948|stroomsterkte; verkopen
+w0949|kroeshaar
+w0950|vijfcentstuk; zakgeld
+w0951|vervelend; irritant
+w0952|blunder; fout
+w0953|wildbraad; wildvlees
+w0954|noga
+w0955|notenboom
+w0956|kleine stier; mannetje
+w0957|hiërarchische plek
+w0958|behoorlijk; fatsoenlijk
+w0959|spencer; mouwloze trui
+w0960|snikkelap; smartlap
+w0961|leidster op kamp
+w0962|laboratoriumbrander
+w0963|eigen doelpunt
+w0964|kopschuw; terughoudend
+w0965|rust
+w0966|giechelen
+w0967|wilsbeschikking
+w0968|inmaakglas
+w0969|turnvereniging
+w0970|geheime kijker; supporterstribune
+w0971|roddeltante; roddelaarster
+w0972|vertrekken; 'm smeren
+w0973|groene kool
+w0974|uitroep van verbazing
+w0975|vrouwelijke mentor
+w0976|indisch zuur van groenten
+w0977|pijn krijgen door verkeerd liggen
+w0978|oriëntatierit
+w0979|gevaar lopen; belasten
+w0980|het niet in balans zijn
+w0981|caissière
+w0982|spaanse peper
+w0983|videe; koninginnenhapje
+w0984|kwitantie; ontvangstbewijs
+w0985|heftruck
+w0986|glom
+w0987|moetje; verplichting
+w0988|zeer belangrijk; essentieel
+w0989|vluchtigheid; haast
+w0990|wervingsreserve
+w0991|stinken
+w0992|schatter; beoordelaar
+w0993|gierwagen
+w0994|menging; potpourri
+w0995|blijk van onvermogen
+w0996|bedriegen; belazeren
+w0997|salarisschaal
+w0998|schuifdeur
+w0999|finish; eindstreep
+w1000|toiletpapierrol

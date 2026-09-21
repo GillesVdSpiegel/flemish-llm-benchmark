@@ -1,6 +1,6 @@
 variety,word,claude_gloss,claude_confidence,gemini_gloss,gemini_model,agreement
 be,aanbelangen,"aangaan, betreffen (wat mij aanbelangt)",high,betreffen,gemini,same
-be,aanvijzen,"aandraaien, vastschroeven",medium,,,
+be,aanvijzen,"aandraaien, vastschroeven",medium,fastschroeven,gemini,same
 be,aanwerver,"rekruteerder, wie personeel aanwerft",high,,,
 be,aardeweg,"onverharde weg, zandweg",high,onverharde weg,gemini,same
 be,absenteïsme,(ziekte)verzuim,high,spiebeltje; werkverzuim,gemini,same
@@ -11,22 +11,22 @@ be,afbollen,"ervandoor gaan, snel weggaan",high,vertrekken; opkrassen,gemini,sam
 be,afdreigen,"afpersen, chanteren",high,afpersen,gemini,same
 be,affronteren,beledigen; ook: trotseren,medium,beledigen; vernederen,gemini,same
 be,afhaling,"het afhalen (van bestelling, pakket)",medium,het afhalen; ophalen,gemini,same
-be,afluizen,"afhandig maken, aftroggelen",medium,,,
-be,afpitsen,afknijpen,medium,,,
+be,afluizen,"afhandig maken, aftroggelen",medium,iemand oplichten; bestelen,gemini,same
+be,afpitsen,afknijpen,medium,afknijpen; afsnijden,gemini,same
 be,afspanning,"herberg, uitspanning",medium,herberg; pleisterplaats,gemini,same
 be,alternator,dynamo (van een auto),high,wisselstroomdynamo,gemini,same
-be,ambetant,"vervelend, lastig",high,,,
+be,ambetant,"vervelend, lastig",high,vervelend; irritant,gemini,same
 be,ambetanterik,"lastpak, vervelende persoon",high,vervelend persoon,gemini,same
 be,ambeteren,"vervelen, ergeren",high,vervelen; lastigvallen,gemini,same
 be,ambras,"ruzie, gedoe",high,ruzie; heisa,gemini,same
 be,ambulancier,ambulancebroeder,high,ambulancebroeder; ziekenvervoerder,gemini,same
 be,ancien,"oud-leerling, oudgediende",high,veteraan; wie lang ergens werkt,gemini,same
-be,antipathiek,onsympathiek,high,,,
-be,apenjaren,"puberteit, vlegeljaren",high,,,
+be,antipathiek,onsympathiek,high,onaangenaam; onsympathiek,gemini,same
+be,apenjaren,"puberteit, vlegeljaren",high,jeugdjaren,gemini,same
 be,aprilvis,aprilgrap,high,1 aprilgrap,gemini,same
 be,arduin,"hardsteen, blauwe steen",high,blauwe hardsteen,gemini,same
 be,arduinen,van hardsteen,high,uit blauwe hardsteen gemaakt,gemini,same
-be,artisanaal,ambachtelijk,high,,,
+be,artisanaal,ambachtelijk,high,ambachtelijk,gemini,same
 be,assisen,hof van assisen (strafhof met jury),high,,,
 be,assisenhof,hof van assisen,high,hof van assisen,gemini,same
 be,assisenzaak,zaak voor het hof van assisen,high,zaak voor het assisenhof,gemini,same
@@ -36,16 +36,16 @@ be,autostrade,autosnelweg,high,,,
 be,baancafé,café langs een grote weg,medium,café langs een doorgaande weg,gemini,same
 be,badstad,badplaats aan zee,high,badplaats,gemini,same
 be,bakkerin,bakkersvrouw,high,bakkersvrouw,gemini,same
-be,balkleed,baljurk,low,,,
+be,balkleed,baljurk,low,galajurk,gemini,same
 be,bareel,slagboom (bij overweg),high,slagboom,gemini,same
-be,barema,"loonschaal, tariefschaal",high,,,
-be,basketten,basketbal spelen,high,,,
+be,barema,"loonschaal, tariefschaal",high,salarisschaal,gemini,same
+be,basketten,basketbal spelen,high,basketbal spelen,gemini,same
 be,bavet,slabbetje,high,slabbetje,gemini,same
 be,baxter,infuus,high,infuus,gemini,same
 be,begapen,"aangapen, met open mond aanstaren",medium,verbaasd aangapen,gemini,same
 be,begingeneriek,begintitels (van film of programma),high,begin-generiek; intromuziek; begintitel,gemini,same
 be,bekampen,bestrijden,high,bestrijden,gemini,same
-be,belfort,stadstoren met klokken,high,,,
+be,belfort,stadstoren met klokken,high,wachttoren met klokken,gemini,same
 be,bepotelen,"betasten, begrabbelen",high,betasten,gemini,same
 be,bestemmeling,"geadresseerde, ontvanger",high,geadresseerde,gemini,same
 be,beterhand,aan de beterhand zijn: herstellende zijn,high,de betere hand,gemini,differ
@@ -58,11 +58,11 @@ be,bijberoep,"nevenberoep, bijbaan (als zelfstandige)",high,nevenberoep; bijbaan
 be,bijlange,"bij lange (niet): lang niet, bij lange na niet",high,lang niet; in het geheel,gemini,same
 be,bisjaar,jaar dat men overdoet,high,zittenblijver,gemini,differ
 be,bissen,"een jaar overdoen, blijven zitten",high,een studiejaar overdoen,gemini,same
-be,blokbeest,iemand die heel hard studeert,high,,,
+be,blokbeest,iemand die heel hard studeert,high,harde studeerder,gemini,same
 be,bluts,deuk,high,deuk,gemini,same
 be,blutsen,"deuken, een deuk maken",high,deuken,gemini,same
-be,bobijn,"klos, spoel",high,,,
-be,bobijnen,"klossen, spoelen",high,,,
+be,bobijn,"klos, spoel",high,spoel; klos,gemini,same
+be,bobijnen,"klossen, spoelen",high,opspoelen; wikkelen,gemini,differ
 be,boertig,"boers, lomp",medium,lomp; boers; onbehouwen,gemini,same
 be,bolwassing,"uitbrander, flinke berisping",high,schrobbering,gemini,same
 be,bombardon,bastuba (koperblaasinstrument),medium,basstuba,gemini,same
@@ -70,20 +70,20 @@ be,bomma,oma,high,grootmoeder,gemini,same
 be,bompa,opa,high,grootvader; opa,gemini,same
 be,boogscheut,"steenworp, korte afstand",high,korte afstand,gemini,same
 be,bosklas,schoolverblijf in de natuur (bosklassen),high,,,
-be,bottine,"enkellaars, laarsje",high,,,
+be,bottine,"enkellaars, laarsje",high,hoge schoen; laarsje,gemini,same
 be,boulet,grote gehaktbal,high,gehaktbal,gemini,same
-be,bricoleren,"knutselen, klussen",high,,,
+be,bricoleren,"knutselen, klussen",high,knutselen,gemini,same
 be,broebelen,"mompelen, binnensmonds praten",medium,brabbelen; borrelen,gemini,same
-be,broekventje,"jochie, klein mannetje",medium,,,
+be,broekventje,"jochie, klein mannetje",medium,kleine jongen; knaap,gemini,same
 be,brol,"rommel, prullen",high,rommel; waardeloze spullen,gemini,same
 be,brossen,spijbelen,high,spijbelen,gemini,same
 be,brosser,spijbelaar,high,spijbelaar,gemini,same
 be,brousse,"wildernis, bush (in Afrika)",low,wildernis; oerwoud,gemini,same
-be,brugdag,werkdag tussen feestdag en weekend waarop men vrij neemt,high,,,
+be,brugdag,werkdag tussen feestdag en weekend waarop men vrij neemt,high,vrije dag tussen feestdagen,gemini,same
 be,buisvak,vak waarvoor men een onvoldoende heeft,high,vak waarvoor men zakt,gemini,same
 be,buitenwipper,uitsmijter,high,,,
 be,bultenaar,gebochelde,medium,bochel,gemini,differ
-be,bunsenbrander,gasbrander in een laboratorium,high,,,
+be,bunsenbrander,gasbrander in een laboratorium,high,laboratoriumbrander,gemini,same
 be,bvba,besloten vennootschap met beperkte aansprakelijkheid,high,besloten vennootschap met beperkte aansprakelijkheid,gemini,same
 be,camionette,bestelwagen,high,bestelwagen,gemini,same
 be,cantus,studentenzangfeest,high,studentenfeest met gezang en bier,gemini,same
@@ -102,7 +102,7 @@ be,chauffage,verwarming,high,centrale verwarming; verwarming,gemini,same
 be,classeur,ordner,high,ordner,gemini,same
 be,collocatie,gedwongen opname in een psychiatrische instelling,high,gedwongen opname,gemini,same
 be,colère,woedeaanval,high,woedeaanval,gemini,same
-be,communautair,betreffende de gemeenschappen (Vlaams-Franstalig),high,,,
+be,communautair,betreffende de gemeenschappen (Vlaams-Franstalig),high,betrekking hebbend op gemeenschappen,gemini,same
 be,concurrentieel,concurrerend,high,concurrerend,gemini,same
 be,consacreren,"wijden, (tijd) besteden aan",medium,wijden; heiligen,gemini,same
 be,constatatie,vaststelling,high,constatering; waarneming,gemini,same
@@ -117,15 +117,15 @@ be,daarrond,daaromheen; ook: daarover,high,daaromheen; over dat onderwerp,gemini
 be,dagdagelijks,"dagelijks, alledaags",high,dagelijks; alledaags,gemini,same
 be,datief,derde naamval,high,derde naamval; meewerkend voorwerp,gemini,same
 be,daver,schrik (de daver op het lijf),high,schrik; trilling,gemini,same
-be,debardeur,"mouwloze trui, spencer",high,,,
-be,debiet,"afzet, omzet; ook: stroomsnelheid",medium,,,
-be,degoutant,walgelijk,high,,,
+be,debardeur,"mouwloze trui, spencer",high,spencer; mouwloze trui,gemini,same
+be,debiet,"afzet, omzet; ook: stroomsnelheid",medium,stroomsterkte; verkopen,gemini,same
+be,degoutant,walgelijk,high,walgelijk; fatterig,gemini,same
 be,degustatie,proeverij,high,proeverij,gemini,same
-be,degusteren,proeven,high,,,
+be,degusteren,proeven,high,proeven; genieten van,gemini,same
 be,dekenij,decanaat,medium,woning van een deken,gemini,same
 be,denkpiste,"denkrichting, mogelijkheid",high,denkrichting; hypothese,gemini,same
 be,deontologie,beroepsethiek,high,beroepsethiek,gemini,same
-be,deontologisch,beroepsethisch,high,,,
+be,deontologisch,beroepsethisch,high,beroepsethisch,gemini,same
 be,depannage,"pechverhelping, takeldienst",high,,,
 be,depanneren,pech verhelpen; iemand uit de nood helpen,high,,,
 be,desgevallend,in voorkomend geval,high,desgevallend; eventueel,gemini,same
@@ -134,10 +134,10 @@ be,dieperik,"diepe put, dieptepunt",high,diepte; afgrond,gemini,same
 be,dikkenek,"opschepper, blaaskaak",high,opschepper,gemini,same
 be,dikoor,"doof doen, niet willen horen",low,,,
 be,dissectie,ontleding (anatomie),medium,ontleding van een lichaam,gemini,same
-be,dixit,"aldus, zei (iemand)",high,,,
+be,dixit,"aldus, zei (iemand)",high,zoals gezegd,gemini,same
 be,dodentol,aantal doden,high,dodental,gemini,same
 be,doenbaar,"haalbaar, doenlijk",high,haalbaar; doenlijk,gemini,same
-be,dokteres,vrouwelijke arts,high,,,
+be,dokteres,vrouwelijke arts,high,vrouwelijke arts,gemini,same
 be,domiciliëring,automatische incasso,high,automatische incasso,gemini,same
 be,domotica,huisautomatisering,high,huisautomatisering,gemini,same
 be,doodbraaf,zeer braaf,high,zeer braaf,gemini,same
@@ -148,23 +148,23 @@ be,doteren,"een toelage toekennen, subsidiëren",high,van geld voorzien; begifti
 be,draagberrie,"draagbaar, brancard",high,brancard; draagbaar,gemini,same
 be,droedel,krabbeltekening,high,krabbel; teykeningetje,gemini,same
 be,droogkuis,stomerij,high,stomerij,gemini,same
-be,druivelaar,"wijnstok, druivenplant",high,,,
+be,druivelaar,"wijnstok, druivenplant",high,druivenstruik; kalender,gemini,same
 be,duts,"sukkel, sul",high,sukkel; arme drommel,gemini,same
 be,eczema,eczeem,high,,,
 be,eenzaat,"kluizenaar, eenzelvig persoon",high,eenling; solitair persoon,gemini,same
-be,eindmeet,"finish, eindstreep",high,,,
+be,eindmeet,"finish, eindstreep",high,finish; eindstreep,gemini,same
 be,etalagist,etaleur,high,etaleur,gemini,same
 be,evoqueren,"oproepen, aanhalen",high,oproepen; in herinnering brengen,gemini,same
 be,expresweg,autoweg,high,autoweg met gescheiden rijbanen,gemini,same
-be,externaat,dagschool (geen internaat),high,,,
+be,externaat,dagschool (geen internaat),high,dagschool,gemini,same
 be,facteur,postbode,high,postbode,gemini,same
 be,faling,faillissement,high,faillissement,gemini,same
 be,farde,"map, ordner",high,ordner; opbergmap,gemini,same
 be,fermette,landelijk huis in boerderijstijl,high,hoevestijl woning,gemini,same
-be,flamingant,Vlaamsgezinde,high,,,
-be,flan,"pudding, vla",medium,,,
+be,flamingant,Vlaamsgezinde,high,voorvechter van vlaanderen,gemini,same
+be,flan,"pudding, vla",medium,vlaams; politieserie,gemini,differ
 be,flandrien,"harde renner, klassiekerspecialist",high,,,
-be,floraliën,bloemententoonstelling,high,,,
+be,floraliën,bloemententoonstelling,high,bloemententoonstelling,gemini,same
 be,fluo,fluorescerend (kleur),high,fluorescerend,gemini,same
 be,foefelen,"sjoemelen, knoeien",high,knoeien; sjoemelen,gemini,same
 be,foert,"bah, stik (uitroep)",high,uitroep van afwijzing,gemini,same
@@ -172,60 +172,60 @@ be,foor,kermis,high,kermis,gemini,same
 be,frangipane,amandelgebakje,high,gebak met amandelspijs,gemini,same
 be,frietchinees,frituur uitgebaat door Chinezen,low,uitbater van een Chinees frituur,gemini,same
 be,frietketel,friteuse,high,friteuse,gemini,same
-be,frietpot,friteuse,high,,,
-be,frigo,koelkast,high,,,
+be,frietpot,friteuse,high,friteuse,gemini,same
+be,frigo,koelkast,high,koelkast,gemini,same
 be,frigobox,koelbox,high,koelbox,gemini,same
 be,frisco,"waterijsje, ijslolly",high,ijsje op een stokje,gemini,same
 be,funerarium,rouwcentrum,high,uitvaartcentrum; mortuarium,gemini,same
 be,fusioneren,fuseren,high,fuseren,gemini,same
-be,gamel,eetketeltje (van soldaten),medium,,,
+be,gamel,eetketeltje (van soldaten),medium,etenblik; voerbak,gemini,same
 be,garagist,garagehouder,high,garagehouder; automecanicien,gemini,same
 be,geblutst,gedeukt,high,gedeukt,gemini,same
 be,gebuisd,gezakt (voor een examen),high,gezakt,gemini,same
 be,gebuur,buur,high,buurman,gemini,same
-be,gedaver,"gedreun, lawaai",medium,,,
+be,gedaver,"gedreun, lawaai",medium,gecouter; gedaver,gemini,same
 be,gedegouteerd,"vol afkeer, walgend",high,walgend; ontgoocheld,gemini,same
 be,gedoteerd,met een prijs of toelage verbonden,medium,,,
 be,gegeerd,"gewild, in trek",high,begeerd; populair,gemini,same
 be,geldbeugel,portemonnee,high,,,
-be,gelijkaardig,soortgelijk,high,,,
+be,gelijkaardig,soortgelijk,high,gelijksoortig; soortgelijk,gemini,same
 be,gelukzak,geluksvogel,high,geluksvogel; mazzelaar,gemini,same
 be,generisch,generiek (bv. generisch geneesmiddel),high,,,
 be,genitief,tweede naamval,high,tweede naamval,gemini,same
 be,gepalaver,"gepraat, geleuter",medium,,,
 be,gesakker,"gevloek, gemopper",high,,,
 be,gocart,skelter,high,skelter,gemini,same
-be,grasplein,"grasveld, gazon",high,,,
+be,grasplein,"grasveld, gazon",high,gazon; grasveld,gemini,same
 be,grootbank,grote bank (financiële instelling),high,grote commerciële bank,gemini,same
 be,grootstad,grote stad,high,grote stad; metropool,gemini,same
-be,halvelings,"half, gedeeltelijk",high,,,
+be,halvelings,"half, gedeeltelijk",high,half; enigszins,gemini,same
 be,heenmatch,heenwedstrijd,high,heenwedstrijd,gemini,same
 be,heenronde,heenronde (eerste helft van een competitie),high,eerste helft van de competitie,gemini,same
 be,heirbaan,"oude heerbaan, Romeinse weg",high,,,
 be,herdoen,overdoen,high,overdoen,gemini,same
-be,hervallen,"terugvallen, recidiveren",high,,,
+be,hervallen,"terugvallen, recidiveren",high,terugvallen; opnieuw ziek worden,gemini,same
 be,herwerken,"omwerken, herschrijven",high,herzien; bewerken,gemini,same
 be,herwerkt,"omgewerkt, bewerkt",high,,,
 be,hinterland,achterland,high,achterland,gemini,same
-be,hoederecht,"voogdij, recht om voor een kind te zorgen",high,,,
+be,hoederecht,"voogdij, recht om voor een kind te zorgen",high,voogdijrecht; gezag,gemini,same
 be,holebi,"homo, lesbisch of biseksueel",high,"lesbisch, homo, biseksueel, transgender",gemini,same
 be,homejacking,woninginbraak om autosleutels te stelen,high,overval in woning,gemini,same
 be,homilie,preek,high,preek; stichtelijke toespraak,gemini,same
 be,homologatie,"officiële goedkeuring, bekrachtiging",high,officiële goedkeuring,gemini,same
 be,hondenstiel,rotbaan,high,zwaar en ondankbaar werk,gemini,same
 be,hoofdbrok,"belangrijkste deel, hoofdmoot",high,belangrijkste deel,gemini,same
-be,hoofding,"kop, briefhoofd, titel",high,,,
+be,hoofding,"kop, briefhoofd, titel",high,briefhoofd,gemini,same
 be,hoofdvogel,de hoofdvogel afschieten: een grote blunder begaan,high,hoofdprijs; belangrijkste buit,gemini,differ
 be,hoogdag,feestdag,high,feestdag,gemini,same
 be,humaniora,algemeen secundair onderwijs,high,secundair onderwijs,gemini,same
 be,hutsepot,stoofpot met groenten en vlees,high,stamppot van verschillende groenten,gemini,differ
-be,hypothekeren,in gevaar brengen; ook: met een hypotheek bezwaren,high,,,
+be,hypothekeren,in gevaar brengen; ook: met een hypotheek bezwaren,high,gevaar lopen; belasten,gemini,same
 be,immobiliën,"onroerend goed, vastgoed",high,onroerend goed; vastgoed,gemini,same
 be,induffelen,"warm inpakken, dik aankleden",high,warm inpakken,gemini,same
 be,inhoudstafel,inhoudsopgave,high,,,
-be,inkom,"ingang, hal",high,,,
-be,inkomgeld,toegangsprijs,high,,,
-be,inkomhal,"hal, entree",high,,,
+be,inkom,"ingang, hal",high,ingang; hal,gemini,same
+be,inkomgeld,toegangsprijs,high,toegangsgeld,gemini,same
+be,inkomhal,"hal, entree",high,hal; entree,gemini,same
 be,inoefenen,instuderen,high,instuderen; oefenen,gemini,same
 be,inox,roestvrij staal,high,roestvrij staal,gemini,same
 be,intensifiëren,intensiveren,high,intensiveren; versterken,gemini,same
@@ -240,14 +240,14 @@ be,kaaksbeen,kaakbeen,high,kaakbeen,gemini,same
 be,kadee,"kerel, gast",high,rakker; knul; vlegel,gemini,same
 be,kaka,poep (kindertaal),medium,poep; uitwerpselen,gemini,same
 be,kasbon,spaarbon van een bank,high,spaarbewijs; termijnbon,gemini,same
-be,kassierster,caissière,high,,,
+be,kassierster,caissière,high,caissière,gemini,same
 be,kastaar,,unknown,flinke kerel; deugniet,gemini,differ
 be,kazak,"jas, wambuis (van kazak draaien)",medium,jas; vest,gemini,same
 be,kazakdraaier,"overloper, opportunist",high,overloper; draaikont,gemini,same
-be,kazakkendraaier,"overloper, opportunist",high,,,
+be,kazakkendraaier,"overloper, opportunist",high,overloper; opportunist,gemini,same
 be,keikop,stijfkop,high,koppigaard; doordrijver,gemini,same
 be,keitof,"fantastisch, supergoed",high,,,
-be,kemel,kameel; ook: flater,high,,,
+be,kemel,kameel; ook: flater,high,blunder; fout,gemini,same
 be,kepie,"uniformpet, kepie",high,uniformmuts; pet,gemini,same
 be,kerkfabriek,kerkbestuur (beheer van kerkgoederen),high,bestuur van een parochie,gemini,same
 be,kerselaar,kersenboom,high,kersenboom,gemini,same
@@ -255,7 +255,7 @@ be,kine,fysiotherapie; fysiotherapeut,high,kinesitherapeut; kinesitherapie,gemin
 be,kinesist,fysiotherapeut,high,fysiotherapeut,gemini,same
 be,kinesitherapie,fysiotherapie,high,fysiotherapie,gemini,same
 be,kipkap,hoofdkaas (vleeswaar in gelei),high,,,
-be,klaarte,"helderheid, licht",high,,,
+be,klaarte,"helderheid, licht",high,klaarheid; licht,gemini,same
 be,klankman,geluidstechnicus,high,geluidstechnicus,gemini,same
 be,klasbak,"uitblinker, topper",high,topper; uitblinker,gemini,same
 be,klierkoorts,ziekte van Pfeiffer,high,mononucleose; ziekte van Pfeiffer,gemini,same
@@ -276,24 +276,24 @@ be,kotmadam,hospita van studentenkamers,high,hospita van een studentenhuis,gemin
 be,kouter,"akker, veld",high,akkerland; ploegland,gemini,same
 be,kraaknet,"brandschoon, spic en span",high,heel schoon; smetteloos,gemini,same
 be,kribbelen,kriebelen; krabbelen (schrijven),medium,krabbelen,gemini,same
-be,kroezelhaar,kroeshaar,high,,,
+be,kroezelhaar,kroeshaar,high,kroeshaar,gemini,same
 be,kruidtuin,botanische tuin,high,botanische tuin,gemini,same
 be,kuisploeg,schoonmaakploeg,high,schoonmaakploeg,gemini,same
 be,kursaal,"casino, feestzaal aan zee",high,casino; kuurhotel,gemini,same
-be,kwatong,roddelaar(ster),high,,,
-be,kwijtschrift,"kwitantie, betalingsbewijs",medium,,,
+be,kwatong,roddelaar(ster),high,roddeltante; roddelaarster,gemini,same
+be,kwijtschrift,"kwitantie, betalingsbewijs",medium,kwitantie; ontvangstbewijs,gemini,same
 be,laattijdig,"te laat, verlaat",high,laat; te laat,gemini,same
 be,labeur,zwaar werk,high,harde arbeid; zwaar werk,gemini,same
 be,labo,laboratorium,high,,,
 be,labojas,laboratoriumjas,high,,,
-be,laureaat,"winnaar, geslaagde",high,,,
+be,laureaat,"winnaar, geslaagde",high,prijswinnaar; geslaagde,gemini,same
 be,lavabo,wastafel,high,wastafel,gemini,same
 be,leefloon,bijstandsuitkering,high,bijstandsuitkering,gemini,same
 be,leeggoed,"lege flessen, statiegeldverpakking",high,statiegeldverpakking; lege verpakking,gemini,same
 be,lekstok,lolly,high,,,
 be,leute,"plezier, pret",high,plezier; pret,gemini,same
 be,licentiaat,vroeger universitair diploma (nu master),high,academische graad; master,gemini,same
-be,ligament,gewrichtsband,high,,,
+be,ligament,gewrichtsband,high,gewrichtsband,gemini,same
 be,litoraal,"kust, kustgebied",high,de kust betreffende,gemini,same
 be,loebas,"lummel, lomperik",medium,goedige lobbes,gemini,differ
 be,looksaus,knoflooksaus,high,,,
@@ -307,7 +307,7 @@ be,luster,kroonluchter,high,kroonluchter,gemini,same
 be,macadam,"steenslagverharding, asfaltweg",high,asfalt; verharde weg,gemini,same
 be,magazijnier,magazijnbediende,high,magazijnmeester,gemini,same
 be,mandataris,"gekozen politicus, ambtsdrager",high,gemachtigde; verkozene,gemini,same
-be,maniok,cassave,high,,,
+be,maniok,cassave,high,cassave,gemini,same
 be,manken,mank lopen,high,mank lopen,gemini,same
 be,maquillage,make-up,high,make-up; opmaak,gemini,same
 be,massacreren,afslachten; verknoeien,high,massaal doden; vernielen,gemini,same
@@ -316,8 +316,8 @@ be,mattentaart,taartje met wrongel (streekgebak),high,taart met gestremde melk,g
 be,matuur,"rijp, volwassen",high,volwassen; rijp,gemini,same
 be,mazout,stookolie,high,stookolie,gemini,same
 be,mediatiseren,veel media-aandacht geven,high,in de media brengen,gemini,same
-be,merkelijk,aanzienlijk,high,,,
-be,metsen,metselen,high,,,
+be,merkelijk,aanzienlijk,high,aanzienlijk,gemini,same
+be,metsen,metselen,high,metselen,gemini,same
 be,metser,metselaar,high,metselaar,gemini,same
 be,mezzanine,tussenverdieping,high,tussenverdieping,gemini,same
 be,milderen,"verzachten, afzwakken",high,verzachten; matigen,gemini,same
@@ -331,7 +331,7 @@ be,moegetergd,"het beu, tot het uiterste getergd",high,moegetergd; afgemat door 
 be,moeial,bemoeial,high,bemoeial,gemini,same
 be,moeien,zich bemoeien,high,bemoeien,gemini,same
 be,mogelijks,"mogelijk, misschien",high,mogelijk; wellicht,gemini,same
-be,monitrice,"(vrouwelijke) begeleider, monitor",high,,,
+be,monitrice,"(vrouwelijke) begeleider, monitor",high,leidster op kamp,gemini,same
 be,moto,motorfiets,high,motorfiets,gemini,same
 be,mouwvegen,"vleien, slijmen",high,vleien; hielenlikken,gemini,same
 be,mouwveger,"slijmbal, vleier",high,vleier; kruiper,gemini,same
@@ -339,17 +339,17 @@ be,mulat,persoon met ouders van verschillende huidskleur,medium,persoon van geme
 be,nachtraaf,nachtbraker,high,nachtmens,gemini,same
 be,nefast,"noodlottig, schadelijk",high,noodlottig; fnuikend,gemini,same
 be,negatie,ontkenning,high,ontkenning,gemini,same
-be,nieuwkuis,stomerij,high,,,
+be,nieuwkuis,stomerij,high,droogkuis; stomerij,gemini,same
 be,nijdigaard,driftkop,high,nijdig mens,gemini,same
-be,nonkel,oom,high,,,
-be,notelaar,notenboom,high,,,
+be,nonkel,oom,high,oom,gemini,same
+be,notelaar,notenboom,high,notenboom,gemini,same
 be,notelaren,van notenhout,high,walnotenbomen; okkernootbomen,gemini,differ
 be,occasie,gelegenheid; tweedehandswagen,high,tweedehandsauto; koopje,gemini,same
 be,omwringen,verstuiken (enkel),high,omdraaien; wurgen,gemini,differ
 be,omzeggens,"bijna, zo goed als",high,vrijwel; nagenoeg,gemini,same
 be,omzendbrief,circulaire,high,circulaire; mededeling,gemini,same
 be,ondereen,"onder elkaar, door elkaar",high,onder elkaar; onderling,gemini,same
-be,ongesofisticeerd,"eenvoudig, onverfijnd",medium,,,
+be,ongesofisticeerd,"eenvoudig, onverfijnd",medium,eenvoudig; ongeschoold,gemini,same
 be,onpaar,oneven,high,oneven,gemini,same
 be,onthaalmoeder,gastouder (vrouw),high,gastouder; kinderopvangster,gemini,same
 be,onthaalouder,gastouder,high,gastouder,gemini,same
@@ -357,16 +357,16 @@ be,opblinken,oppoetsen,high,oppoetsen; doen glimmen,gemini,same
 be,opkleden,"opsmukken, mooi aankleden",low,mooi aankleden,gemini,same
 be,opkramen,opruimen; ook: vertrekken,high,opruimen; inpakken,gemini,same
 be,oplijsten,een lijst maken van,high,op een lijst zetten; opsommen,gemini,same
-be,opplooien,opvouwen,high,,,
+be,opplooien,opvouwen,high,opvouwen,gemini,same
 be,opsolferen,"opdringen, aansmeren",high,opschepen met; opschepen,gemini,same
-be,opvordering,vordering tot teruggave (juridisch),medium,,,
+be,opvordering,vordering tot teruggave (juridisch),medium,vordering; opeising,gemini,same
 be,opzoeking,"onderzoek, opzoekwerk",high,opzoeking; onderzoek,gemini,same
 be,orbitaal,rond een stad lopend (ringweg),low,de baan betreffende,gemini,differ
 be,overkop,over de kop,high,over de kop; overkop,gemini,same
 be,overslapen,zich verslapen,high,zich verslapen,gemini,same
-be,owngoal,eigen doelpunt,high,,,
+be,owngoal,eigen doelpunt,high,eigen doelpunt,gemini,same
 be,pagadder,"kleine jongen, deugniet",high,klein kind; ukkepuk,gemini,same
-be,pallieter,levensgenieter,high,,,
+be,pallieter,levensgenieter,high,levensgenieter,gemini,same
 be,palmares,erelijst,high,erelijst,gemini,same
 be,pandoering,pak slaag,high,pak rammel; zware nederlaag,gemini,same
 be,paritair,gelijk samengesteld (paritair comité),medium,met gelijke vertegenwoordiging,gemini,same
@@ -378,8 +378,8 @@ be,petanquen,jeu de boules spelen,high,jeu de boules spelen,gemini,same
 be,peulschil,"kleinigheid, fluitje van een cent",medium,kleinigheid,gemini,same
 be,pickles,piccalilly,high,ingelegde groenten in mosterdsaus,gemini,same
 be,picoseconde,biljoenste van een seconde,high,een biljoenste seconde,gemini,same
-be,pijpajuin,"bosui, lente-ui",high,,,
-be,pilaarbijter,kwezel,high,,,
+be,pijpajuin,"bosui, lente-ui",high,bosuitje; lente-ui,gemini,same
+be,pilaarbijter,kwezel,high,schijnheilige,gemini,same
 be,pilipili,pikante rode peper,high,scherpe rode peper,gemini,same
 be,pintelieren,"pintjes drinken, op café zitten",high,bier drinken; zakken,gemini,same
 be,pisbloem,paardenbloem,high,paardenbloem,gemini,same
@@ -396,10 +396,10 @@ be,polieren,polijsten,high,gepolijst maken; gladmaken,gemini,same
 be,polyglot,veeltalig persoon,medium,,,
 be,pompaf,doodmoe,high,doodmoe; uitgeput,gemini,same
 be,pompier,brandweerman,high,brandweerman,gemini,same
-be,postogram,,unknown,,,
+be,postogram,,unknown,dringend poststuk,gemini,differ
 be,potdoof,stokdoof,high,stokdoof,gemini,same
 be,prijskamp,"wedstrijd, prijsvraag",high,wedstrijd met prijzen,gemini,same
-be,primordiaal,van het grootste belang,high,,,
+be,primordiaal,van het grootste belang,high,zeer belangrijk; essentieel,gemini,same
 be,producen,produceren (muziek),medium,produceren,gemini,same
 be,profijtig,zuinig,high,voordelig; goedkoop; spaarzaam,gemini,same
 be,profliga,,unknown,vereniging van beroepsclubs,gemini,differ
@@ -418,24 +418,24 @@ be,renommée,reputatie,high,reputatie; goede naam,gemini,same
 be,resem,"reeks, hele boel",high,,,
 be,rijhuis,rijtjeshuis,high,tussenwoning; rijtjeshuis,gemini,same
 be,rijven,harken,high,,,
-be,rockrally,muziekwedstrijd voor jonge bands,high,,,
+be,rockrally,muziekwedstrijd voor jonge bands,high,rockwedstrijd,gemini,same
 be,roefelen,,unknown,ontdekken via kinderactiviteit,gemini,differ
 be,roofing,bitumen dakbedekking,high,bitumineuze dakbedekking; roofing,gemini,same
 be,rotslecht,heel slecht,high,zeer slecht; heel slecht,gemini,same
 be,roulade,rollade,high,gerold vleesgerecht; muzikaal motief,gemini,same
-be,rozelaar,rozenstruik,high,,,
+be,rozelaar,rozenstruik,high,rozenstruik,gemini,same
 be,sabayon,schuimig eierdessert (zabaglione),high,schuimige eiercrème,gemini,same
 be,sakkeren,"vloeken, mopperen",high,vloeken; kankeren,gemini,same
 be,salopette,tuinbroek,high,tuinbroek,gemini,same
 be,sasdeur,sluisdeur,high,sluisdeur,gemini,same
-be,savooikool,savooiekool,high,,,
+be,savooikool,savooiekool,high,groene kool,gemini,same
 be,schachtendoop,ontgroening (studenten),high,ontgroening van eerstejaars,gemini,same
 be,schotelvod,vaatdoek,high,vaatdoek,gemini,same
 be,schotwonde,schotwond,high,schotwond,gemini,same
 be,schranken,,unknown,schuin over elkaar leggen,gemini,differ
 be,schuifaf,glijbaan,high,glijbaan,gemini,same
-be,sedentair,zittend,high,,,
-be,selder,selderij,high,,,
+be,sedentair,zittend,high,zittend; vastverblijvend,gemini,same
+be,selder,selderij,high,selderij,gemini,same
 be,seldertje,selderijtakje,high,stengel bleekselderij; selderij,gemini,same
 be,serveuse,serveerster,high,dienster; kelnerin,gemini,same
 be,seutig,"truttig, saai",high,saai; truttig,gemini,same
@@ -445,13 +445,13 @@ be,slazwierder,slacentrifuge,high,slacentrifuge,gemini,same
 be,sloef,"pantoffel, slof",high,pantoffel; slof,gemini,same
 be,sluikstorten,illegaal afval dumpen,high,illegaal afval storten,gemini,same
 be,sluikstorter,wie illegaal afval dumpt,high,illegaal afvalstorter,gemini,same
-be,smos,belegd broodje met groenten,high,,,
+be,smos,belegd broodje met groenten,high,belegd broodje,gemini,same
 be,smossen,"knoeien, morsen",high,,,
 be,smout,reuzel,high,reuzel; varkensvet,gemini,same
 be,smoutachtig,vettig,low,vetachtig; als smout,gemini,same
 be,smoutebol,oliebol,high,oliebol,gemini,same
 be,sneeuwklas,skiverblijf met de school,high,schoolreis naar een sneeuwgebied,gemini,same
-be,snok,ruk,high,,,
+be,snok,ruk,high,ruk; stoot,gemini,same
 be,snokken,rukken,high,rukken; hard trekken,gemini,same
 be,snotvalling,verkoudheid,high,,,
 be,snuisteren,"snuffelen, neuzen",high,rondscharrelen; rondsnuffelen,gemini,same
@@ -460,14 +460,14 @@ be,solden,uitverkoop,high,uitverkoop,gemini,same
 be,solsleutel,g-sleutel (muziek),high,g-sleutel,gemini,same
 be,speelvogel,speels kind,high,speels persoon,gemini,same
 be,speractie,,unknown,actie tijdens de sperperiode,gemini,differ
-be,spionkop,fanvak achter het doel,high,,,
+be,spionkop,fanvak achter het doel,high,geheime kijker; supporterstribune,gemini,same
 be,springuur,tussenuur (op school),high,tussenuur,gemini,same
 be,stakingspiket,stakerspost,high,post van stakers,gemini,same
 be,steamen,,unknown,stomen; kleding stomen,gemini,differ
 be,sterfput,zinkput voor afvalwater,high,afvoerputje,gemini,same
 be,stiel,"vak, beroep",high,beroep; ambacht,gemini,same
 be,stielkennis,vakkennis,high,vakkennis,gemini,same
-be,stielman,vakman,high,,,
+be,stielman,vakman,high,vakman; ambachtsman,gemini,same
 be,stock,voorraad,high,voorraad,gemini,same
 be,stockeren,opslaan,high,opslaan; bewaren,gemini,same
 be,stoefen,opscheppen,high,opscheppen; pochen,gemini,same
@@ -477,11 +477,11 @@ be,stofhagel,fijne hagel,low,hagel van fijne korrels,gemini,same
 be,stofvod,stofdoek,high,stofdoek,gemini,same
 be,stresserend,stressvol,high,stressvol; stresserend,gemini,same
 be,strooiwei,weide waarop de as van overledenen wordt uitgestrooid,high,strooiweide,gemini,same
-be,stuiken,,unknown,,,
+be,stuiken,,unknown,vallen; struikelen,gemini,differ
 be,superette,kleine supermarkt,high,kleine supermarkt,gemini,same
 be,suppositoire,zetpil,high,zetpil,gemini,same
-be,syndicus,beheerder van een appartementsgebouw,high,,,
-be,taalbad,onderdompeling in een taal,medium,,,
+be,syndicus,beheerder van een appartementsgebouw,high,beheerder van appartementen,gemini,same
+be,taalbad,onderdompeling in een taal,medium,taaldompeling,gemini,same
 be,taallabo,talenpracticum,high,taallaboratorium,gemini,same
 be,taboeret,krukje,high,krukje zonder rugleuning,gemini,same
 be,tafelschuimer,klaploper,high,klaploper,gemini,same
@@ -489,21 +489,21 @@ be,tarmac,asfalt,high,asfalt van een landingsbaan,gemini,same
 be,tateren,"kakelen, snateren",medium,,,
 be,taxidermie,opzetten van dieren,medium,,,
 be,tegenkanting,"tegenstand, verzet",high,tegenstand,gemini,same
-be,tegensteken,tegenstaan (dat steekt me tegen),high,,,
+be,tegensteken,tegenstaan (dat steekt me tegen),high,dwarsbomen; tegenwerken,gemini,differ
 be,teleonthaal,telefonische hulpdienst,high,telefonische hulpdienst,gemini,same
 be,toemaatje,"extraatje, toegift",high,toegift; extraatje,gemini,same
-be,toezichter,"toezichthouder, surveillant",high,,,
+be,toezichter,"toezichthouder, surveillant",high,toezichthouder; opzichter,gemini,same
 be,tooghanger,kroegtijger,high,stamgast; toogzitter,gemini,same
 be,tornooi,toernooi,high,toernooi,gemini,same
 be,tornooien,toernooien,high,toernooien spelen; toernooien,gemini,same
 be,trafiek,verkeer; ook: (drugs)handel,high,goederenverkeer; drukte; handel,gemini,same
-be,treffelijk,"fatsoenlijk, net",high,,,
+be,treffelijk,"fatsoenlijk, net",high,behoorlijk; fatsoenlijk,gemini,same
 be,trimestrieel,driemaandelijks,high,,,
 be,triumviraat,driemanschap,medium,driemanschap,gemini,same
 be,trottinette,step (autoped),high,autoped; step,gemini,same
 be,truweel,troffel,high,troffel,gemini,same
 be,turngerief,gymspullen,high,gymkleding; gymspullen,gemini,same
-be,turnkring,gymnastiekvereniging,high,,,
+be,turnkring,gymnastiekvereniging,high,turnvereniging,gemini,same
 be,turnpantoffel,gymschoen,high,gymschoen; gymp,gemini,same
 be,tweewoonst,twee-onder-een-kapwoning,high,twee-onder-een-kapwoning,gemini,same
 be,uitschijnen,laten uitschijnen: laten blijken,high,blijken; er zo uitzien,gemini,same
@@ -514,12 +514,12 @@ be,urne,stembus,high,stembus; asurn,gemini,same
 be,vadsigaard,luiaard,high,luiak; luiaard,gemini,same
 be,valabel,"geldig, aanvaardbaar",high,,,
 be,valavond,schemering,high,avondschemering; schemering,gemini,same
-be,valoriseren,"te gelde maken, benutten",high,,,
+be,valoriseren,"te gelde maken, benutten",high,te gelde maken,gemini,same
 be,vanop,"vanaf, van (op)",high,vanaf,gemini,same
 be,velo,fiets,high,fiets,gemini,same
 be,verbrodden,verknoeien,high,verpesten; verknoeien,gemini,same
 be,verdoken,verborgen,high,verborgen; heimelijk,gemini,same
-be,verkorven,het verkorven hebben: uit de gratie zijn,high,,,
+be,verkorven,het verkorven hebben: uit de gratie zijn,high,verbroud; verpest,gemini,same
 be,verloning,bezoldiging,high,beloning; salariëring,gemini,same
 be,verluchten,"luchten, ventileren",high,ventileren; frisse lucht binnenlaten,gemini,same
 be,verpinken,zonder verpinken: zonder een spier te vertrekken,high,knipperen met de ogen; blikken,gemini,same
@@ -533,30 +533,30 @@ be,vijzen,schroeven,high,,,
 be,viseren,aftekenen (document); mikken op,high,op het oog hebben,gemini,same
 be,vismijn,visafslag,high,visafslag,gemini,same
 be,vlakaf,"botweg, ronduit",high,,,
-be,vol-au-vent,pasteitje met ragout,high,,,
+be,vol-au-vent,pasteitje met ragout,high,videe; koninginnenhapje,gemini,same
 be,volzet,"vol, volgeboekt",high,volgeboekt,gemini,same
 be,vooropzeg,opzegtermijn,high,opzegtermijn; opzegging,gemini,same
-be,vorklift,heftruck,high,,,
+be,vorklift,heftruck,high,heftruck,gemini,same
 be,vredegerecht,kantongerecht,high,kantonrechtbank,gemini,same
 be,vrijschop,vrije trap,high,vrije trap,gemini,same
 be,vroedkunde,verloskunde,high,verloskunde,gemini,same
 be,vuilblik,stofblik,high,vuilnisblik,gemini,same
-be,vzw,vereniging zonder winstoogmerk,high,,,
+be,vzw,vereniging zonder winstoogmerk,high,vereniging zonder winstoogmerk,gemini,same
 be,wansmakelijk,"smakeloos, walgelijk",high,wansmakelijk; stuitend,gemini,same
 be,warande,park bij een kasteel,high,wildpark; wandelpark,gemini,same
 be,wasspeld,wasknijper,high,wasknijper,gemini,same
 be,waterkans,heel kleine kans,high,heel kleine kans,gemini,same
-be,webstek,website,high,,,
+be,webstek,website,high,website,gemini,same
 be,weddeschaal,salarisschaal,high,salarisschaal; loonschaal,gemini,same
 be,weeral,alweer,high,weer; opnieuw,gemini,same
 be,weerwraak,wraak,high,wraak,gemini,same
 be,wegcode,verkeersreglement,high,verkeersreglement,gemini,same
 be,wegenwerken,wegwerkzaamheden,high,wegwerkzaamheden,gemini,same
-be,werfreserve,wervingsreserve,high,,,
+be,werfreserve,wervingsreserve,high,wervingsreserve,gemini,same
 be,wetsdokter,forensisch arts,high,schouwarts; gerechtelijk geneesheer,gemini,same
 be,wetstraat,de federale politiek (naar de straat van het parlement),high,Belgische politiek; regering,gemini,same
 be,wiezen,wiezen (kaartspel),high,kaartspel wiezen,gemini,same
-be,wijsheidstand,verstandskies,high,,,
+be,wijsheidstand,verstandskies,high,verstandskies,gemini,same
 be,windel,luier,high,zwachtel; windsel,gemini,differ
 be,windpokken,waterpokken,high,waterpokken,gemini,same
 be,witloof,witlof,high,witlof,gemini,same
@@ -573,7 +573,7 @@ be,zichtrekening,betaalrekening,high,betaalrekening,gemini,same
 be,zitdag,spreekuur (van een ambtenaar of politicus),high,spreekuur,gemini,same
 be,zitpenning,presentiegeld,high,vergoeding voor een vergadering,gemini,same
 be,zonaal,per zone,medium,per zone geldend,gemini,same
-be,zonneklopper,,unknown,,,
+be,zonneklopper,,unknown,zonnebaarder,gemini,differ
 be,zonneslag,zonnesteek,high,zonnesteek,gemini,same
 be,zopas,zojuist,high,zojuist; net,gemini,same
 be,zottin,gekke vrouw,high,,,
@@ -581,18 +581,18 @@ be,zuiders,zuidelijk,medium,zuidelijk,gemini,same
 be,zwalpen,klotsen,high,zwalken; zwerven,gemini,differ
 be,zwans,"flauwe grap, zever",high,onzin; mop; flauwekul,gemini,same
 be,zwanzen,gekheid maken,high,grappen maken,gemini,same
-be,zwemdok,zwembad,high,,,
-be,zwin,getijdengeul,medium,,,
+be,zwemdok,zwembad,high,zwembad,gemini,same
+be,zwin,getijdengeul,medium,geul; inham,gemini,same
 nl,aanhikken,tegenop zien (ergens tegenaan hikken),high,opzien tegen; tegenaan hiken,gemini,same
 nl,aankakken,"(onverwacht, te laat) aan komen zetten",high,langzaam aankomen; slenteren,gemini,differ
 nl,aanpezen,"flink doorwerken, voortmaken",high,hard zwoegen; zich uitsloven,gemini,same
-nl,abseilen,afdalen langs een touw,high,,,
+nl,abseilen,afdalen langs een touw,high,voetje voor voetje afdalen,gemini,differ
 nl,absurdistisch,absurd van stijl,medium,absurd,gemini,same
 nl,afhechten,afwerken (naad); fig.: afronden,high,,,
 nl,afkatten,afsnauwen,high,snauwen; afbekken,gemini,same
 nl,afraffelen,haastig en slordig afmaken,high,haastig en slordig afwerken,gemini,same
 nl,afstruinen,"afzoeken, doorzoeken",high,afzoeken; rondstruinen,gemini,same
-nl,aftaaien,"vertrekken, weggaan",high,,,
+nl,aftaaien,"vertrekken, weggaan",high,vertrekken; 'm smeren,gemini,same
 nl,afvangen,onderscheppen; wegvangen,medium,onderscheppen; de wind uitzeilen,gemini,same
 nl,afzwemmen,zwemdiploma halen,high,examen doen voor zwemdiploma,gemini,same
 nl,aju,"dag, doei",high,,,
@@ -600,30 +600,30 @@ nl,ajuus,"dag, tot ziens",high,tot ziens,gemini,same
 nl,alaaf,carnavalsgroet,high,carnavalsgroet,gemini,same
 nl,alfahulp,huishoudelijke hulp,high,thuishulp,gemini,same
 nl,allrisk,allriskverzekering (omnium),high,volledig casco gedekt,gemini,same
-nl,apenrots,apenrots in een dierentuin; fig.: rangordegedrag,medium,,,
+nl,apenrots,apenrots in een dierentuin; fig.: rangordegedrag,medium,hiërarchische plek,gemini,same
 nl,apezuur,zich het apezuur werken: zich kapot werken,high,zeer hard; heel erg,gemini,same
-nl,atjar,zuur ingemaakte groenten (Indonesisch),high,,,
-nl,audicien,hoorapparatenspecialist,high,,,
+nl,atjar,zuur ingemaakte groenten (Indonesisch),high,indisch zuur van groenten,gemini,same
+nl,audicien,hoorapparatenspecialist,high,gehoorspecialist,gemini,same
 nl,badderen,"in bad spelen, plonzen",high,in bad zitten,gemini,same
 nl,bakkie,kopje koffie,high,kopje koffie,gemini,same
 nl,balkenbrij,vleeswaar van orgaanvlees en boekweit,high,traditioneel vleesgerecht,gemini,same
-nl,bamibal,gefrituurde bal met bami,high,,,
+nl,bamibal,gefrituurde bal met bami,high,gefrituurde bami-snack,gemini,same
 nl,bangig,een beetje bang,high,enigszins bang,gemini,same
 nl,banjeren,met grote passen rondlopen,high,,,
-nl,baspartij,partij voor de bas (muziek),medium,,,
+nl,baspartij,partij voor de bas (muziek),medium,laagst klinkende stem,gemini,same
 nl,behapbaar,"te behappen, hanteerbaar",high,overzichtelijk; behapbaar,gemini,same
 nl,behappen,"aankunnen, verwerken",high,begrijpen; verwerken; aankunnen,gemini,same
 nl,beppen,"kletsen, keuvelen",high,kletsen; leuteren,gemini,same
 nl,beschoeiing,oeverbekleding van planken,high,beschoeiing; damwand,gemini,same
-nl,beunen,zwart klussen,high,,,
+nl,beunen,zwart klussen,high,beunhazen; zwartwerken,gemini,same
 nl,beuren,optillen; geld ontvangen,high,,,
 nl,beursheid,gekneusdheid,low,het beurs zijn,gemini,same
 nl,bielzen,dwarsliggers (spoorweg),high,houten spoorbielzen,gemini,same
-nl,bietsen,"bedelen, schooien",high,,,
+nl,bietsen,"bedelen, schooien",high,bedelen; bietsen,gemini,same
 nl,bietser,klaploper,high,,,
 nl,blaag,vervelend kind,high,vervelend kind,gemini,same
 nl,blauwbekken,in de kou staan wachten,high,het erg koud hebben,gemini,same
-nl,bloterik,blote persoon,high,,,
+nl,bloterik,blote persoon,high,naakt persoon,gemini,same
 nl,boerenbont,aardewerk met boerenbloemmotief,high,traditioneel serviesmotief,gemini,same
 nl,boktor,kever met lange sprieten,medium,kever,gemini,same
 nl,bolus,zoet broodje met stroop; ook: drol,high,,,
@@ -644,26 +644,26 @@ nl,brink,dorpsplein,high,dorpsplein,gemini,same
 nl,bromtol,brommende draaitol,high,brommende speelgoedtol,gemini,same
 nl,buks,geweer (luchtbuks),high,luchtgeweer,gemini,same
 nl,bul,universitair diploma,high,universitair diploma,gemini,same
-nl,bulletje,,unknown,,,
+nl,bulletje,,unknown,kleine stier; mannetje,gemini,differ
 nl,bètavak,"exact vak (wiskunde, natuurwetenschap)",high,exact vak,gemini,same
 nl,cassave,maniok,high,,,
-nl,chantabel,vatbaar voor chantage,medium,,,
-nl,cheffin,vrouwelijke chef,high,,,
-nl,chemobak,inzamelbak voor klein chemisch afval,medium,,,
+nl,chantabel,vatbaar voor chantage,medium,vatbaar voor chantage,gemini,same
+nl,cheffin,vrouwelijke chef,high,vrouwelijke chef,gemini,same
+nl,chemobak,inzamelbak voor klein chemisch afval,medium,geheime verzamelplek,gemini,differ
 nl,chemokar,inzamelwagen voor klein chemisch afval,high,wagen voor klein chemisch afval,gemini,same
 nl,chipknip,elektronisch betaalchipje op de bankpas (vroeger),high,elektronische portemonnee,gemini,same
 nl,chocomel,chocolademelk,high,chocolademelk,gemini,same
 nl,cito,Cito-toets (eindtoets basisschool),high,snel; spoedig,gemini,differ
 nl,clinic,"trainingsdag, cursus (sport)",high,,,
-nl,codicil,aanhangsel bij een testament,high,,,
+nl,codicil,aanhangsel bij een testament,high,wilsbeschikking,gemini,same
 nl,conrector,onderdirecteur van een school,high,adjunct-directeur van middelbare school,gemini,same
 nl,contactueel,in de omgang met anderen (contactuele vaardigheden),high,betrekking hebbend op contact,gemini,same
 nl,corduroy,ribfluweel,high,ribfluweel,gemini,same
 nl,corpsbal,lid van een studentencorps (bekakt),high,kakkerige student,gemini,same
 nl,coulance,"tegemoetkoming, soepelheid",high,welwillendheid; soepelheid,gemini,same
-nl,custard,vanillepuddingpoeder,high,,,
+nl,custard,vanillepuddingpoeder,high,vla,gemini,same
 nl,dakleer,bitumen dakbedekking,high,bitumen dakbedekking,gemini,same
-nl,darter,dartsspeler,high,,,
+nl,darter,dartsspeler,high,darter; pijltjeswerper,gemini,same
 nl,dauwtrappen,vroeg wandelen op Hemelvaartsdag,high,vroeg wandelen in de natuur,gemini,same
 nl,dependance,"bijgebouw, nevenvestiging",high,,,
 nl,derrie,"smurrie, drab",high,modder; viezigheid,gemini,same
@@ -672,7 +672,7 @@ nl,diergaarde,dierentuin,high,dierentuin,gemini,same
 nl,digibeet,computeranalfabeet,high,iemand die verstand mist van computers,gemini,same
 nl,dikkig,een beetje dik,high,enigszins dik,gemini,same
 nl,doerak,deugniet,high,,,
-nl,dombo,domoor,high,,,
+nl,dombo,domoor,high,domkop,gemini,same
 nl,dommig,een beetje dom,high,enigszins dom,gemini,same
 nl,domstad,Utrecht,high,bijnaam van Utrecht,gemini,same
 nl,domtoren,toren van de Dom in Utrecht,high,,,
@@ -687,18 +687,18 @@ nl,duppie,dubbeltje,high,muntstuk van tien cent,gemini,same
 nl,duster,ochtendjas,high,ochtendjas,gemini,same
 nl,eenkennig,verlegen bij vreemden,high,schuw voor vreemden,gemini,same
 nl,eigenheimer,aardappelras,high,aardappelras,gemini,same
-nl,exercitie,"oefening, drill",medium,,,
-nl,feut,aspirant-lid van een studentenvereniging (schacht),high,,,
+nl,exercitie,"oefening, drill",medium,oefening; veldoefening,gemini,same
+nl,feut,aspirant-lid van een studentenvereniging (schacht),high,eerstejaarsstudent,gemini,same
 nl,fikkie,vuurtje,high,vuurtje,gemini,same
 nl,fineliner,dunne viltstift,high,dunne viltstift,gemini,same
-nl,flappentap,geldautomaat,high,,,
+nl,flappentap,geldautomaat,high,geldautomaat,gemini,same
 nl,fricandeau,varkensvlees (beleg of gebraad),medium,gebraden mager varkensvlees,gemini,same
 nl,frites,friet,medium,patat,gemini,same
 nl,fröbelen,knutselen,high,,,
-nl,fust,vat; statiegeld op kratten en flessen,high,,,
-nl,gajes,"tuig, gespuis",high,,,
+nl,fust,vat; statiegeld op kratten en flessen,high,vat; bierfust,gemini,same
+nl,gajes,"tuig, gespuis",high,tuig; krapuul,gemini,same
 nl,galbult,jeukende bult (netelroos),high,bult op de huid; netelroos,gemini,same
-nl,gauwigheid,in de gauwigheid: in de haast,high,,,
+nl,gauwigheid,in de gauwigheid: in de haast,high,vluchtigheid; haast,gemini,same
 nl,geblèr,"gehuil, gebrul",high,gehuil; luid geschreeuw,gemini,same
 nl,gefingeerd,"verzonnen, fictief",medium,verzonnen; erdacht,gemini,same
 nl,gefröbel,geknutsel,high,prutswerk; nutteloos knutselen,gemini,same
@@ -706,22 +706,22 @@ nl,gegiebel,gegiechel,high,het giechelen,gemini,same
 nl,gemieter,"gedoe, gezeur",high,gezeur; gemier,gemini,same
 nl,gemêleerd,gemengd,high,gemengd,gemini,same
 nl,geneuzel,"gezeur, gewauwel",high,gezeur; geneuzel,gemini,same
-nl,gepriegel,"fijn, precies werkje",high,,,
+nl,gepriegel,"fijn, precies werkje",high,peuterwerk; gefiets,gemini,same
 nl,geroyeerd,uit een vereniging gezet,high,geschrapt als lid,gemini,same
 nl,gesteggel,gekibbel,high,mierenneuken; geruzie,gemini,same
 nl,gezwalk,"geslinger, gezwerf",high,het zwalken; koersloos ronddolen,gemini,same
 nl,giebel,giechel,high,giebelende vrouw; karperachtige vis,gemini,same
 nl,giebelen,giechelen,high,giechelen; stiekem lachen,gemini,same
 nl,gierkar,mestkar voor drijfmest,high,gierwagen; mestkar,gemini,same
-nl,gierput,mestput,high,,,
-nl,giertank,tank voor drijfmest,high,,,
-nl,gierton,ton voor drijfmest,high,,,
-nl,ginnegappen,"giechelen, gniffelen",high,,,
+nl,gierput,mestput,high,mestput,gemini,same
+nl,giertank,tank voor drijfmest,high,gierwagen,gemini,same
+nl,gierton,ton voor drijfmest,high,gierwagen,gemini,same
+nl,ginnegappen,"giechelen, gniffelen",high,giechelen,gemini,same
 nl,giromaat,geldautomaat (vroeger),high,geldautomaat,gemini,same
 nl,gister,gisteren,high,gisteren,gemini,same
 nl,gisternacht,afgelopen nacht,high,afgelopen nacht,gemini,same
 nl,glaspui,"glazen wand, schuifpui",high,glazen wand; glazen gevel,gemini,same
-nl,glom,verleden tijd van glimmen,high,,,
+nl,glom,verleden tijd van glimmen,high,glom,gemini,same
 nl,godsamme,vloek,high,uitroep van vloek of ontzetting,gemini,same
 nl,goedig,goedaardig,high,,,
 nl,goeiig,goedaardig,high,goedmoedig,gemini,same
@@ -731,10 +731,10 @@ nl,goochemerd,slimmerik,high,pienter persoon; slimmerd,gemini,same
 nl,graftak,ouwe graftak: oud mens (schertsend),high,naargeestig persoon; nare vent,gemini,differ
 nl,grijpstuiver,"klein bedrag, bijverdienste",high,klein geldbedrag,gemini,same
 nl,grutter,kruidenier,high,kruidenier,gemini,same
-nl,grutto,weidevogel,high,,,
+nl,grutto,weidevogel,high,weidevogel,gemini,same
 nl,gup,"klein kind, snotneus",medium,,,
 nl,gymnasiast,leerling van een gymnasium,high,gymnasiumleerling,gemini,same
-nl,haastklus,spoedklus,high,,,
+nl,haastklus,spoedklus,high,haastwerk,gemini,same
 nl,hachee,stoofpot van rundvlees met uien,high,gestoofd vleesgerecht,gemini,same
 nl,halvarine,halvarine,high,margarine met weinig vet,gemini,same
 nl,hamlap,varkenslap,high,mager varkensvlees,gemini,same
@@ -743,29 +743,29 @@ nl,hannesen,klungelen,high,knoeien; klungelen,gemini,same
 nl,hapsnap,"willekeurig, onsamenhangend",high,willekeurig,gemini,same
 nl,haptonoom,beoefenaar van haptonomie,high,haptotherapeut,gemini,same
 nl,havo,hoger algemeen voortgezet onderwijs,high,hoger algemeen voortgezet onderwijs,gemini,same
-nl,hbo,hoger beroepsonderwijs,high,,,
+nl,hbo,hoger beroepsonderwijs,high,hoger beroepsonderwijs,gemini,same
 nl,hbs,hogereburgerschool (vroeger),high,hogereburgerschool,gemini,same
 nl,hectiek,"drukte, jachtigheid",high,grote drukte; hectiek,gemini,same
 nl,heiig,nevelig,high,nevelig; licht mistig,gemini,same
 nl,heikneuter,boerenkinkel,medium,boerenpummel; onnozel mens,gemini,same
-nl,heitje,kwartje,high,,,
+nl,heitje,kwartje,high,vijfcentstuk; zakgeld,gemini,differ
 nl,hippisch,de paardensport betreffend,high,betrekking hebbend op paarden,gemini,same
 nl,hobbezak,"wijd, vormeloos kledingstuk",high,vormloos kledingstuk,gemini,same
 nl,hoereren,hoereren,high,prostitutie bedrijven,gemini,same
 nl,hofstad,Den Haag,high,regeringszetel; Den Haag,gemini,same
 nl,hoosbui,stortbui,high,zeer hevige regenbui,gemini,same
 nl,hork,lomperik,high,lomperik; onbeleefd persoon,gemini,same
-nl,horkerig,lomp,high,,,
+nl,horkerig,lomp,high,lomp; onbeschoft,gemini,same
 nl,hospiteren,stage lopen (lerarenopleiding); kennismaken met een kamerkandidaat,high,kennismaken voor een studentenkamer,gemini,same
 nl,hotemetoot,hoge piet,high,belangrijk persoon; hoge ome,gemini,same
-nl,hupsen,huppelen,high,,,
+nl,hupsen,huppelen,high,springen; huppelen,gemini,same
 nl,husselen,door elkaar mengen,high,door elkaar schudden,gemini,same
 nl,hutspot,"stamppot van aardappelen, wortel en ui",high,stamppot van wortels en uien,gemini,same
 nl,idolaat,"dol op, verzot op",high,dweepziek; zeer gesteld op,gemini,same
 nl,iel,"dun, mager",high,mager; dun; ijl,gemini,same
 nl,impopulair,niet populair,medium,niet geliefd,gemini,same
 nl,indo,Nederlander met Indonesische afkomst,high,Indische Nederlander,gemini,same
-nl,inpandig,binnen een pand,high,,,
+nl,inpandig,binnen een pand,high,binnenshuis gelegen,gemini,same
 nl,inruimen,inruimen (vaatwasser); ruimte maken,high,inruimen; een plek geven,gemini,same
 nl,introducé,gast die men meebrengt,high,geïntroduceerde gast,gemini,same
 nl,jandoedel,sukkel,high,sukkel,gemini,same
@@ -779,12 +779,12 @@ nl,jonassen,iemand bij armen en benen heen en weer zwaaien,high,iemand heen en w
 nl,jottem,ervandoor!,high,uitroep van vreugde,gemini,differ
 nl,jottum,ervandoor!,high,uitroep van vreugde,gemini,differ
 nl,juut,politie (straattaal),high,politieman,gemini,same
-nl,kaalslag,"volledige kap, verdwijning van alles",high,,,
+nl,kaalslag,"volledige kap, verdwijning van alles",high,grootschalige vernietiging,gemini,same
 nl,kachelen,hard rijden,high,langzaam rijden of varen,gemini,differ
 nl,kanen,"eten, schrokken",high,schrokken; schranken,gemini,same
 nl,kassiewijle,"dood, kapot",high,dood; kapot,gemini,same
 nl,katenspek,gerookt spek,high,gekookt en gerookt spek,gemini,same
-nl,kenau,manwijf,high,,,
+nl,kenau,manwijf,high,boze; heerszuchtige vrouw,gemini,same
 nl,kerststol,kerstbrood,high,kerstbrood met spijs,gemini,same
 nl,ketelbink,jongste matroos,medium,scheepsjongen,gemini,same
 nl,ketjap,sojasaus,high,,,
@@ -800,25 +800,25 @@ nl,klessebes,kletskous,high,kletsmeid; zeurderig mens,gemini,same
 nl,klessebessen,kletsen,high,kletsen; leuteren,gemini,same
 nl,kliko,rolcontainer voor afval,high,verrijdbare afvalcontainer,gemini,same
 nl,kloffie,"oude, gemakkelijke kleren",high,alledaagse kleding; pakje,gemini,same
-nl,klunen,op schaatsen over land lopen,high,,,
+nl,klunen,op schaatsen over land lopen,high,lopen op schaatsen,gemini,same
 nl,knaak,rijksdaalder (vroeger),high,"rijksdaalder; munt van 2,50",gemini,same
 nl,knijpkat,zaklamp met knijphendel,high,knijplamp,gemini,same
 nl,kno-arts,"keel-, neus- en oorarts",high,"keel-, neus- en oorarts",gemini,same
 nl,knoeperd,"kanjer, joekel",high,groot exemplaar,gemini,same
 nl,knurft,"sukkel, onbenul",high,lomp persoon; kinkel,gemini,same
-nl,koefnoen,onder koefnoen: in het geheim,high,,,
+nl,koefnoen,onder koefnoen: in het geheim,high,poen; geld,gemini,differ
 nl,koffieleut,koffieliefhebber,high,koffieliefhebber,gemini,same
 nl,kontgat,aars,high,anus,gemini,same
 nl,kontzak,achterzak,high,broekzak op de achterkant,gemini,same
 nl,koog,polder (in Noord-Holland),high,ingedijkt land; polder,gemini,same
-nl,kopschuw,schichtig,high,,,
-nl,korenwolf,wilde hamster,high,,,
+nl,kopschuw,schichtig,high,kopschuw; terughoudend,gemini,same
+nl,korenwolf,wilde hamster,high,hamster,gemini,same
 nl,krentenmik,krentenbrood,high,krentenbrood,gemini,same
 nl,kroelen,knuffelen,high,knuffelen,gemini,same
 nl,kruizen,"rondvaren, kruisen",medium,,,
 nl,kukelen,"vallen, tuimelen",high,,,
 nl,kuub,kubieke meter,high,kubieke meter,gemini,same
-nl,latertje,dat wordt een latertje: dat wordt laat,high,,,
+nl,latertje,dat wordt een latertje: dat wordt laat,high,late avond; laat feestje,gemini,same
 nl,lawaaiig,lawaaierig,high,luidruchtig; veel lawaai makend,gemini,same
 nl,leges,administratiekosten (gemeente),high,overheidsretributie; rechten,gemini,same
 nl,lesuitval,lessen die niet doorgaan,high,uitval van lessen,gemini,same
@@ -830,51 +830,51 @@ nl,lijp,"gek, dom",high,gekkig; maffia; gek; fantastisch,gemini,same
 nl,lijzijde,kant uit de wind,high,zijde uit de wind,gemini,same
 nl,likmevestje,van likmevestje: prutswerk,high,,,
 nl,lobbes,goedzak,high,goedige lobbes; goedzak,gemini,same
-nl,lombok,rode peper,high,,,
+nl,lombok,rode peper,high,spaanse peper,gemini,same
 nl,lubberen,"slobberen, wijd zitten (kleding)",high,ruim en slap hangen,gemini,same
 nl,makken,,unknown,gebreken; moeilijkheden,gemini,differ
 nl,malieveld,grasveld in Den Haag (demonstratieplek),high,evenemententerrein in Den Haag,gemini,same
-nl,mamma,mama,medium,,,
-nl,manco,"tekortkoming, gebrek",medium,,,
+nl,mamma,mama,medium,moeder,gemini,same
+nl,manco,"tekortkoming, gebrek",medium,gebrek; tekort,gemini,same
 nl,marmoleum,linoleum (vloerbedekking),high,vloerbedekking van linoleum,gemini,same
 nl,marskramer,rondtrekkende venter,high,commercieel straatverkoper; ambulant handelaar,gemini,same
 nl,matsen,goochelen met bekers (?); kaartspel,low,bevoordelen; matsen,gemini,differ
-nl,mauwen,miauwen,high,,,
+nl,mauwen,miauwen,high,miauwen; zeuren,gemini,same
 nl,mavo,middelbaar algemeen voortgezet onderwijs (vroeger),high,,,
 nl,mbo,middelbaar beroepsonderwijs,high,middelbaar beroepsonderwijs,gemini,same
 nl,meewegen,mee in rekening brengen,medium,van invloed zijn; meewegen,gemini,same
 nl,memoreren,"in herinnering brengen, vermelden",high,herinneren aan; aanhalen,gemini,same
-nl,mentrix,vrouwelijke mentor,high,,,
+nl,mentrix,vrouwelijke mentor,high,vrouwelijke mentor,gemini,same
 nl,mesjokke,gek,high,gek; gestoord,gemini,same
 nl,metworst,droge worst van varkensvlees,high,gedroogde varkensworst,gemini,same
 nl,meuk,"rommel, spullen",high,rommel; troep,gemini,same
-nl,meuren,slapen; stinken,medium,,,
-nl,miepen,"zeuren, klagen",high,,,
+nl,meuren,slapen; stinken,medium,stinken,gemini,same
+nl,miepen,"zeuren, klagen",high,zeuren; miauwen,gemini,same
 nl,mieteren,"smijten, gooien",high,smijten; gooien,gemini,same
 nl,mihoen,dunne rijstnoedels,high,dünne Chinese mie,gemini,same
-nl,minkukel,"sukkel, onbenul",high,,,
+nl,minkukel,"sukkel, onbenul",high,sukkel; onbenul,gemini,same
 nl,misstand,wantoestand,medium,mislstand; ongewenste toestand,gemini,same
-nl,mitella,draagdoek voor een arm,high,,,
+nl,mitella,draagdoek voor een arm,high,middenstof; draagdoek,gemini,same
 nl,moerstaal,moedertaal,medium,moedertaal,gemini,same
-nl,moetje,gedwongen huwelijk (door zwangerschap),high,,,
-nl,moorkop,gebakje met chocolade en slagroom,high,,,
+nl,moetje,gedwongen huwelijk (door zwangerschap),high,moetje; verplichting,gemini,same
+nl,moorkop,gebakje met chocolade en slagroom,high,chocoladebol met slagroom,gemini,same
 nl,multomap,ringmap met veel ringen,high,ringband,gemini,same
 nl,nasibal,gefrituurde bal met nasi,high,gefrituurde snackbar-snack,gemini,same
 nl,nederwiet,in Nederland gekweekte wiet,high,,,
-nl,neppen,"oplichten, bedriegen",high,,,
+nl,neppen,"oplichten, bedriegen",high,bedriegen; belazeren,gemini,same
 nl,nepper,oplichter,high,oplichter; nepartikel,gemini,same
 nl,neuzelaar,"zeurkous, muggenzifter",medium,zeurpiet; zeurder,gemini,same
-nl,noga,nougat,high,,,
+nl,noga,nougat,high,noga,gemini,same
 nl,noren,noren (schaatsen),high,lange schaatsen,gemini,same
 nl,occasion,tweedehandsauto,high,tweedehands auto,gemini,same
 nl,omkukelen,omvallen,high,omvallen; omkieperen,gemini,same
-nl,onbalans,gebrek aan evenwicht,medium,,,
+nl,onbalans,gebrek aan evenwicht,medium,het niet in balans zijn,gemini,same
 nl,onderop,onderaan,medium,aan de onderzijde; onderaan,gemini,same
 nl,onthand,"zonder hulp(middel), gehandicapt door gemis",high,hulpeloos; ontredderd,gemini,same
-nl,opgaaf,opgave,high,,,
+nl,opgaaf,opgave,high,opgave; verzorgde opgave,gemini,same
 nl,oplazer,"klap, dreun",high,klap; opdonder,gemini,same
 nl,oplezen,voorlezen,high,hardop voordragen,gemini,same
-nl,opoe,oma,high,,,
+nl,opoe,oma,high,grootmoeder; oma,gemini,same
 nl,oprekking,"oprekking, verruiming (van regels)",medium,verruiming; verrekking,gemini,same
 nl,ordner,"ordner, map",medium,opbergmap; ringband,gemini,same
 nl,orthopeed,orthopedisch chirurg,medium,arts voor botten en gewrichten,gemini,same
@@ -890,15 +890,15 @@ nl,pielen,"prutsen, klooien",high,knoeien; prutsen,gemini,same
 nl,piepelen,"pesten, treiteren",high,foppen; pesten; benadelen,gemini,same
 nl,pies,"plas, urine",high,,,
 nl,piesbak,urinoir,high,pisbak; urinoir,gemini,same
-nl,piesen,plassen,high,,,
-nl,piespot,po,high,,,
-nl,pilotfase,proeffase,medium,,,
-nl,pilsener,pils,high,,,
+nl,piesen,plassen,high,plassen; meuren,gemini,same
+nl,piespot,po,high,nachtspiegel; pot,gemini,same
+nl,pilotfase,proeffase,medium,testfase; proeffase,gemini,same
+nl,pilsener,pils,high,blond ondergistend bier,gemini,same
 nl,pislink,woedend,high,woedend; zeer kwaad,gemini,same
-nl,plaggen,graszoden,high,,,
-nl,pleerol,wc-rol,high,,,
+nl,plaggen,graszoden,high,zoden steken,gemini,same
+nl,pleerol,wc-rol,high,toiletpapierrol,gemini,same
 nl,plofkip,"goedkope, snel vetgemeste kip",high,snelgroeikip,gemini,same
-nl,po,nachtpot,high,,,
+nl,po,nachtpot,high,nachtspiegel,gemini,same
 nl,poedelen,"plassen, plonzen (in water)",high,spattend zwemmen; knoeien,gemini,same
 nl,poepdoos,bangerik,high,wc; toilet,gemini,differ
 nl,poeperd,achterwerk,high,achterste; kont,gemini,same
@@ -914,11 +914,11 @@ nl,priegelig,klein en precies (werk),high,,,
 nl,prikkie,koopje,high,klein bedrag; koopje,gemini,same
 nl,propedeuse,eerste jaar van een hbo- of universitaire opleiding,high,eerste studiejaar in het hbo/wo,gemini,same
 nl,puinzooi,"rommel, chaos",high,rommel; chaos,gemini,same
-nl,punniken,draadjes breien met een klosje,high,,,
-nl,puzzelrit,autotocht met opdrachten,high,,,
+nl,punniken,draadjes breien met een klosje,high,draadknoppen maken,gemini,same
+nl,puzzelrit,autotocht met opdrachten,high,oriëntatierit,gemini,same
 nl,raggen,"hard rijden, tekeergaan",high,,,
 nl,ranja,siroop van sinaasappel,high,vruchtenlimonade,gemini,same
-nl,ratjetoe,allegaartje,high,,,
+nl,ratjetoe,allegaartje,high,menging; potpourri,gemini,same
 nl,recalcitrant,weerspannig,medium,weerspannig; opstandig,gemini,same
 nl,recalcitrantie,weerspannigheid,medium,weerspannigheid; opstandigheid,gemini,same
 nl,redenatie,redenering,high,redenering,gemini,same
@@ -930,38 +930,38 @@ nl,riedel,deuntje; reeks,high,vast riedeltje; verhaaltje,gemini,same
 nl,rompertje,babypakje,high,babypakje uit één stuk,gemini,same
 nl,rondbanjeren,"rondlopen, rondstappen",high,rondslenteren,gemini,same
 nl,rondte,"omgeving, rond",medium,cirkel; ronding,gemini,differ
-nl,roti,Surinaams gerecht (plat brood met curry),high,,,
+nl,roti,Surinaams gerecht (plat brood met curry),high,surinaams-hindoestaans gerecht,gemini,same
 nl,rouwdouwer,"ruwe speler, bruut",high,wildebras; doordrijver,gemini,same
-nl,royement,uitsluiting als lid,high,,,
+nl,royement,uitsluiting als lid,high,schrapping; opzegging,gemini,same
 nl,royering,uitsluiting als lid,high,schrapping als lid,gemini,same
 nl,ruften,scheten laten,high,scheten laten,gemini,same
 nl,rul,"los, niet vast (zand)",high,loskorrelig; ongebonden,gemini,same
-nl,rumboon,bonbon met rum,high,,,
-nl,ruste,ter ruste gaan: gaan slapen,medium,,,
+nl,rumboon,bonbon met rum,high,chocoladebonbon met rum,gemini,same
+nl,ruste,ter ruste gaan: gaan slapen,medium,rust,gemini,same
 nl,saamhorigheid,verbondenheid,medium,gevoel van verbondenheid,gemini,same
 nl,saampjes,"samen, met z'n tweeën",high,gezellig samen,gemini,same
 nl,salmiak,zoute drop,high,ammoniakzout; dropgrondstof,gemini,same
 nl,samsam,"samsam doen: delen, gelijk oversteken",high,samen delen; eerlijk delen,gemini,same
 nl,schillenboer,opkoper van etensresten (vroeger),high,ophaler van groenteafval,gemini,same
 nl,scholiere,leerlinge,high,vrouwelijk middelbaar scholier,gemini,same
-nl,schuifpui,glazen schuifdeur,high,,,
+nl,schuifpui,glazen schuifdeur,high,schuifdeur,gemini,same
 nl,scootmobiel,elektrisch voertuig voor mindervaliden,high,elektrisch gehandicaptenvoertuig,gemini,same
 nl,sealen,"sealen, verzegelen met folie",medium,dichtsmelten; vacuüm verpakken,gemini,same
 nl,shag,zware tabak om te rollen,high,fijngesneden tabak,gemini,same
-nl,shaggie,zelfgerolde sigaret,high,,,
+nl,shaggie,zelfgerolde sigaret,high,shagje; zware shag,gemini,same
 nl,shagje,zelfgerolde sigaret,high,zelfgedraaide sigaret,gemini,same
 nl,shawl,sjaal,medium,sjaal; omslagdoek,gemini,same
 nl,shovel,laadschop (bouwmachine),high,shovel; laadschop,gemini,same
 nl,sikkeneur,zeurpiet,high,kniesoor; zeurpiet,gemini,same
-nl,sikkeneurig,zeurderig,high,,,
+nl,sikkeneurig,zeurderig,high,slechtgehumeurd,gemini,same
 nl,sinas,sinaasappellimonade,high,sinaasappellimonade,gemini,same
 nl,sjans,belangstelling (van het andere geslacht),high,geluk,gemini,differ
 nl,sjansen,flirten,high,flirten,gemini,same
-nl,sjoel,synagoge; sjoelbak,medium,,,
+nl,sjoel,synagoge; sjoelbak,medium,sjoelbak; sjoelspel,gemini,same
 nl,skelter,kart,high,vierwielige speelgoedauto met pedalen,gemini,same
 nl,skelteren,karten,high,op een skelter rijden,gemini,same
 nl,skippybal,springbal,high,grote springbal met handvatten,gemini,same
-nl,slijmjurk,slijmbal,high,,,
+nl,slijmjurk,slijmbal,high,vleier; slijmerd,gemini,same
 nl,slijptol,haakse slijper,high,haakse slijper,gemini,same
 nl,sliptong,kleine tong (vis),high,kleine zeetong,gemini,same
 nl,smeerkees,viezerik,high,vuilak; smeerpoets,gemini,same
@@ -971,7 +971,7 @@ nl,snijkoek,ontbijtkoek (voor snijden),medium,snijkoek; ontbijtkoek,gemini,same
 nl,snikkel,penis (plat),medium,penis,gemini,same
 nl,snotlap,zakdoek,high,zakdoek,gemini,same
 nl,snufferd,"neus, gezicht",high,neus; gezicht,gemini,same
-nl,sodeju,verdorie,high,,,
+nl,sodeju,verdorie,high,uitroep van verbazing,gemini,same
 nl,soebatten,smeken,high,dringend smeken; bedelen,gemini,same
 nl,somberen,"somber zijn, piekeren",high,somber zijn; piekeren,gemini,same
 nl,soos,"sociëteit, clubhuis",high,sociëteit,gemini,same
@@ -984,19 +984,19 @@ nl,spuitpoep,diarree,high,diarree,gemini,same
 nl,staalpil,ijzerpil,high,ijzertablet,gemini,same
 nl,stampij,"herrie, ophef",high,drukte; herrie,gemini,same
 nl,stavast,stavast (vasthoudend)?,low,houvast; standvastig persoon,gemini,differ
-nl,steggelen,kibbelen,high,,,
+nl,steggelen,kibbelen,high,kijven; ruziën,gemini,same
 nl,stempas,stempas (oproep om te stemmen),high,kaart om te stemmen,gemini,same
-nl,stennis,"herrie, ophef",high,,,
+nl,stennis,"herrie, ophef",high,ophef; kabaal,gemini,same
 nl,stumper,stakker,high,zielig persoon; sukkel,gemini,same
 nl,sudderlap,runderlap om te sudderen,high,stoofvlees,gemini,same
 nl,sukade,gekonfijte schil van citrusvruchten,high,geconfijte schil van elektroenvrucht,gemini,same
 nl,taaitaai,koek met anijs (Sinterklaas),high,taaie Sinterklaaskoek,gemini,same
-nl,tabee,"dag, doei",high,,,
-nl,tapperij,kroeg,high,,,
-nl,tappunt,geldautomaat,medium,,,
+nl,tabee,"dag, doei",high,tot ziens,gemini,same
+nl,tapperij,kroeg,high,café; tapperij,gemini,same
+nl,tappunt,geldautomaat,medium,tappunt; schenkpunt,gemini,differ
 nl,taugé,sojascheuten,high,,,
 nl,taveerne,"kroeg, herberg",medium,herberg,gemini,same
-nl,taxateur,schatter (van waarde),high,,,
+nl,taxateur,schatter (van waarde),high,schatter; beoordelaar,gemini,same
 nl,tbs,terbeschikkingstelling (strafmaatregel),high,terbeschikkingstelling,gemini,same
 nl,terp,verhoging voor huis (tegen overstroming),high,kunstmatige woonheuvel,gemini,same
 nl,thee-ei,theezeefje (bol),high,eivormig theezeefje,gemini,same
@@ -1005,32 +1005,32 @@ nl,tijgeren,voortkruipen op ellebogen,high,,,
 nl,tjaptjoi,groentegerecht (Chinees-Indisch),high,tjap tjoy; Chinees groentegerecht,gemini,same
 nl,toepen,kaartspel (toepen),high,,,
 nl,toerbeurt,beurtrol,high,beurtvolgorde,gemini,same
-nl,toerusten,"uitrusten, voorbereiden",medium,,,
+nl,toerusten,"uitrusten, voorbereiden",medium,uitrusten; voorzien,gemini,same
 nl,toko,Indonesische/Aziatische winkel,high,oosterse winkel; zaak,gemini,same
 nl,topzwaar,bovenmatig zwaar van boven; fig.: te veel leiding,high,bovenin te zwaar,gemini,same
-nl,tranentrekker,sentimentele film,high,,,
+nl,tranentrekker,sentimentele film,high,snikkelap; smartlap,gemini,same
 nl,traproede,staaf om traploper vast te houden,high,,,
 nl,trapveld,voetbalveldje,high,klein voetbalveldje,gemini,same
 nl,trekzalf,zalf die ontstekingen uittrekt,high,zalf die ontstekingen uittrekt,gemini,same
-nl,trimbaan,fitnessparcours in het bos,high,,,
+nl,trimbaan,fitnessparcours in het bos,high,parcours voor conditietraining,gemini,same
 nl,trimloop,recreatieve hardloopwedstrijd,high,recreatieve hardloopwedstrijd,gemini,same
 nl,tuinderij,groentekwekerij,high,groenteteeltbedrijf,gemini,same
 nl,tukker,Twentenaar,high,inwoner van Twente,gemini,same
-nl,tussenuur,tussenuur,high,,,
+nl,tussenuur,tussenuur,high,vrij uur op school,gemini,same
 nl,tweepits,tweepitskookplaat,medium,kooktoestel met twee pitten,gemini,same
 nl,twintigje,briefje van twintig,high,bankbiljet van twintig euro,gemini,same
 nl,uiterwaard,uiterwaard (land tussen dijk en rivier),high,buitendijks land langs rivier,gemini,same
-nl,uithof,universiteitscampus (Utrecht),high,,,
-nl,uitventen,"uitventen, rondbrengen",medium,,,
+nl,uithof,universiteitscampus (Utrecht),high,buitenplaats; universiteitscampus,gemini,same
+nl,uitventen,"uitventen, rondbrengen",medium,uitverkoopen; verkopen op straat,gemini,same
 nl,uitwonen,verwaarlozen van een woning,high,verwaarlozen door intensief gebruik,gemini,same
 nl,uppie,in je uppie: alleen,high,,,
 nl,ventweg,parallelweg,high,parallelweg,gemini,same
-nl,veralgemeniseren,veralgemenen,high,,,
+nl,veralgemeniseren,veralgemenen,high,generaliseren,gemini,same
 nl,verbruid,verknoeid,high,verpest; verbroid,gemini,same
 nl,verbruien,verknoeien,high,bederven; verprutsen,gemini,same
 nl,verdikkie,verdorie,high,uitroep van spijt of verdriet,gemini,same
 nl,verharen,verharen (haar verliezen),high,haar verliezen,gemini,same
-nl,verliggen,anders gaan liggen,high,,,
+nl,verliggen,anders gaan liggen,high,pijn krijgen door verkeerd liggen,gemini,differ
 nl,vermissen,missen,high,ontberen; missen,gemini,same
 nl,vermissing,het vermist zijn,medium,,,
 nl,vernachelen,"beetnemen, bedriegen",high,bedriegen; verprutsen,gemini,same
@@ -1040,7 +1040,7 @@ nl,vertillen,zich vertillen: zich verrekken bij tillen,high,te zwaar tillen,gemi
 nl,verwassen,door wassen verkleurd,high,door wassen verkleurd of vervormd,gemini,same
 nl,viezig,een beetje vies,high,enigszins vies,gemini,same
 nl,visafslag,vismijn,high,vismarkt,gemini,same
-nl,visakte,visvergunning,high,,,
+nl,visakte,visvergunning,high,visvergunning,gemini,same
 nl,vlaflip,toetje van vla en yoghurt met siroop,high,toetje met vla en yoghurt,gemini,same
 nl,vlonder,houten plankier,high,houten steiger; plankier,gemini,same
 nl,vmbo,voorbereidend middelbaar beroepsonderwijs,high,voorbereidend middelbaar beroepsonderwijs,gemini,same
@@ -1048,23 +1048,23 @@ nl,voorpui,voorgevel,high,voorgevel,gemini,same
 nl,vuilstort,stortplaats,medium,stortplaats voor afval,gemini,same
 nl,vurenhout,vurenhout (sparrenhout),high,,,
 nl,vut,vervroegde uittreding,high,vervroegde uittreding,gemini,same
-nl,vwo,voorbereidend wetenschappelijk onderwijs,high,,,
+nl,vwo,voorbereidend wetenschappelijk onderwijs,high,voorbereidend wetenschappelijk onderwijs,gemini,same
 nl,vwo'er,leerling van het vwo,high,vwo-leerling,gemini,same
 nl,waaks,waakzaam,high,alert; waakzaam,gemini,same
-nl,wadlopen,bij eb over het wad lopen,high,,,
+nl,wadlopen,bij eb over het wad lopen,high,lopen over droogvallend wad,gemini,same
 nl,wadloper,iemand die wadloopt,high,iemand die wadloopt,gemini,same
 nl,warenwet,wet op voedsel- en productveiligheid,high,wet inzake levensmiddelen,gemini,same
 nl,waspeen,worteltjes,high,jonge gewassen wortel,gemini,same
 nl,wassenaar,Wassenaar (rijke villagemeente bij Den Haag),high,wassen maan; sikkeltje,gemini,differ
 nl,watervlug,heel snel,high,zeer snel,gemini,same
 nl,waxine,waxinelichtje,high,theelichtje; paraffine,gemini,same
-nl,weckpot,glazen inmaakpot,high,,,
+nl,weckpot,glazen inmaakpot,high,inmaakglas,gemini,same
 nl,werkeloos,werkloos,high,werkloos; zonder arbeid,gemini,same
 nl,werkeloze,werkloze,high,werkloze,gemini,same
-nl,wetering,"waterloop, sloot",high,,,
+nl,wetering,"waterloop, sloot",high,wetering; brede sloot,gemini,same
 nl,wieberen,"opkrassen, weggaan",high,weggaan,gemini,same
 nl,wietteler,wietkweker,high,iemand die wiet teelt,gemini,same
-nl,wildbraad,wildvlees,medium,,,
+nl,wildbraad,wildvlees,medium,wildbraad; wildvlees,gemini,same
 nl,winkelpui,winkelgevel,high,winkelgevel,gemini,same
 nl,wipkip,wipdier op een speelplaats,high,veertoestel op speelplaats,gemini,same
 nl,wipwap,wip (speeltuig),high,wip,gemini,same
@@ -1077,6 +1077,6 @@ nl,zalmsnip,,unknown,fictief geldstramien; biljet,gemini,differ
 nl,zeiksnor,zeur,high,zeurpiet; vervelend mens,gemini,same
 nl,zieligjes,een beetje zielig,high,,,
 nl,zitvlees,geduld om te blijven zitten,high,uithoudingsvermogen om lang te zitten,gemini,same
-nl,zwaktebod,zwakke zet,high,,,
+nl,zwaktebod,zwakke zet,high,blijk van onvermogen,gemini,same
 nl,zwalken,"dolen, zwerven",high,stuurloos ronddolen,gemini,same
 nl,zwalker,zwerver,medium,zwerver,gemini,same
