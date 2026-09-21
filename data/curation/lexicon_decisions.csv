@@ -629,11 +629,11 @@ nl,boktor,keep,,kever met lange sprieten,claude-opus-5 (accepted by author),,aut
 nl,bolus,keep,,zoet broodje met stroop; ook: drol,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:28+00:00
 nl,bonje,keep,,ruzie,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bonnefooi,keep,standard,op de bonnefooi: op goed geluk,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:21+00:00
-nl,boortol,keep,,boormachine,gemini (chosen by author),,author,2026-09-21T17:55:48+00:00
+nl,boortol,keep,,(hand)boormachine,nl_reviewer,,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,borgpen,keep,,"borgpen, splitpen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bospeen,keep,,worteltjes met loof,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bosui,keep,,lente-ui,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,botte,keep,,lomperik; lomp persoon,gemini (chosen by author),,author,2026-09-21T17:55:48+00:00
+nl,botte,reject_not_specific,,lomperik; lomp persoon,gemini (chosen by author),"nl_reviewer: vorm van 'bot' (niet scherp) of verouderd 'bos, bundel'; niet NL-specifiek",nl_reviewer,2026-09-21T18:06:41+00:00
 nl,botter,keep,,platbodem vissersboot,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bozig,keep,,een beetje boos,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,brallen,keep,standard,"opscheppen, luid pochen",claude-opus-5 (accepted by author),,author,2026-09-21T17:37:44+00:00
@@ -644,7 +644,7 @@ nl,brink,keep,,dorpsplein,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bromtol,keep,,brommende draaitol,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,buks,keep,,geweer (luchtbuks),claude-opus-5 (accepted by author),,author,2026-09-21T17:38:59+00:00
 nl,bul,keep,,universitair diploma,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,bulletje,keep,standard,kleine stier; mannetje,gemini (chosen by author),,author,2026-09-21T17:55:49+00:00
+nl,bulletje,reject_obsolete,standard,kleine stier; mannetje,gemini (chosen by author),nl_reviewer: te oud/verouderd,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,bètavak,keep,,"exact vak (wiskunde, natuurwetenschap)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,cassave,keep,,maniok,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,chantabel,keep,,vatbaar voor chantage,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -776,8 +776,8 @@ nl,jodenkoek,keep,,"grote, ronde, dunne koek",claude-opus-5,,bulk,2026-09-21T17:
 nl,jofel,keep,,"leuk, tof",claude-opus-5 (accepted by author),,author,2026-09-21T17:39:03+00:00
 nl,joh,keep,,joh (aanspreekwoord),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,jonassen,keep,,iemand bij armen en benen heen en weer zwaaien,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,jottem,keep,,uitroep van vreugde,gemini (chosen by author),,author,2026-09-21T17:55:50+00:00
-nl,jottum,keep,,uitroep van vreugde,gemini (chosen by author),,author,2026-09-21T17:55:50+00:00
+nl,jottem,keep,,"enthousiaste uitroep: joepie, hoera, yes",nl_reviewer,,nl_reviewer,2026-09-21T18:06:41+00:00
+nl,jottum,keep,,"enthousiaste uitroep (oudere vorm van jottem): joepie, hoera, yes",nl_reviewer,,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,juut,keep,,politie (straattaal),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,kaalslag,keep,,"volledige kap, verdwijning van alles",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,kachelen,keep,,hard rijden,claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
@@ -832,7 +832,7 @@ nl,likmevestje,keep,,van likmevestje: prutswerk,claude-opus-5,,bulk,2026-09-21T1
 nl,lobbes,keep,standard,goedzak,claude-opus-5 (accepted by author),,author,2026-09-21T17:37:40+00:00
 nl,lombok,keep,,rode peper,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,lubberen,keep,,"slobberen, wijd zitten (kleding)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,makken,keep,,gebreken; moeilijkheden,gemini (chosen by author),,author,2026-09-21T17:55:50+00:00
+nl,makken,reject_obsolete,,gebreken; moeilijkheden,gemini (chosen by author),nl_reviewer: te oud/verouderd,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,malieveld,keep,,grasveld in Den Haag (demonstratieplek),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,mamma,keep,,mama,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,manco,keep,,"tekortkoming, gebrek",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -929,7 +929,7 @@ nl,riblap,keep,,runderlap van de ribben,claude-opus-5,,bulk,2026-09-21T17:42:37+
 nl,riedel,keep,,deuntje; reeks,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,rompertje,keep,,babypakje,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,rondbanjeren,keep,,"rondlopen, rondstappen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,rondte,keep,,cirkel; ronding,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
+nl,rondte,keep,,ronde vorm; omtrek van iets,nl_reviewer,,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,roti,keep,,Surinaams gerecht (plat brood met curry),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,rouwdouwer,keep,,"ruwe speler, bruut",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,royement,keep,,uitsluiting als lid,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -983,7 +983,7 @@ nl,sprits,keep,standard,zandkoekje,claude-opus-5 (accepted by author),,author,20
 nl,spuitpoep,keep,,diarree,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,staalpil,keep,standard,ijzerpil,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:54+00:00
 nl,stampij,keep,,"herrie, ophef",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,stavast,keep,,houvast; standvastig persoon,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
+nl,stavast,keep,,"onverzettelijk, flink en betrouwbaar (persoon)",nl_reviewer,,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,steggelen,keep,,kibbelen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,stempas,keep,,stempas (oproep om te stemmen),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,stennis,keep,,"herrie, ophef",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -993,7 +993,7 @@ nl,sukade,keep,,gekonfijte schil van citrusvruchten,claude-opus-5 (accepted by a
 nl,taaitaai,keep,,koek met anijs (Sinterklaas),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,tabee,keep,,"dag, doei",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,tapperij,keep,,kroeg,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,tappunt,keep,,tappunt; schenkpunt,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
+nl,tappunt,keep,,plek waar je water of bier uit een leiding tapt,nl_reviewer,,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,taugé,keep,,sojascheuten,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,taveerne,keep,,"kroeg, herberg",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,taxateur,keep,,schatter (van waarde),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -1030,7 +1030,7 @@ nl,verbruid,keep,,verknoeid,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,verbruien,keep,,verknoeien,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,verdikkie,keep,,verdorie,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,verharen,keep,standard,verharen (haar verliezen),claude-opus-5 (accepted by author),,author,2026-09-21T17:35:41+00:00
-nl,verliggen,keep,,pijn krijgen door verkeerd liggen,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
+nl,verliggen,keep,,even anders gaan liggen; bederven door te lang te liggen,nl_reviewer,,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,vermissen,keep,,missen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,vermissing,keep,,het vermist zijn,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,vernachelen,keep,,"beetnemen, bedriegen",claude-opus-5 (accepted by author),,author,2026-09-21T17:38:36+00:00
@@ -1073,7 +1073,7 @@ nl,woei,keep,,verleden tijd van waaien,claude-opus-5,,bulk,2026-09-21T17:42:37+0
 nl,wokkel,keep,,zoutje (chips in spiraalvorm),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,wybertje,keep,,"keelpastille (zwart, zoet)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,yuppen,keep,,zich als yup gedragen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,zalmsnip,keep,,fictief geldstramien; biljet,gemini (chosen by author),,author,2026-09-21T17:55:54+00:00
+nl,zalmsnip,reject_obsolete,,fictief geldstramien; biljet,gemini (chosen by author),nl_reviewer: te oud/verouderd,nl_reviewer,2026-09-21T18:06:41+00:00
 nl,zeiksnor,keep,standard,zeur,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:46+00:00
 nl,zieligjes,keep,,een beetje zielig,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,zitvlees,keep,,geduld om te blijven zitten,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
