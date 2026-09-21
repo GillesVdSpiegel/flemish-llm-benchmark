@@ -208,8 +208,18 @@ members of a pair** and balanced across pairs, so position bias cannot create a 
 - One system message and one instruction wrapper per format, in **neutral Standard Dutch**,
   identical for BE and NL items and across models.
 - Zero-shot. No chain-of-thought requested. Answer format stated explicitly.
-- Temperature 0 where supported. Reasoning models: lowest available effort
-  (`none`/`minimal`), recorded; a reasoning-on run is an optional exploratory contrast.
+- Lowest reasoning and sampling variance each API allows. This is **not uniform across
+  providers**, and the write-up says so (checked 2026-09-21; settings in `config/models.yaml`):
+
+  | Model | Temperature | Reasoning |
+  |---|---|---|
+  | claude-sonnet-5 | not supported by the API | thinking disabled |
+  | gpt-5.6-terra | not set | effort `none` |
+  | gemini-3.8-flash | 0 | `MINIMAL` (cannot be fully disabled) |
+  | local (Ollama) | 0, fixed seed | none |
+
+  Reasoning tokens are logged per call, so any residual reasoning is visible in the data.
+  A reasoning-on run is an optional exploratory contrast.
 - Recorded per call: exact model ID, provider, parameters, date, request hash, raw response,
   usage, cost. Cache key = hash(model ID, parameters, full prompt). Re-scoring never
   re-queries.
@@ -271,6 +281,9 @@ institution*, *format failure*). Codebook fixed after the pilot.
 - **Contamination.** 20 % held out (whole pairs, stratified by category), stored only in the
   private `flemish-llm-benchmark-heldout` repo. All models are evaluated on it; it is never
   published. Public-vs-held-out score difference is reported.
+- **Gold on the NL side.** The principal author is Flemish, so golds for Netherlands-specific
+  words and Dutch institutions are verified by a Netherlands-Dutch speaker, the mirror image of
+  the second reviewer. Curation code `u` routes words the author does not know to that person.
 - **Author bias.** A single Antwerp-based author may skew tussentaal towards Brabantic. The
   second reviewer ideally comes from another province; `register` and the region of each
   marker are recorded where relevant.
