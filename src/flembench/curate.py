@@ -119,6 +119,36 @@ class Session:
         return out
 
 
+BULK = "bulk"
+
+
+def bulk_keep(
+    decided: dict[tuple[str, str], dict],
+    candidates: list[Candidate],
+    drafts: dict[tuple[str, str], dict],
+) -> tuple[dict[tuple[str, str], dict], int]:
+    """Keep every undecided candidate with its draft gloss. decided_by=bulk records that the
+    decision was a blanket keep rather than a per-word author check; nothing else differs.
+    Author decisions are never touched."""
+    from flembench.glosses import draft_for
+
+    out = dict(decided)
+    now = datetime.now(UTC).isoformat(timespec="seconds")
+    added = 0
+    for c in candidates:
+        key = (c.variety, c.word)
+        if key in out and out[key]["decision"] != REOPENED:
+            continue
+        gloss, src = draft_for(drafts.get(key))
+        out[key] = {
+            "variety": c.variety, "word": c.word, "decision": "keep", "register": "",
+            "gloss": gloss, "gloss_source": src, "note": "", "decided_by": BULK,
+            "decided_at": now,
+        }  # fmt: skip
+        added += 1
+    return out, added
+
+
 def reopen(decided: dict[tuple[str, str], dict], variety: str, word: str, note: str = "") -> dict:
     """Mark a decided word as pending again, as an author decision."""
     key = (variety, word)

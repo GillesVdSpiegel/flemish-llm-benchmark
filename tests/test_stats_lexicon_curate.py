@@ -140,3 +140,19 @@ def test_prefilter_does_not_reroute_reopened_word(tmp_path, monkeypatch):
     assert routed[("nl", "pfeiffer")]["decision"] == "move_to_b1"  # control: it would route
     after, _ = prefilter.apply(curate.reopen(routed, "nl", "pfeiffer"), root=tmp_path)
     assert after[("nl", "pfeiffer")]["decision"] == curate.REOPENED
+
+
+def test_bulk_keep_records_source_and_never_touches_author():
+    cands = [curate.Candidate("be", "a"), curate.Candidate("be", "b"), curate.Candidate("nl", "c")]
+    author = {("be", "a"): {"variety": "be", "word": "a", "decision": "reject_obsolete",
+                            "decided_by": "author"}}  # fmt: skip
+    drafts = {
+        ("be", "b"): {"claude_gloss": "x", "agreement": "differ"},
+        ("nl", "c"): {"claude_gloss": "", "gemini_gloss": "?"},
+    }
+    out, added = curate.bulk_keep(author, cands, drafts)
+    assert added == 2 and out[("be", "a")]["decision"] == "reject_obsolete"
+    b = out[("be", "b")]
+    assert b["decision"] == "keep" and b["decided_by"] == curate.BULK
+    assert b["gloss_source"] == "claude-opus-5" and b["note"] == ""
+    assert out[("nl", "c")]["gloss"] == ""
