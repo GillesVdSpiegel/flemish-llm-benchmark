@@ -29,4 +29,11 @@ class ModelSpec(BaseModel):
 
 def load_registry(path: Path = CONFIG_DIR / "models.yaml") -> dict[str, ModelSpec]:
     doc = yaml.safe_load(path.read_text(encoding="utf-8"))
-    return {k: ModelSpec(key=k, **v) for k, v in doc["models"].items()}
+    specs = {k: ModelSpec(key=k, **v) for k, v in doc["models"].items()}
+    for s in specs.values():
+        if "chat_template" in s.params:
+            from flembench.adapters.ollama_adapter import template_sha256
+
+            # Part of the cache key: editing a template invalidates cached responses.
+            s.params["chat_template_sha256"] = template_sha256(s.params["chat_template"])
+    return specs
