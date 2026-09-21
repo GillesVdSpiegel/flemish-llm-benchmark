@@ -16,7 +16,10 @@ from pathlib import Path
 from flembench.paths import CURATION_DIR
 
 DECISIONS_FILE = CURATION_DIR / "lexicon_decisions.csv"
-FIELDS = ["variety", "word", "decision", "register", "gloss", "note", "decided_by", "decided_at"]
+FIELDS = [
+    "variety", "word", "decision", "register", "gloss", "gloss_source", "note", "decided_by",
+    "decided_at",
+]  # fmt: skip
 
 DECISIONS = {
     "k": ("keep", "keep — opaque, current, variety-specific"),
@@ -68,7 +71,14 @@ class Session:
     def current(self) -> Candidate | None:
         return self.queue[0] if self.queue else None
 
-    def decide(self, code: str, register: str = "", gloss: str = "", note: str = "") -> dict:
+    def decide(
+        self,
+        code: str,
+        register: str = "",
+        gloss: str = "",
+        note: str = "",
+        gloss_source: str = "",
+    ) -> dict:
         c = self.queue.pop(0)
         row = {
             "variety": c.variety,
@@ -76,6 +86,7 @@ class Session:
             "decision": DECISIONS[code][0],
             "register": register,
             "gloss": gloss,
+            "gloss_source": gloss_source if gloss else "",
             "note": note,
             "decided_by": "author",
             "decided_at": datetime.now(UTC).isoformat(timespec="seconds"),

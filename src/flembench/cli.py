@@ -97,6 +97,11 @@ def lex_curate(seed: int = 0) -> None:
     cands = [
         curate.Candidate(r.variety, r.spelling, r.inflection_of or None) for r in df.itertuples()
     ]
+    from rich.markup import escape
+
+    from flembench import glosses as gl
+
+    drafts = gl.load()
     by_key = {(c.variety, c.word): c for c in cands}
     s = curate.Session.create(cands, curate.load_decisions(), seed=seed)
     help_line = "  ".join(f"[bold]{k}[/] {v[0]}" for k, v in curate.DECISIONS.items())
@@ -118,6 +123,16 @@ def lex_curate(seed: int = 0) -> None:
         console.print(f"  {label}\n\n     [bold white]{c.word}[/]\n")
         if c.inflection_of:
             console.print(f"  [yellow]possible inflection of '{c.inflection_of}'[/]\n")
+        row = drafts.get((c.variety, c.word))
+        if row:
+            conf = row["claude_confidence"]
+            claude = escape(row["claude_gloss"]) or "[dim]?[/]"
+            console.print(f"  [dim]Claude[/]  {claude}  [dim]({conf})[/]")
+            if row.get("gemini_gloss"):
+                console.print(f"  [dim]Gemini[/]  {escape(row['gemini_gloss'])}")
+            if row.get("agreement") == "differ":
+                console.print("  [yellow]drafts differ: check the meaning[/]")
+            console.print()
         console.print(help_line)
         key = readchar.readkey().lower()
         if key == "q":
@@ -131,17 +146,23 @@ def lex_curate(seed: int = 0) -> None:
             continue
         if key not in curate.DECISIONS:
             continue
-        register = gloss = note = ""
+        register = gloss = note = source = ""
         if key == "k":
             console.print(
                 "\n  register: [bold]s[/] standard  [bold]t[/] tussentaal  [bold]d[/] dialect"
             )
             rk = readchar.readkey().lower()
             register = curate.REGISTERS.get(rk, "")
-            gloss = console.input("  meaning (gloss, Enter to skip): ").strip()
+            draft, draft_src = gl.draft_for(row)
+            hint = f"Enter = accept '{escape(draft)}'" if draft else "Enter to skip"
+            typed = console.input(f"  meaning ({hint}, or type your own): ").strip()
+            if typed:
+                gloss, source = typed, "author"
+            elif draft:
+                gloss, source = draft, f"{draft_src} (accepted by author)"
         elif key == "u":
             note = console.input("  note (optional): ").strip()
-        s.decide(key, register=register, gloss=gloss, note=note)
+        s.decide(key, register=register, gloss=gloss, note=note, gloss_source=source)
         curate.save_decisions(s.decided)
 
     console.print(f"\nsaved to {curate.DECISIONS_FILE.relative_to(ITEMS_DIR.parent)}")
@@ -186,6 +207,36 @@ def lex_prefilter_import(seed: int = 0) -> None:
 
     decided, stats = prefilter.apply(curate.load_decisions(), seed=seed)
     curate.save_decisions(decided)
+    for p in stats.pop("problems"):
+        console.print(f"[yellow]![/] {p}")
+    console.print_json(data=stats)
+
+
+def _word_ids() -> dict[str, tuple[str, str]]:
+    from flembench import prefilter
+
+    return {i: (w.variety, w.word) for i, w in prefilter.load_words().items()}
+
+
+@lex.command("gloss-export")
+def lex_gloss_export(batch_size: int = 200) -> None:
+    """Write the gloss prompt and batches for a second, independent model (e.g. Gemini)."""
+    from flembench import glosses as gl
+
+    ids = _word_ids()
+    paths = gl.export([(i, v, w) for i, (v, w) in ids.items()], batch_size)
+    rel = gl.PROMPT_DIR.relative_to(ITEMS_DIR.parent).as_posix()
+    console.print(f"{len(ids)} words in {len(paths)} batches → {rel}/batches/")
+    console.print(f"prompt: {rel}/PROMPT.md · save outputs as {rel}/results/<model>__NN.txt")
+
+
+@lex.command("gloss-import")
+def lex_gloss_import() -> None:
+    """Read the second model's glosses into data/curation/glosses.csv."""
+    from flembench import glosses as gl
+
+    merged, stats = gl.import_results(gl.load(), _word_ids())
+    gl.save(merged)
     for p in stats.pop("problems"):
         console.print(f"[yellow]![/] {p}")
     console.print_json(data=stats)
