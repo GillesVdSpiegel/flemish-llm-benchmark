@@ -204,6 +204,27 @@ def lex_b1_pool() -> None:
     console.print(f"{len(rows)} words in the B1 pool")
 
 
+@lex.command("reopen")
+def lex_reopen(
+    word: str,
+    variety: str = typer.Option(None, help="be or nl; needed only if the word is in both lists"),
+    note: str = "",
+) -> None:
+    """Put a word back in your curation queue (e.g. an eponym like 'pfeiffer' routed to B1)."""
+    from flembench import curate
+
+    c = pd.read_csv(lexicon.CANDIDATES, keep_default_na=False)
+    varieties = sorted(set(c[c.spelling == word].variety))
+    if variety:
+        varieties = [v for v in varieties if v == variety]
+    if len(varieties) != 1:
+        console.print(f"[red]'{word}' matches varieties {varieties}; use --variety be|nl[/]")
+        raise typer.Exit(1)
+    decided = curate.reopen(curate.load_decisions(), varieties[0], word, note)
+    curate.save_decisions(decided)
+    console.print(f"reopened {varieties[0]}:{word}: it is back in `lexicon curate`")
+
+
 @lex.command("prefilter-report")
 def lex_prefilter_report() -> None:
     """Prefilter vs author agreement on the blind audit sample."""

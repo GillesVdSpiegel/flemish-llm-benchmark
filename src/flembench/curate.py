@@ -29,6 +29,9 @@ DECISIONS = {
     "u": ("needs_other_variety_speaker", "I don't know it — send to a speaker of that variety"),
 }
 REGISTERS = {"s": "standard", "t": "tussentaal", "d": "dialect"}
+# An author decision meaning "put this word back in my queue". Because it is an author
+# decision, a later prefilter import cannot route the word again.
+REOPENED = "reopened"
 
 
 @dataclass
@@ -53,7 +56,12 @@ class Session:
         for lst in by_v.values():
             rng.shuffle(lst)
         interleaved = [c for pair in _zip_longest(by_v["be"], by_v["nl"]) for c in pair if c]
-        queue = [c for c in interleaved if (c.variety, c.word) not in decided]
+        queue = [
+            c
+            for c in interleaved
+            if (c.variety, c.word) not in decided
+            or decided[(c.variety, c.word)]["decision"] == REOPENED
+        ]
         return cls(queue=queue, decided=dict(decided))
 
     @property
@@ -72,18 +80,23 @@ class Session:
             "decided_by": "author",
             "decided_at": datetime.now(UTC).isoformat(timespec="seconds"),
         }
-        self.decided[(c.variety, c.word)] = row
-        self.history.append((c.variety, c.word))
+        key = (c.variety, c.word)
+        self.history.append((key, self.decided.get(key)))
+        self.decided[key] = row
         return row
 
     def skip(self) -> None:
         self.queue.append(self.queue.pop(0))
 
     def undo(self, candidates_by_key: dict[tuple[str, str], Candidate]) -> tuple[str, str] | None:
+        """Restore the state before the last decision (e.g. a 'reopened' marker)."""
         if not self.history:
             return None
-        key = self.history.pop()
-        del self.decided[key]
+        key, previous = self.history.pop()
+        if previous is None:
+            del self.decided[key]
+        else:
+            self.decided[key] = previous
         self.queue.insert(0, candidates_by_key[key])
         return key
 
@@ -93,6 +106,19 @@ class Session:
             k = f"{row['variety']}:{row['decision']}"
             out[k] = out.get(k, 0) + 1
         return out
+
+
+def reopen(decided: dict[tuple[str, str], dict], variety: str, word: str, note: str = "") -> dict:
+    """Mark a decided word as pending again, as an author decision."""
+    key = (variety, word)
+    previous = decided.get(key)
+    was = f"was {previous['decision']} ({previous.get('decided_by', '')})" if previous else ""
+    row = {
+        "variety": variety, "word": word, "decision": REOPENED, "register": "", "gloss": "",
+        "note": "; ".join(x for x in (note, was) if x), "decided_by": "author",
+        "decided_at": datetime.now(UTC).isoformat(timespec="seconds"),
+    }  # fmt: skip
+    return {**decided, key: row}
 
 
 def _zip_longest(a: list, b: list):
