@@ -1,0 +1,39 @@
+# A1 — lexicon in context, mirrored pair. Copy to items/A1/<pair_id>.yaml.
+# Files and folders starting with "_" are ignored by the compiler.
+pair_id: a1-0001
+category: A1
+subcategory: A1a              # A1a = prevalence-matched, A1b = meaning shift
+format: mc
+match_basis: dcp_prevalence   # A1b: author_judgement
+lexical_source: DCP norms     # A1b: e.g. "Woordenlijst (BE)" / "Van Dale"
+author: gilles
+provenance: human_written     # or llm_drafted_human_verified (+ drafted_by: <model id>)
+split: public
+be:
+  marker: <Belgisch woord>
+  register: standard          # standard | tussentaal | dialect
+  difficulty: 2               # 1-5, your rating
+  # The context must NOT give away the meaning.
+  prompt: |
+    <Zin in Belgisch-Nederlands met het woord.>
+
+    Wat betekent "<woord>" in deze zin?
+  choices:                    # CORRECT ANSWER FIRST. Order is shuffled at compile time.
+    - <juiste betekenis>
+    - <afleider>
+    - <afleider>
+    - <afleider>
+nl:
+  marker: <Nederlands woord>
+  register: standard
+  difficulty: 2
+  prompt: |
+    <Zin in Nederlands-Nederlands met het woord.>
+
+    Wat betekent "<woord>" in deze zin?
+  choices:
+    - <juiste betekenis>
+    - <afleider>
+    - <afleider>
+    - <afleider>
+notes: ""

@@ -1,0 +1,50 @@
+# Model registry. `params` are passed verbatim to the provider (see src/flembench/adapters).
+# Output-token limits are set per item format by the runner, not here.
+# Prices: USD per million tokens, checked 2026-09-21 on the provider pricing pages.
+# `reasoning` documents the actual reasoning condition, because "temperature 0, no reasoning"
+# is not uniformly available: Claude Sonnet 5 rejects temperature; Gemini 3.8 Flash cannot
+# fully disable thinking.
+
+models:
+  claude-sonnet-5:
+    provider: anthropic
+    model_id: claude-sonnet-5
+    params: {thinking: {type: disabled}}
+    reasoning: disabled; temperature not supported by the API
+    price: {input: 2.00, output: 10.00}
+
+  gpt-5.6-terra:
+    provider: openai
+    model_id: gpt-5.6-terra
+    params: {reasoning: {effort: none}}
+    reasoning: effort none
+    price: {input: 2.00, output: 12.00}
+
+  gemini-3.8-flash:
+    provider: gemini
+    model_id: gemini-3.8-flash
+    params: {temperature: 0, thinking_level: MINIMAL}
+    reasoning: minimal (cannot be disabled)
+    price: {input: 0.75, output: 3.75}  # introductory price until 2026-12-31
+
+  # Local models (Ollama on RTX 5070, 12 GB). model_id = Ollama tag; fixed in the pilot setup.
+  eurollm-9b:
+    provider: ollama
+    model_id: TODO-eurollm-9b-instruct-q8
+    params: {temperature: 0, seed: 0}
+    reasoning: none
+    price: {input: 0, output: 0}
+
+  geitje-7b-ultra:
+    provider: ollama
+    model_id: TODO-geitje-7b-ultra-q8
+    params: {temperature: 0, seed: 0}
+    reasoning: none
+    price: {input: 0, output: 0}
+
+  chocollama-8b:
+    provider: ollama
+    model_id: TODO-chocollama-8b-instruct-q8
+    params: {temperature: 0, seed: 0}
+    reasoning: none
+    price: {input: 0, output: 0}

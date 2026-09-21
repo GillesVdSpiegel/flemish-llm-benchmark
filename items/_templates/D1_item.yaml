@@ -1,0 +1,15 @@
+# D1 — generation in register. Scored by rubric (human blind + two LLM judges).
+id: d1-0001
+category: D1
+format: generation
+gold: "-"
+author: gilles
+provenance: human_written
+split: public
+be:
+  prompt: |
+    <Schrijfopdracht, bv. een brief van een Vlaamse gemeente over ...>
+  rubric: |
+    1. Register passend voor een Vlaamse overheidsbrief (1-5)
+    2. Correcte Belgische termen en instellingen (1-5)
+    3. Natuurlijk voor een Vlaamse lezer (1-5)

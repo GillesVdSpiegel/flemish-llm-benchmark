@@ -1,0 +1,43 @@
+[project]
+name = "flembench"
+version = "0.1.0"
+description = "Paired benchmark measuring the Belgian-Dutch (Flemish) performance gap of LLMs"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.8",
+    "pyyaml>=6.0",
+    "typer>=0.12",
+    "rich>=13.7",
+    "readchar>=4.1",
+    "httpx>=0.27",
+    "python-dotenv>=1.0",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+providers = ["anthropic>=0.60", "openai>=1.99", "google-genai>=1.30"]
+
+[project.scripts]
+flembench = "flembench.cli:app"
+
+[dependency-groups]
+dev = ["pytest>=8.3", "ruff>=0.6"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

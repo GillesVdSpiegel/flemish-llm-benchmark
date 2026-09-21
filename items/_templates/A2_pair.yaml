@@ -1,0 +1,27 @@
+# A2 — administrative comprehension, parallel letters. Fully fictional; no real names/numbers.
+pair_id: a2-0001
+category: A2
+format: extraction            # or mc
+match_basis: author_judgement
+author: gilles
+provenance: human_written
+split: public
+# If a letter is adapted from a real open-licensed template, add both:
+# source: <url or title>
+# licence: Modellicentie Gratis Hergebruik v1.0
+be:
+  marker: <variety-specific term the question hinges on>
+  prompt: |
+    <Brief van een Vlaamse gemeente / VDAB / FOD Financiën / ziekenfonds>
+
+    Vraag: <vraag die afhangt van de betekenis van een Belgische term>
+  gold: <antwoord>
+  accepted_variants: []
+nl:
+  marker: <Nederlandse tegenhanger>
+  prompt: |
+    <Brief van een Nederlandse gemeente / UWV / Belastingdienst / zorgverzekeraar>
+
+    Vraag: <zelfde vraag>
+  gold: <antwoord>
+  accepted_variants: []
