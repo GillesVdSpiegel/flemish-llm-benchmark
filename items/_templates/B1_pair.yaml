@@ -1,0 +1,19 @@
+# B1 — institutional knowledge, functional-analogue pair.
+pair_id: b1-0001
+category: B1
+format: mc                    # or exact
+match_basis: functional_analogue
+valid_as_of: 2026-09-21       # required for every B item
+author: gilles
+provenance: human_written
+split: public
+be:
+  marker: <Belgische instelling / term>
+  prompt: |
+    <Vraag over de Belgische instelling>
+  choices: [<juist>, <afleider>, <afleider>, <afleider>]
+nl:
+  marker: <Nederlandse tegenhanger>
+  prompt: |
+    <Zelfde vraag over de Nederlandse tegenhanger>
+  choices: [<juist>, <afleider>, <afleider>, <afleider>]

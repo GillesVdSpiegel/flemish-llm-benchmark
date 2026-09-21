@@ -1,0 +1,15 @@
+# C1 — variety identification. The variety block key is the TRUE variety of the sentence.
+id: c1-0001
+category: C1
+format: mc
+author: gilles
+provenance: human_written
+split: public
+be:
+  marker: <het woord/de constructie die het verraadt>
+  notes: "marker density: single"   # single | multiple
+  prompt: |
+    Zin: "<zin>"
+
+    Is deze zin Belgisch-Nederlands of Nederlands-Nederlands?
+  choices: [Belgisch-Nederlands, Nederlands-Nederlands]   # correct first

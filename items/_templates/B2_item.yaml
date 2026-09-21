@@ -1,0 +1,12 @@
+# B2 — Belgium-only structure, unpaired.
+id: b2-0001
+category: B2
+format: mc
+valid_as_of: 2026-09-21
+author: gilles
+provenance: human_written
+split: public
+be:
+  prompt: |
+    <Vraag>
+  choices: [<juist>, <afleider>, <afleider>, <afleider>]
