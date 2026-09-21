@@ -25,6 +25,14 @@ Curation keys:
 | `u` | needs_other_variety_speaker | you don't know it — goes to the Netherlands reviewer |
 | space / `z` / `q` | skip / undo / quit | |
 
+**Meanings are pre-drafted.** Under each word you see Claude's draft meaning (with its
+confidence) and, once imported, Gemini's independent draft; a yellow line marks words where the
+two disagree. After `k` and the register key, press **Enter** to accept the draft or type the
+right meaning. The decision records whether the gloss is yours or an accepted draft
+(`gloss_source`). To add Gemini's drafts: `uv run flembench lexicon gloss-export`, paste
+`data/curation/gloss_prompt/PROMPT.md` + one batch per fresh chat, save each answer as
+`data/curation/gloss_prompt/results/<model>__NN.txt`, then `uv run flembench lexicon gloss-import`.
+
 Words are shown in a seeded random order, alternating BE and NL, without prevalence numbers
 (to avoid anchoring). You can stop at any time and resume where you left off. Decisions live in
 `data/curation/lexicon_decisions.csv`, which is committed; the prevalence values are not.
