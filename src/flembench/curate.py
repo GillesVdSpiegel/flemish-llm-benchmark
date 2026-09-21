@@ -16,7 +16,7 @@ from pathlib import Path
 from flembench.paths import CURATION_DIR
 
 DECISIONS_FILE = CURATION_DIR / "lexicon_decisions.csv"
-FIELDS = ["variety", "word", "decision", "register", "gloss", "note", "decided_at"]
+FIELDS = ["variety", "word", "decision", "register", "gloss", "note", "decided_by", "decided_at"]
 
 DECISIONS = {
     "k": ("keep", "keep — opaque, current, variety-specific"),
@@ -69,6 +69,7 @@ class Session:
             "register": register,
             "gloss": gloss,
             "note": note,
+            "decided_by": "author",
             "decided_at": datetime.now(UTC).isoformat(timespec="seconds"),
         }
         self.decided[(c.variety, c.word)] = row
@@ -111,7 +112,7 @@ def save_decisions(decided: dict[tuple[str, str], dict], path: Path = DECISIONS_
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(".tmp")
     with tmp.open("w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n")
+        w = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n", restval="")
         w.writeheader()
         for key in sorted(decided):
             w.writerow(decided[key])

@@ -29,6 +29,32 @@ Words are shown in a seeded random order, alternating BE and NL, without prevale
 (to avoid anchoring). You can stop at any time and resume where you left off. Decisions live in
 `data/curation/lexicon_decisions.csv`, which is committed; the prevalence values are not.
 
+### Optional: LLM prefilter (form-based rejections only)
+
+Saves time on the obvious rejections (brands, proper names, abbreviations) without letting LLMs
+choose which words stay. LLMs never accept a word and are never asked about meaning.
+
+```
+uv run flembench lexicon prefilter-export     # prompt + 6 batches of 200 words
+```
+
+1. Open `data/curation/prefilter/PROMPT.md`, paste it into a **fresh** chat, then paste one
+   batch file (`batches/01.txt` …) directly below it.
+2. Save the model's answer as `data/curation/prefilter/results/<model>__01.txt`, e.g.
+   `claude-sonnet-5__01.txt`, `gpt-5.6__01.txt`, `gemini-3.8-flash__01.txt`. Use the exact model
+   name the chat shows: it becomes part of the provenance.
+3. Do all batches with **at least two, ideally three, models from different providers**.
+4. Import once, after all results are in:
+
+```
+uv run flembench lexicon prefilter-import
+```
+
+A word is auto-decided only if every model that saw it gave the same BRAND / NAME / ABBR
+verdict. 10% of those are held back and appear in your normal curation queue, unmarked. After
+curating, `uv run flembench lexicon prefilter-report` shows how often the prefilter agreed with you,
+and that number goes into the write-up.
+
 ## 2. Writing items
 
 1. Copy a template from `items/_templates/` into the category folder, e.g.
