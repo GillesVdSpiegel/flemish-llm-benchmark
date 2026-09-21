@@ -48,21 +48,21 @@ be,bekampen,keep,,bestrijden,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,belfort,keep,,stadstoren met klokken,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bepotelen,keep,,"betasten, begrabbelen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bestemmeling,keep,,"geadresseerde, ontvanger",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,beterhand,keep,standard,aan de beterhand zijn: herstellende zijn,claude-opus-5 (accepted by author),,author,2026-09-21T17:37:46+00:00
+be,beterhand,keep,standard,aan de beterhand zijn: herstellende zijn,claude-opus-5 (chosen by author),,author,2026-09-21T17:52:05+00:00
 be,beurtrol,keep,,"beurtregeling, rooster",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bezetsel,keep,,pleisterlaag op een muur,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bib,keep,,bibliotheek,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,bibbergeld,keep,,gevarentoeslag,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,bibbergeld,keep,,gevarentoeslag,gemini (chosen by author),,author,2026-09-21T17:52:12+00:00
 be,bic,keep,,balpen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bijberoep,keep,,"nevenberoep, bijbaan (als zelfstandige)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bijlange,keep,,"bij lange (niet): lang niet, bij lange na niet",claude-opus-5 (accepted by author),,author,2026-09-21T17:38:49+00:00
-be,bisjaar,keep,,jaar dat men overdoet,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,bisjaar,keep,,jaar dat men overdoet,claude-opus-5 (chosen by author),,author,2026-09-21T17:53:10+00:00
 be,bissen,keep,,"een jaar overdoen, blijven zitten",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,blokbeest,keep,,iemand die heel hard studeert,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bluts,keep,,deuk,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,blutsen,keep,,"deuken, een deuk maken",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bobijn,keep,,"klos, spoel",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,bobijnen,keep,,"klossen, spoelen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,bobijnen,keep,,"klossen, spoelen",claude-opus-5 (chosen by author),,author,2026-09-21T17:53:16+00:00
 be,boertig,keep,,"boers, lomp",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bolwassing,keep,,"uitbrander, flinke berisping",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bombardon,keep,,bastuba (koperblaasinstrument),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -82,7 +82,7 @@ be,brousse,keep,,"wildernis, bush (in Afrika)",claude-opus-5,,bulk,2026-09-21T17
 be,brugdag,keep,,werkdag tussen feestdag en weekend waarop men vrij neemt,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,buisvak,keep,,vak waarvoor men een onvoldoende heeft,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:44+00:00
 be,buitenwipper,keep,,uitsmijter,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,bultenaar,keep,,gebochelde,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,bultenaar,keep,,gebochelde,claude-opus-5 (chosen by author),,author,2026-09-21T17:53:26+00:00
 be,bunsenbrander,keep,,gasbrander in een laboratorium,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,bvba,keep,,besloten vennootschap met beperkte aansprakelijkheid,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,camionette,keep,,bestelwagen,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:17+00:00
@@ -94,7 +94,7 @@ be,catalogeren,keep,,catalogiseren; ook: iemand bestempelen,claude-opus-5,,bulk,
 be,cataract,keep,,staar (oogziekte),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,categoriek,keep,,"categorisch, beslist",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,centiem,keep,,cent,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,cervela,keep,,cervelaatworst,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,cervela,keep,,cervelaatworst,claude-opus-5 (chosen by author),,author,2026-09-21T17:53:29+00:00
 be,champetter,keep,,veldwachter,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,chapelure,keep,,paneermeel,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,charcuterie,keep,,vleeswaren,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -132,7 +132,7 @@ be,desgevallend,keep,,in voorkomend geval,claude-opus-5,,bulk,2026-09-21T17:42:3
 be,dewelke,keep,,"die, welke (betrekkelijk voornaamwoord)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,dieperik,keep,,"diepe put, dieptepunt",claude-opus-5 (accepted by author),,author,2026-09-21T17:38:45+00:00
 be,dikkenek,keep,,"opschepper, blaaskaak",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,dikoor,keep,,"doof doen, niet willen horen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,dikoor,keep,,"niet willen horen, koppig zijn, stijfkop",author,,author,2026-09-21T17:54:00+00:00
 be,dissectie,keep,,ontleding (anatomie),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,dixit,keep,,"aldus, zei (iemand)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,dodentol,keep,,aantal doden,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -162,7 +162,7 @@ be,faling,keep,,faillissement,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,farde,keep,,"map, ordner",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,fermette,keep,,landelijk huis in boerderijstijl,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:33+00:00
 be,flamingant,keep,,Vlaamsgezinde,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,flan,keep,,"pudding, vla",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,flan,keep,,"pudding, vla",claude-opus-5 (chosen by author),,author,2026-09-21T17:54:04+00:00
 be,flandrien,keep,,"harde renner, klassiekerspecialist",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,floraliën,keep,,bloemententoonstelling,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,fluo,keep,standard,fluorescerend (kleur),claude-opus-5 (accepted by author),,author,2026-09-21T17:36:14+00:00
@@ -215,10 +215,10 @@ be,homologatie,keep,,"officiële goedkeuring, bekrachtiging",claude-opus-5,,bulk
 be,hondenstiel,keep,,rotbaan,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,hoofdbrok,keep,,"belangrijkste deel, hoofdmoot",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,hoofding,keep,,"kop, briefhoofd, titel",claude-opus-5 (accepted by author),,author,2026-09-21T17:38:47+00:00
-be,hoofdvogel,keep,,de hoofdvogel afschieten: een grote blunder begaan,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,hoofdvogel,keep,,de hoofdvogel afschieten: een grote blunder begaan; de hoofdprijs; de belangrijkste buit,author,,author,2026-09-21T17:54:38+00:00
 be,hoogdag,keep,,feestdag,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,humaniora,keep,,algemeen secundair onderwijs,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:24+00:00
-be,hutsepot,keep,,stoofpot met groenten en vlees,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,hutsepot,keep,,stoofpot met groenten en vlees,claude-opus-5 (chosen by author),,author,2026-09-21T17:54:41+00:00
 be,hypothekeren,keep,,in gevaar brengen; ook: met een hypotheek bezwaren,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,immobiliën,keep,,"onroerend goed, vastgoed",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,induffelen,keep,standard,"warm inpakken, dik aankleden",claude-opus-5 (accepted by author),,author,2026-09-21T17:34:57+00:00
@@ -241,7 +241,7 @@ be,kadee,keep,,"kerel, gast",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,kaka,keep,,poep (kindertaal),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,kasbon,keep,,spaarbon van een bank,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,kassierster,keep,,caissière,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,kastaar,keep,,flinke kerel; deugniet,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,kastaar,keep,,flinke kerel; deugniet,gemini (chosen by author),,author,2026-09-21T17:54:49+00:00
 be,kazak,keep,,"jas, wambuis (van kazak draaien)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,kazakdraaier,keep,,"overloper, opportunist",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,kazakkendraaier,keep,,"overloper, opportunist",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -259,7 +259,7 @@ be,klaarte,keep,,"helderheid, licht",claude-opus-5,,bulk,2026-09-21T17:42:37+00:
 be,klankman,keep,,geluidstechnicus,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,klasbak,keep,,"uitblinker, topper",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,klierkoorts,keep,,ziekte van Pfeiffer,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,klissen,keep,,"betrappen, te pakken krijgen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,klissen,keep,,"betrappen, te pakken krijgen",claude-opus-5 (chosen by author),,author,2026-09-21T17:54:54+00:00
 be,kmo,keep,,kleine of middelgrote onderneming,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:25+00:00
 be,knolselder,keep,,knolselderij,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,koekebrood,keep,,krentenbrood,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -270,7 +270,7 @@ be,konkelfoezen,keep,,"konkelen, intrigeren",claude-opus-5,,bulk,2026-09-21T17:4
 be,koppigaard,keep,standard,stijfkop,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:01+00:00
 be,kortfilm,keep,,korte film,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,kotbaas,keep,,verhuurder van studentenkamers,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,koteren,keep,,op kamers wonen (als student),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,koteren,keep,,peuteren; poken,gemini (chosen by author),,author,2026-09-21T17:55:23+00:00
 be,koterij,keep,,"aanbouwsel, bijgebouwtje",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,kotmadam,keep,,hospita van studentenkamers,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,kouter,keep,,"akker, veld",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -295,7 +295,7 @@ be,leute,keep,,"plezier, pret",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,licentiaat,keep,,vroeger universitair diploma (nu master),claude-opus-5 (accepted by author),,author,2026-09-21T17:39:01+00:00
 be,ligament,keep,,gewrichtsband,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:51+00:00
 be,litoraal,keep,,"kust, kustgebied",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,loebas,keep,,"lummel, lomperik",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,loebas,keep,,"lummel, lomperik",claude-opus-5 (chosen by author),,author,2026-09-21T17:55:26+00:00
 be,looksaus,keep,,knoflooksaus,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,lookworst,keep,,knoflookworst,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,loonfiche,keep,,loonstrook,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -343,9 +343,9 @@ be,nieuwkuis,keep,,stomerij,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,nijdigaard,keep,,driftkop,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,nonkel,keep,standard,oom,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:55+00:00
 be,notelaar,keep,,notenboom,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,notelaren,keep,,van notenhout,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,notelaren,keep,,walnotenbomen; okkernootbomen,gemini (chosen by author),,author,2026-09-21T17:55:31+00:00
 be,occasie,keep,,gelegenheid; tweedehandswagen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,omwringen,keep,,verstuiken (enkel),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,omwringen,keep,,omdraaien; wurgen,gemini (chosen by author),,author,2026-09-21T17:55:36+00:00
 be,omzeggens,keep,,"bijna, zo goed als",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,omzendbrief,keep,,circulaire,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,ondereen,keep,,"onder elkaar, door elkaar",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -361,7 +361,7 @@ be,opplooien,keep,,opvouwen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,opsolferen,keep,,"opdringen, aansmeren",claude-opus-5 (accepted by author),,author,2026-09-21T17:39:00+00:00
 be,opvordering,keep,,vordering tot teruggave (juridisch),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,opzoeking,keep,,"onderzoek, opzoekwerk",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,orbitaal,keep,,rond een stad lopend (ringweg),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,orbitaal,keep,,rond een stad lopend (ringweg),claude-opus-5 (chosen by author),,author,2026-09-21T17:55:41+00:00
 be,overkop,keep,,over de kop,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,overslapen,keep,,zich verslapen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,owngoal,keep,,eigen doelpunt,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -387,29 +387,29 @@ be,pivoteren,keep,,draaien om een as (ook in basketbal),claude-opus-5,,bulk,2026
 be,plaaster,keep,,"gips, pleister",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,pladijs,keep,,schol,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,plafonneren,keep,,een maximum opleggen; ook: stukadoren,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,plafonnering,keep,,maximumgrens; ook: stucwerk,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,plafonnering,keep,,pleisterwerk; bepleistering,gemini (chosen by author),,author,2026-09-21T17:55:44+00:00
 be,plattekaas,keep,,kwark,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,pletsen,keep,,"pletten, platdrukken",claude-opus-5 (accepted by author),,author,2026-09-21T17:38:39+00:00
+be,pletsen,keep,,neerplenzen; kletsen,gemini (chosen by author),,author,2026-09-21T17:55:45+00:00
 be,pletwals,keep,,wegwals,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,pluviometer,keep,,regenmeter,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,polieren,keep,,polijsten,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,polyglot,keep,,veeltalig persoon,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,pompaf,keep,standard,doodmoe,claude-opus-5 (accepted by author),,author,2026-09-21T17:34:36+00:00
 be,pompier,keep,standard,brandweerman,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:53+00:00
-be,postogram,keep,,dringend poststuk,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,postogram,keep,,dringend poststuk,gemini (chosen by author),,author,2026-09-21T17:55:45+00:00
 be,potdoof,keep,,stokdoof,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,prijskamp,keep,,"wedstrijd, prijsvraag",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,primordiaal,keep,,van het grootste belang,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,producen,keep,,produceren (muziek),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,profijtig,keep,,zuinig,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,profliga,keep,,vereniging van beroepsclubs,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,profliga,keep,,vereniging van beroepsclubs,gemini (chosen by author),,author,2026-09-21T17:55:45+00:00
 be,pronostiek,keep,,voorspelling,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,pruimelaar,keep,,pruimenboom,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,raid,keep,,trektocht (sport); inval,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,recto,keep,,voorzijde,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:54+00:00
-be,recyclage,keep,,bijscholing; recycling,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,recyclage,keep,,recycling; hergebruik,gemini (chosen by author),,author,2026-09-21T17:55:45+00:00
 be,recycleren,keep,,recyclen; zich bijscholen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,reekshoofd,keep,,"kopman, boegbeeld",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,reekshoofd,keep,,geplaatste speler; rami-hoofd,gemini (chosen by author),,author,2026-09-21T17:55:46+00:00
 be,refter,keep,,eetzaal (school),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,regentaat,keep,,vroegere lerarenopleiding,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,reisduif,keep,,postduif,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -419,7 +419,7 @@ be,resem,keep,,"reeks, hele boel",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,rijhuis,keep,,rijtjeshuis,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:52+00:00
 be,rijven,keep,,harken,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,rockrally,keep,,muziekwedstrijd voor jonge bands,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,roefelen,keep,,ontdekken via kinderactiviteit,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,roefelen,keep,,ontdekken via kinderactiviteit,gemini (chosen by author),,author,2026-09-21T17:55:46+00:00
 be,roofing,keep,,bitumen dakbedekking,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,rotslecht,keep,,heel slecht,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,roulade,keep,,rollade,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -432,7 +432,7 @@ be,savooikool,keep,,savooiekool,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,schachtendoop,keep,,ontgroening (studenten),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,schotelvod,keep,standard,vaatdoek,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:42+00:00
 be,schotwonde,keep,,schotwond,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:28+00:00
-be,schranken,keep,,schuin over elkaar leggen,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,schranken,keep,,schuin over elkaar leggen,gemini (chosen by author),,author,2026-09-21T17:55:46+00:00
 be,schuifaf,keep,,glijbaan,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,sedentair,keep,,zittend,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,selder,keep,,selderij,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -459,11 +459,11 @@ be,snul,keep,,sukkel,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,solden,keep,standard,uitverkoop,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:51+00:00
 be,solsleutel,keep,,g-sleutel (muziek),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,speelvogel,keep,,speels kind,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,speractie,keep,,actie tijdens de sperperiode,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,speractie,keep,,actie tijdens de sperperiode,gemini (chosen by author),,author,2026-09-21T17:55:46+00:00
 be,spionkop,keep,,fanvak achter het doel,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,springuur,keep,standard,tussenuur (op school),claude-opus-5 (accepted by author),,author,2026-09-21T17:35:44+00:00
 be,stakingspiket,keep,,stakerspost,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,steamen,keep,,stomen; kleding stomen,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,steamen,keep,,stomen; kleding stomen,gemini (chosen by author),,author,2026-09-21T17:55:46+00:00
 be,sterfput,keep,,zinkput voor afvalwater,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,stiel,keep,,"vak, beroep",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,stielkennis,keep,,vakkennis,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:42+00:00
@@ -477,7 +477,7 @@ be,stofhagel,keep,,fijne hagel,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,stofvod,keep,,stofdoek,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,stresserend,keep,,stressvol,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,strooiwei,keep,,weide waarop de as van overledenen wordt uitgestrooid,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,stuiken,keep,,vallen; struikelen,gemini (accepted by author),,author,2026-09-21T17:38:55+00:00
+be,stuiken,keep,,vallen; struikelen,gemini (chosen by author),,author,2026-09-21T17:55:46+00:00
 be,superette,keep,,kleine supermarkt,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,suppositoire,keep,,zetpil,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,syndicus,keep,,beheerder van een appartementsgebouw,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -489,7 +489,7 @@ be,tarmac,keep,,asfalt,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,tateren,keep,,"kakelen, snateren",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,taxidermie,keep,,opzetten van dieren,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,tegenkanting,keep,,"tegenstand, verzet",claude-opus-5 (accepted by author),,author,2026-09-21T17:36:01+00:00
-be,tegensteken,keep,,tegenstaan (dat steekt me tegen),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,tegensteken,keep,,dwarsbomen; tegenwerken,gemini (chosen by author),,author,2026-09-21T17:55:47+00:00
 be,teleonthaal,keep,,telefonische hulpdienst,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,toemaatje,keep,,"extraatje, toegift",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,toezichter,keep,,"toezichthouder, surveillant",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -523,11 +523,11 @@ be,verkorven,keep,,het verkorven hebben: uit de gratie zijn,claude-opus-5,,bulk,
 be,verloning,keep,,bezoldiging,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,verluchten,keep,,"luchten, ventileren",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,verpinken,keep,standard,zonder verpinken: zonder een spier te vertrekken,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:31+00:00
-be,versassen,keep,standard,door een sluis schutten,gemini (accepted by author),,author,2026-09-21T17:34:47+00:00
+be,versassen,keep,standard,door een sluis schutten,gemini (chosen by author),,author,2026-09-21T17:55:47+00:00
 be,verso,keep,,achterzijde,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,verzweren,keep,,zweren; gezwel vormen,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,verzweren,keep,,zweren; gezwel vormen,gemini (chosen by author),,author,2026-09-21T17:55:47+00:00
 be,vestimentair,keep,,wat kleding betreft,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,vidé,keep,,vide (open ruimte tussen verdiepingen),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,vidé,keep,,koninginnenhapje; pasteitje,gemini (chosen by author),,author,2026-09-21T17:55:47+00:00
 be,vijs,keep,,schroef,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,vijzen,keep,,schroeven,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,viseren,keep,,aftekenen (document); mikken op,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -557,10 +557,10 @@ be,wetsdokter,keep,,forensisch arts,claude-opus-5,,bulk,2026-09-21T17:42:37+00:0
 be,wetstraat,keep,,de federale politiek (naar de straat van het parlement),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,wiezen,keep,,wiezen (kaartspel),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,wijsheidstand,keep,,verstandskies,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:57+00:00
-be,windel,keep,,luier,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,windel,keep,,zwachtel; windsel,gemini (chosen by author),,author,2026-09-21T17:55:47+00:00
 be,windpokken,keep,,waterpokken,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,witloof,keep,,witlof,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-be,witteke,keep,,glas witte wijn,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+be,witteke,keep,,jenever,gemini (chosen by author),,author,2026-09-21T17:55:47+00:00
 be,wolfijzers,keep,,wolfsklemmen,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:58+00:00
 be,woonst,keep,,woning,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,zagemeel,keep,,zaagsel,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -573,7 +573,7 @@ be,zichtrekening,keep,,betaalrekening,claude-opus-5,,bulk,2026-09-21T17:42:37+00
 be,zitdag,keep,,spreekuur (van een ambtenaar of politicus),claude-opus-5 (accepted by author),,author,2026-09-21T17:38:10+00:00
 be,zitpenning,keep,tussentaal,presentiegeld,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:29+00:00
 be,zonaal,keep,standard,per zone,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:15+00:00
-be,zonneklopper,keep,,zonnebaarder,gemini,,bulk,2026-09-21T17:42:37+00:00
+be,zonneklopper,keep,,zonnebaarder,gemini (chosen by author),,author,2026-09-21T17:55:47+00:00
 be,zonneslag,keep,standard,zonnesteek,claude-opus-5 (accepted by author),,author,2026-09-21T17:37:42+00:00
 be,zopas,keep,,zojuist,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,zottin,keep,,gekke vrouw,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:20+00:00
@@ -584,9 +584,9 @@ be,zwanzen,keep,,gekheid maken,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 be,zwemdok,keep,standard,zwembad,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:03+00:00
 be,zwin,keep,,getijdengeul,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,aanhikken,keep,,tegenop zien (ergens tegenaan hikken),claude-opus-5 (accepted by author),,author,2026-09-21T17:38:47+00:00
-nl,aankakken,keep,,"(onverwacht, te laat) aan komen zetten",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,aankakken,keep,,"(onverwacht, te laat) aan komen zetten",claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,aanpezen,keep,,"flink doorwerken, voortmaken",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,abseilen,keep,,afdalen langs een touw,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,abseilen,keep,,afdalen langs een touw,claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,absurdistisch,keep,,absurd van stijl,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,afhechten,keep,,afwerken (naad); fig.: afronden,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,afkatten,keep,standard,afsnauwen,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:50+00:00
@@ -629,11 +629,11 @@ nl,boktor,keep,,kever met lange sprieten,claude-opus-5 (accepted by author),,aut
 nl,bolus,keep,,zoet broodje met stroop; ook: drol,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:28+00:00
 nl,bonje,keep,,ruzie,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bonnefooi,keep,standard,op de bonnefooi: op goed geluk,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:21+00:00
-nl,boortol,keep,,boormachine,gemini,,bulk,2026-09-21T17:42:37+00:00
+nl,boortol,keep,,boormachine,gemini (chosen by author),,author,2026-09-21T17:55:48+00:00
 nl,borgpen,keep,,"borgpen, splitpen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bospeen,keep,,worteltjes met loof,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bosui,keep,,lente-ui,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,botte,keep,,lomperik; lomp persoon,gemini (accepted by author),,author,2026-09-21T17:38:13+00:00
+nl,botte,keep,,lomperik; lomp persoon,gemini (chosen by author),,author,2026-09-21T17:55:48+00:00
 nl,botter,keep,,platbodem vissersboot,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bozig,keep,,een beetje boos,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,brallen,keep,standard,"opscheppen, luid pochen",claude-opus-5 (accepted by author),,author,2026-09-21T17:37:44+00:00
@@ -644,16 +644,16 @@ nl,brink,keep,,dorpsplein,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,bromtol,keep,,brommende draaitol,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,buks,keep,,geweer (luchtbuks),claude-opus-5 (accepted by author),,author,2026-09-21T17:38:59+00:00
 nl,bul,keep,,universitair diploma,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,bulletje,keep,standard,kleine stier; mannetje,gemini (accepted by author),,author,2026-09-21T17:34:50+00:00
+nl,bulletje,keep,standard,kleine stier; mannetje,gemini (chosen by author),,author,2026-09-21T17:55:49+00:00
 nl,bètavak,keep,,"exact vak (wiskunde, natuurwetenschap)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,cassave,keep,,maniok,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,chantabel,keep,,vatbaar voor chantage,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,cheffin,keep,,vrouwelijke chef,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,chemobak,keep,standard,inzamelbak voor klein chemisch afval,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:40+00:00
+nl,chemobak,keep,standard,inzamelbak voor klein chemisch afval,claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,chemokar,keep,,inzamelwagen voor klein chemisch afval,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,chipknip,keep,,elektronisch betaalchipje op de bankpas (vroeger),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,chocomel,keep,,chocolademelk,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,cito,keep,,Cito-toets (eindtoets basisschool),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,cito,keep,,Cito-toets (eindtoets basisschool),claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,clinic,keep,,"trainingsdag, cursus (sport)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,codicil,keep,,aanhangsel bij een testament,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:46+00:00
 nl,conrector,keep,,onderdirecteur van een school,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -677,7 +677,7 @@ nl,dommig,keep,standard,een beetje dom,claude-opus-5 (accepted by author),,autho
 nl,domstad,keep,standard,Utrecht,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:08+00:00
 nl,domtoren,keep,standard,toren van de Dom in Utrecht,claude-opus-5 (accepted by author),,author,2026-09-21T17:36:11+00:00
 nl,donorcodicil,keep,,donorregistratieformulier,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,dotter,keep,,dotterbloem; dotterbehandeling,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,dotter,keep,,dotterbloem; dotterbehandeling,claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,dotteren,keep,,een vernauwde kransslagader oprekken,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,dreinen,keep,,"jengelen, zeuren",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,dreutelen,keep,,treuzelen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -728,7 +728,7 @@ nl,goeiig,keep,,goedaardig,claude-opus-5 (accepted by author),,author,2026-09-21
 nl,goh,keep,,"tja, nou (tussenwerpsel)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,goochem,keep,,"slim, snugger",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,goochemerd,keep,,slimmerik,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,graftak,keep,standard,ouwe graftak: oud mens (schertsend),claude-opus-5 (accepted by author),,author,2026-09-21T17:35:06+00:00
+nl,graftak,keep,standard,ouwe graftak: oud mens (schertsend),claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,grijpstuiver,keep,,"klein bedrag, bijverdienste",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,grutter,keep,,kruidenier,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,grutto,keep,standard,weidevogel,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:33+00:00
@@ -748,7 +748,7 @@ nl,hbs,keep,,hogereburgerschool (vroeger),claude-opus-5,,bulk,2026-09-21T17:42:3
 nl,hectiek,keep,,"drukte, jachtigheid",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,heiig,keep,,nevelig,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,heikneuter,keep,,boerenkinkel,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,heitje,keep,,kwartje,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,heitje,keep,,kwartje,claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,hippisch,keep,,de paardensport betreffend,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:09+00:00
 nl,hobbezak,keep,,"wijd, vormeloos kledingstuk",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,hoereren,keep,,hoereren,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -776,11 +776,11 @@ nl,jodenkoek,keep,,"grote, ronde, dunne koek",claude-opus-5,,bulk,2026-09-21T17:
 nl,jofel,keep,,"leuk, tof",claude-opus-5 (accepted by author),,author,2026-09-21T17:39:03+00:00
 nl,joh,keep,,joh (aanspreekwoord),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,jonassen,keep,,iemand bij armen en benen heen en weer zwaaien,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,jottem,keep,,ervandoor!,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,jottum,keep,,ervandoor!,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,jottem,keep,,uitroep van vreugde,gemini (chosen by author),,author,2026-09-21T17:55:50+00:00
+nl,jottum,keep,,uitroep van vreugde,gemini (chosen by author),,author,2026-09-21T17:55:50+00:00
 nl,juut,keep,,politie (straattaal),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,kaalslag,keep,,"volledige kap, verdwijning van alles",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,kachelen,keep,,hard rijden,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,kachelen,keep,,hard rijden,claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,kanen,keep,,"eten, schrokken",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,kassiewijle,keep,,"dood, kapot",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,katenspek,keep,,gerookt spek,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -806,7 +806,7 @@ nl,knijpkat,keep,,zaklamp met knijphendel,claude-opus-5,,bulk,2026-09-21T17:42:3
 nl,kno-arts,keep,,"keel-, neus- en oorarts",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,knoeperd,keep,,"kanjer, joekel",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,knurft,keep,,"sukkel, onbenul",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,koefnoen,keep,,onder koefnoen: in het geheim,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,koefnoen,keep,,onder koefnoen: in het geheim,claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,koffieleut,keep,,koffieliefhebber,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,kontgat,keep,,aars,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,kontzak,keep,,achterzak,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:56+00:00
@@ -832,13 +832,13 @@ nl,likmevestje,keep,,van likmevestje: prutswerk,claude-opus-5,,bulk,2026-09-21T1
 nl,lobbes,keep,standard,goedzak,claude-opus-5 (accepted by author),,author,2026-09-21T17:37:40+00:00
 nl,lombok,keep,,rode peper,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,lubberen,keep,,"slobberen, wijd zitten (kleding)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,makken,keep,,gebreken; moeilijkheden,gemini,,bulk,2026-09-21T17:42:37+00:00
+nl,makken,keep,,gebreken; moeilijkheden,gemini (chosen by author),,author,2026-09-21T17:55:50+00:00
 nl,malieveld,keep,,grasveld in Den Haag (demonstratieplek),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,mamma,keep,,mama,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,manco,keep,,"tekortkoming, gebrek",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,marmoleum,keep,,linoleum (vloerbedekking),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,marskramer,keep,,rondtrekkende venter,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,matsen,keep,standard,goochelen met bekers (?); kaartspel,claude-opus-5 (accepted by author),,author,2026-09-21T17:37:41+00:00
+nl,matsen,keep,standard,bevoordelen; matsen,gemini (chosen by author),,author,2026-09-21T17:55:50+00:00
 nl,mauwen,keep,,miauwen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,mavo,keep,,middelbaar algemeen voortgezet onderwijs (vroeger),claude-opus-5 (accepted by author),,author,2026-09-21T17:38:51+00:00
 nl,mbo,keep,,middelbaar beroepsonderwijs,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -900,15 +900,15 @@ nl,pleerol,keep,,wc-rol,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,plofkip,keep,standard,"goedkope, snel vetgemeste kip",claude-opus-5 (accepted by author),,author,2026-09-21T17:35:55+00:00
 nl,po,keep,,nachtpot,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,poedelen,keep,,"plassen, plonzen (in water)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,poepdoos,keep,,bangerik,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,poepdoos,keep,,bangerik,claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,poeperd,keep,,achterwerk,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,poli,keep,,polikliniek,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,popiejopie,keep,,"verwaand, bekakt",claude-opus-5 (accepted by author),,author,2026-09-21T17:38:06+00:00
+nl,popiejopie,keep,,"verwaand, bekakt",claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,poppodia,keep,,zalen voor popconcerten,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:58+00:00
 nl,porem,keep,standard,"gezicht, smoel",claude-opus-5 (accepted by author),,author,2026-09-21T17:38:01+00:00
 nl,portofoon,keep,standard,"draagbare radiozender, walkietalkie",claude-opus-5 (accepted by author),,author,2026-09-21T17:37:46+00:00
 nl,porum,keep,,"gezicht, smoel",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,poulet,keep,,"kip (in blokjes, als vlees)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,poulet,keep,,kleingesneden soepvlees,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
 nl,priegelen,keep,,"fijn, precies werk doen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,priegelig,keep,,klein en precies (werk),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,prikkie,keep,,koopje,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -929,7 +929,7 @@ nl,riblap,keep,,runderlap van de ribben,claude-opus-5,,bulk,2026-09-21T17:42:37+
 nl,riedel,keep,,deuntje; reeks,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,rompertje,keep,,babypakje,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,rondbanjeren,keep,,"rondlopen, rondstappen",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,rondte,keep,,"omgeving, rond",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,rondte,keep,,cirkel; ronding,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
 nl,roti,keep,,Surinaams gerecht (plat brood met curry),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,rouwdouwer,keep,,"ruwe speler, bruut",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,royement,keep,,uitsluiting als lid,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -955,7 +955,7 @@ nl,shovel,keep,,laadschop (bouwmachine),claude-opus-5,,bulk,2026-09-21T17:42:37+
 nl,sikkeneur,keep,,zeurpiet,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,sikkeneurig,keep,,zeurderig,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,sinas,keep,,sinaasappellimonade,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,sjans,keep,,belangstelling (van het andere geslacht),claude-opus-5 (accepted by author),,author,2026-09-21T17:38:31+00:00
+nl,sjans,keep,,belangstelling (van het andere geslacht),claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,sjansen,keep,,flirten,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,sjoel,keep,,synagoge; sjoelbak,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,skelter,keep,,kart,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -976,14 +976,14 @@ nl,soebatten,keep,standard,smeken,claude-opus-5 (accepted by author),,author,202
 nl,somberen,keep,,"somber zijn, piekeren",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,soos,keep,,"sociëteit, clubhuis",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,sores,keep,,"zorgen, narigheid",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,spekkie,keep,,snoepje van schuim (marshmallow),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,spekkie,keep,,snoepje van schuim (marshmallow),claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,spitzen,keep,,spitzen (balletschoenen),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,spoorboom,keep,standard,slagboom (bij overweg),claude-opus-5 (accepted by author),,author,2026-09-21T17:34:35+00:00
 nl,sprits,keep,standard,zandkoekje,claude-opus-5 (accepted by author),,author,2026-09-21T17:33:06+00:00
 nl,spuitpoep,keep,,diarree,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,staalpil,keep,standard,ijzerpil,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:54+00:00
 nl,stampij,keep,,"herrie, ophef",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,stavast,keep,,stavast (vasthoudend)?,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,stavast,keep,,houvast; standvastig persoon,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
 nl,steggelen,keep,,kibbelen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,stempas,keep,,stempas (oproep om te stemmen),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,stennis,keep,,"herrie, ophef",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -993,7 +993,7 @@ nl,sukade,keep,,gekonfijte schil van citrusvruchten,claude-opus-5 (accepted by a
 nl,taaitaai,keep,,koek met anijs (Sinterklaas),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,tabee,keep,,"dag, doei",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,tapperij,keep,,kroeg,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,tappunt,keep,,geldautomaat,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,tappunt,keep,,tappunt; schenkpunt,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
 nl,taugé,keep,,sojascheuten,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,taveerne,keep,,"kroeg, herberg",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,taxateur,keep,,schatter (van waarde),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -1030,7 +1030,7 @@ nl,verbruid,keep,,verknoeid,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,verbruien,keep,,verknoeien,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,verdikkie,keep,,verdorie,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,verharen,keep,standard,verharen (haar verliezen),claude-opus-5 (accepted by author),,author,2026-09-21T17:35:41+00:00
-nl,verliggen,keep,,anders gaan liggen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,verliggen,keep,,pijn krijgen door verkeerd liggen,gemini (chosen by author),,author,2026-09-21T17:55:51+00:00
 nl,vermissen,keep,,missen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,vermissing,keep,,het vermist zijn,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,vernachelen,keep,,"beetnemen, bedriegen",claude-opus-5 (accepted by author),,author,2026-09-21T17:38:36+00:00
@@ -1055,7 +1055,7 @@ nl,wadlopen,keep,,bij eb over het wad lopen,claude-opus-5,,bulk,2026-09-21T17:42
 nl,wadloper,keep,,iemand die wadloopt,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,warenwet,keep,,wet op voedsel- en productveiligheid,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,waspeen,keep,,worteltjes,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,wassenaar,keep,,Wassenaar (rijke villagemeente bij Den Haag),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
+nl,wassenaar,keep,,Wassenaar (rijke villagemeente bij Den Haag),claude-opus-5 (switched on author's instruction),,author,2026-09-21T18:00:10+00:00
 nl,watervlug,keep,,heel snel,claude-opus-5 (accepted by author),,author,2026-09-21T17:38:48+00:00
 nl,waxine,keep,,waxinelichtje,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,weckpot,keep,,glazen inmaakpot,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
@@ -1073,7 +1073,7 @@ nl,woei,keep,,verleden tijd van waaien,claude-opus-5,,bulk,2026-09-21T17:42:37+0
 nl,wokkel,keep,,zoutje (chips in spiraalvorm),claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,wybertje,keep,,"keelpastille (zwart, zoet)",claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,yuppen,keep,,zich als yup gedragen,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
-nl,zalmsnip,keep,,fictief geldstramien; biljet,gemini,,bulk,2026-09-21T17:42:37+00:00
+nl,zalmsnip,keep,,fictief geldstramien; biljet,gemini (chosen by author),,author,2026-09-21T17:55:54+00:00
 nl,zeiksnor,keep,standard,zeur,claude-opus-5 (accepted by author),,author,2026-09-21T17:35:46+00:00
 nl,zieligjes,keep,,een beetje zielig,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
 nl,zitvlees,keep,,geduld om te blijven zitten,claude-opus-5,,bulk,2026-09-21T17:42:37+00:00
