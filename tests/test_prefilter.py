@@ -108,3 +108,8 @@ def test_sparse_output_brand_not_applied_and_skips_go_to_author(tmp_path):
     w = words[abbr]
     # A single auto-decision falls entirely in the blind audit (minimum audit size).
     assert (w.variety, w.word) not in decided and stats["held_back_for_blind_audit"] == 1
+
+
+def test_prefilter_can_only_route_never_reject_or_accept():
+    auto = {d for d in prefilter.CATEGORY_DECISION.values() if d}
+    assert auto <= prefilter.ALLOWED_AUTO_DECISIONS == {"move_to_b1"}

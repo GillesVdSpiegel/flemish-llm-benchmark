@@ -191,6 +191,19 @@ def lex_prefilter_import(seed: int = 0) -> None:
     console.print_json(data=stats)
 
 
+@lex.command("b1-pool")
+def lex_b1_pool() -> None:
+    """List words routed to the B1 (institutional) pool, by you or by the prefilter."""
+    from flembench import curate
+
+    rows = [r for r in curate.load_decisions().values() if r["decision"] == "move_to_b1"]
+    t = Table("variety", "word", "decided by", "note")
+    for r in sorted(rows, key=lambda r: (r["variety"], r["word"])):
+        t.add_row(r["variety"], r["word"], r.get("decided_by", ""), r.get("note", ""))
+    console.print(t)
+    console.print(f"{len(rows)} words in the B1 pool")
+
+
 @lex.command("prefilter-report")
 def lex_prefilter_report() -> None:
     """Prefilter vs author agreement on the blind audit sample."""
