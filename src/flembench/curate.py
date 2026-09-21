@@ -22,7 +22,7 @@ DECISIONS = {
     "k": ("keep", "keep — opaque, current, variety-specific"),
     "t": ("reject_transparent", "reject — meaning inferable from the form"),
     "n": ("reject_not_specific", "reject — meaning not variety-specific"),
-    "b": ("reject_brand_or_name", "reject — brand or proper name"),
+    "b": ("reject_brand_or_name", "reject — proper name, or product name not used as a word"),
     "o": ("reject_obsolete", "reject — obsolete or too rare"),
     "d": ("reject_duplicate", "reject — inflection/duplicate of another candidate"),
     "a": ("move_to_b1", "move to B1 — institution/abbreviation"),

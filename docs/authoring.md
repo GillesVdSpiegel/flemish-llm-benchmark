@@ -18,7 +18,7 @@ Curation keys:
 | `k` | keep | opaque, current, variety-specific. Then pick a register (`s`/`t`/`d`) and type a short gloss. |
 | `t` | reject_transparent | a Dutch reader could work out the meaning from the form (*recycleren*) |
 | `n` | reject_not_specific | the meaning is not variety-specific |
-| `b` | reject_brand_or_name | brand or proper name (*vlaflip*, *kliko*) |
+| `b` | reject_brand_or_name | proper name, or a product name nobody uses as an ordinary word. Genericised brands that *are* the everyday word (*bic*, *kliko*) are legitimate regional vocabulary: judge them like any other word. |
 | `o` | reject_obsolete | obsolete or too rare |
 | `d` | reject_duplicate | inflection or spelling variant of another candidate |
 | `a` | move_to_b1 | institution or abbreviation (*kmo*, *vmbo*) — belongs in B1 |
@@ -40,9 +40,12 @@ uv run flembench lexicon prefilter-export     # prompt + 6 batches of 200 words
 
 1. Open `data/curation/prefilter/PROMPT.md`, paste it into a **fresh** chat, then paste one
    batch file (`batches/01.txt` …) directly below it.
-2. Save the model's answer as `data/curation/prefilter/results/<model>__01.txt`, e.g.
-   `claude-sonnet-5__01.txt`, `gpt-5.6__01.txt`, `gemini-3.8-flash__01.txt`. Use the exact model
-   name the chat shows: it becomes part of the provenance.
+2. The model lists **only** the flagged words (`w0084;ABBR`), or just `NONE`. Save its answer
+   as `data/curation/prefilter/results/<model>__01.txt`, e.g. `claude-opus-5__01.txt`,
+   `gpt-5.6__01.txt`, `gemini-3.8-flash__01.txt`. Use the exact model name the chat shows: it
+   becomes part of the provenance.
+   *Sanity check:* batch 01 contains *kmo*, *vmbo* and *hbs*. If a model flags none of them,
+   it is not doing the task; redo the batch in a fresh chat or use another model.
 3. Do all batches with **at least two, ideally three, models from different providers**.
 4. Import once, after all results are in:
 
@@ -50,10 +53,12 @@ uv run flembench lexicon prefilter-export     # prompt + 6 batches of 200 words
 uv run flembench lexicon prefilter-import
 ```
 
-A word is auto-decided only if every model that saw it gave the same BRAND / NAME / ABBR
-verdict. 10% of those are held back and appear in your normal curation queue, unmarked. After
-curating, `uv run flembench lexicon prefilter-report` shows how often the prefilter agreed with you,
-and that number goes into the write-up.
+A word is auto-decided only if every model gave the same NAME (rejected) or ABBR (moved to B1)
+verdict. BRAND verdicts are counted but never applied, because genericised brands can be real
+regional words. A word a model did not list counts as not flagged, so skipped words always come
+to you. 10% of the auto-decisions are held back and appear in your normal curation queue,
+unmarked. After curating, `uv run flembench lexicon prefilter-report` shows how often the
+prefilter agreed with you, and that number goes into the write-up.
 
 ## 2. Writing items
 
