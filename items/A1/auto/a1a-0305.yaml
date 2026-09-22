@@ -1,0 +1,34 @@
+pair_id: a1a-0305
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: omzendbrief
+  register: unspecified
+  prompt: Wat betekent het woord "omzendbrief" zoals het in België gebruikt wordt?
+  choices:
+  - circulaire
+  - rouwcentrum
+  - vurenhout (sparrenhout)
+  - fysiotherapie
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: graftak
+  register: standard
+  prompt: Wat betekent het woord "graftak" zoals het in Nederland gebruikt wordt?
+  choices:
+  - oud mens (schertsend)
+  - fiche, penning
+  - vanillepuddingpoeder
+  - half, gedeeltelijk
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (switched on author''s instruction); decided_by: author'

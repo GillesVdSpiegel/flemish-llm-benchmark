@@ -1,0 +1,33 @@
+pair_id: a1a-0353
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: pruimelaar
+  register: unspecified
+  prompt: Wat betekent het woord "pruimelaar" zoals het in België gebruikt wordt?
+  choices:
+  - pruimenboom
+  - half, gedeeltelijk
+  - vaststelling
+  - knoeien, morsen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: goedig
+  register: unspecified
+  prompt: Wat betekent het woord "goedig" zoals het in Nederland gebruikt wordt?
+  choices:
+  - goedaardig
+  - stakker
+  - dolen, zwerven
+  - zaklamp met knijphendel
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

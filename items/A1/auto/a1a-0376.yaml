@@ -1,0 +1,33 @@
+pair_id: a1a-0376
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: schachtendoop
+  register: unspecified
+  prompt: Wat betekent het woord "schachtendoop" zoals het in België gebruikt wordt?
+  choices:
+  - ontgroening (studenten)
+  - grasveld in Den Haag (demonstratieplek)
+  - beetnemen, bedriegen
+  - verharen (haar verliezen)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: aanpezen
+  register: unspecified
+  prompt: Wat betekent het woord "aanpezen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - flink doorwerken, voortmaken
+  - dagschool (geen internaat)
+  - kleingesneden soepvlees
+  - helderheid, licht
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

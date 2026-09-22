@@ -1,0 +1,33 @@
+pair_id: a1a-0331
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: pickles
+  register: unspecified
+  prompt: Wat betekent het woord "pickles" zoals het in België gebruikt wordt?
+  choices:
+  - piccalilly
+  - ribfluweel
+  - oud mens (schertsend)
+  - jochie, klein mannetje
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: geblèr
+  register: unspecified
+  prompt: Wat betekent het woord "geblèr" zoals het in Nederland gebruikt wordt?
+  choices:
+  - gehuil, gebrul
+  - iemand die wadloopt
+  - immigrant, nieuwkomer
+  - zwachtel; windsel
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

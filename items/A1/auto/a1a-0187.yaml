@@ -1,0 +1,33 @@
+pair_id: a1a-0187
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: hoederecht
+  register: unspecified
+  prompt: Wat betekent het woord "hoederecht" zoals het in België gebruikt wordt?
+  choices:
+  - voogdij, recht om voor een kind te zorgen
+  - laadschop (bouwmachine)
+  - biljoenste van een seconde
+  - gekozen politicus, ambtsdrager
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: propedeuse
+  register: unspecified
+  prompt: Wat betekent het woord "propedeuse" zoals het in Nederland gebruikt wordt?
+  choices:
+  - eerste jaar van een hbo- of universitaire opleiding
+  - volledige kap, verdwijning van alles
+  - flink doorwerken, voortmaken
+  - gedwongen huwelijk (door zwangerschap)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

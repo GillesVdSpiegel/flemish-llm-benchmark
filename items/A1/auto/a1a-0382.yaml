@@ -1,0 +1,35 @@
+pair_id: a1a-0382
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: serveuse
+  register: unspecified
+  prompt: Wat betekent het woord "serveuse" zoals het in België gebruikt wordt?
+  choices:
+  - serveerster
+  - peuteren; poken
+  - tuig, gespuis
+  - half, gedeeltelijk
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: hupsen
+  register: unspecified
+  prompt: Wat betekent het woord "hupsen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - huppelen
+  - vanaf, van (op)
+  - boers, lomp
+  - harken
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'

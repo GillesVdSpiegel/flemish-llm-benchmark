@@ -1,0 +1,33 @@
+pair_id: a1a-0302
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: occasie
+  register: unspecified
+  prompt: Wat betekent het woord "occasie" zoals het in België gebruikt wordt?
+  choices:
+  - gelegenheid; tweedehandswagen
+  - zware tabak om te rollen
+  - vleeswaar van orgaanvlees en boekweit
+  - geldig, aanvaardbaar
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: zwaktebod
+  register: unspecified
+  prompt: Wat betekent het woord "zwaktebod" zoals het in Nederland gebruikt wordt?
+  choices:
+  - zwakke zet
+  - winnaar, geslaagde
+  - van hardsteen
+  - (drugs)handel
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

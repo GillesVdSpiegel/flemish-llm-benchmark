@@ -1,0 +1,34 @@
+pair_id: a1a-0203
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: intensifiëren
+  register: unspecified
+  prompt: Wat betekent het woord "intensifiëren" zoals het in België gebruikt wordt?
+  choices:
+  - intensiveren
+  - karten
+  - derde naamval
+  - gaan slapen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: boortol
+  register: unspecified
+  prompt: Wat betekent het woord "boortol" zoals het in Nederland gebruikt wordt?
+  choices:
+  - (hand)boormachine
+  - levensgenieter
+  - plagiaat, gejat werk
+  - samen, met z'n tweeën
+  drafted_by: nl_reviewer
+  reviewed_by:
+  - nl_reviewer
+  notes: 'gold gloss: nl_reviewer; decided_by: nl_reviewer'

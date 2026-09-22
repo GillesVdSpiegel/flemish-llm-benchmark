@@ -1,0 +1,33 @@
+pair_id: a1a-0068
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: brugdag
+  register: unspecified
+  prompt: Wat betekent het woord "brugdag" zoals het in België gebruikt wordt?
+  choices:
+  - werkdag tussen feestdag en weekend waarop men vrij neemt
+  - vereniging zonder winstoogmerk
+  - opkoper van etensresten (vroeger)
+  - stempas (oproep om te stemmen)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: vwo'er
+  register: unspecified
+  prompt: Wat betekent het woord "vwo'er" zoals het in Nederland gebruikt wordt?
+  choices:
+  - leerling van het vwo
+  - weerspannigheid
+  - toetje van vla en yoghurt met siroop
+  - enkellaars, laarsje
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

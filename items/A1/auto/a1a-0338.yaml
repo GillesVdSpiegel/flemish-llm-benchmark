@@ -1,0 +1,33 @@
+pair_id: a1a-0338
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: plattekaas
+  register: unspecified
+  prompt: Wat betekent het woord "plattekaas" zoals het in België gebruikt wordt?
+  choices:
+  - kwark
+  - voorzijde
+  - speels kind
+  - zwembad
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: traproede
+  register: unspecified
+  prompt: Wat betekent het woord "traproede" zoals het in Nederland gebruikt wordt?
+  choices:
+  - staaf om traploper vast te houden
+  - op schaatsen over land lopen
+  - trainingsdag, cursus (sport)
+  - Wassenaar (rijke villagemeente bij Den Haag)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

@@ -1,0 +1,35 @@
+pair_id: a1a-0392
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: snuisteren
+  register: unspecified
+  prompt: Wat betekent het woord "snuisteren" zoals het in België gebruikt wordt?
+  choices:
+  - snuffelen, neuzen
+  - atletiekbaan
+  - door elkaar mengen
+  - uitrusten, voorbereiden
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: abseilen
+  register: unspecified
+  prompt: Wat betekent het woord "abseilen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - afdalen langs een touw
+  - smurrie, drab
+  - studentenzangfeest
+  - vurenhout (sparrenhout)
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (switched on author''s instruction); decided_by: author'

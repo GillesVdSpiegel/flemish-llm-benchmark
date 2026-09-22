@@ -1,0 +1,33 @@
+pair_id: a1a-0347
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: prijskamp
+  register: unspecified
+  prompt: Wat betekent het woord "prijskamp" zoals het in België gebruikt wordt?
+  choices:
+  - wedstrijd, prijsvraag
+  - talenpracticum
+  - goedkope, snel vetgemeste kip
+  - gevloek, gemopper
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: verregenen
+  register: unspecified
+  prompt: Wat betekent het woord "verregenen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - door regen bedorven worden
+  - joepie, hoera, yes
+  - smakeloos, walgelijk
+  - gasbrander in een laboratorium
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

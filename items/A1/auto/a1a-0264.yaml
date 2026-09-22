@@ -1,0 +1,34 @@
+pair_id: a1a-0264
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: loebas
+  register: unspecified
+  prompt: Wat betekent het woord "loebas" zoals het in België gebruikt wordt?
+  choices:
+  - lummel, lomperik
+  - twee-onder-een-kapwoning
+  - circulaire
+  - gastouder (vrouw)
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (chosen by author); decided_by: author'
+nl:
+  marker: jandoedel
+  register: unspecified
+  prompt: Wat betekent het woord "jandoedel" zoals het in Nederland gebruikt wordt?
+  choices:
+  - sukkel
+  - nachtbraker
+  - gekibbel
+  - flirten
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

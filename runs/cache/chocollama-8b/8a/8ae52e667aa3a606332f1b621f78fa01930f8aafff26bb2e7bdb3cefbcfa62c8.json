@@ -1,0 +1,32 @@
+{
+ "model_key": "chocollama-8b",
+ "model_id": "flembench/chocollama-8b-instruct:q8_0",
+ "provider": "ollama",
+ "params": {
+  "temperature": 0,
+  "seed": 0,
+  "num_ctx": 4096,
+  "chat_template": "config/chat_templates/chocollama-8b.jinja",
+  "bos_token": "",
+  "eos_token": "<|eot_id|>",
+  "chat_template_sha256": "ba03a121d097859c7b5b9cd03af99aafe95275210d2876f642ad9929a150f122"
+ },
+ "reasoning": "none",
+ "item_id": "a1a-0449-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"vlakaf\" zoals het in België gebruikt wordt?\n\nA. bangerik\nB. onderdompeling in een taal\nC. botweg, ronduit\nD. eten, schrokken\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A. bangerik",
+  "input_tokens": 121,
+  "output_tokens": 6,
+  "reasoning_tokens": 0,
+  "model_reported": "flembench/chocollama-8b-instruct:q8_0@2c3939cade8c4974842bdb08038ef0064b2a810e9fcd76c07223a3841f9a3ce9",
+  "stop_reason": "stop",
+  "raw": {}
+ },
+ "cost_usd": 0.0,
+ "cached_at": "2026-09-22T16:17:58+00:00"
+}

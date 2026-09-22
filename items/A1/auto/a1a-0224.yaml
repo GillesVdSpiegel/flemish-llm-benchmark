@@ -1,0 +1,34 @@
+pair_id: a1a-0224
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: kine
+  register: unspecified
+  prompt: Wat betekent het woord "kine" zoals het in België gebruikt wordt?
+  choices:
+  - fysiotherapie; fysiotherapeut
+  - zonder een spier te vertrekken
+  - wie illegaal afval dumpt
+  - uitgelekte yoghurt
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: domtoren
+  register: standard
+  prompt: Wat betekent het woord "domtoren" zoals het in Nederland gebruikt wordt?
+  choices:
+  - toren van de Dom in Utrecht
+  - belangstelling (van het andere geslacht)
+  - afgelopen nacht
+  - wildernis, bush (in Afrika)
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'

@@ -1,0 +1,33 @@
+pair_id: a1a-0466
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: wegcode
+  register: unspecified
+  prompt: Wat betekent het woord "wegcode" zoals het in België gebruikt wordt?
+  choices:
+  - verkeersreglement
+  - gasbrander in een laboratorium
+  - eenvoudig, onverfijnd
+  - trainingsdag, cursus (sport)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: prikkie
+  register: unspecified
+  prompt: Wat betekent het woord "prikkie" zoals het in Nederland gebruikt wordt?
+  choices:
+  - koopje
+  - motorfiets
+  - verkoudheid
+  - forensisch arts
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

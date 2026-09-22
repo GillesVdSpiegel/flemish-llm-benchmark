@@ -1,0 +1,32 @@
+{
+ "model_key": "geitje-7b-ultra",
+ "model_id": "flembench/geitje-7b-ultra:q8_0",
+ "provider": "ollama",
+ "params": {
+  "temperature": 0,
+  "seed": 0,
+  "num_ctx": 4096,
+  "chat_template": "config/chat_templates/geitje-7b-ultra.jinja",
+  "bos_token": "",
+  "eos_token": "</s>",
+  "chat_template_sha256": "66291cf0045c2425a3a667cf3cbb7af2b11f09e025c02f97245323ab79119362"
+ },
+ "reasoning": "none",
+ "item_id": "a1a-0435-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"valoriseren\" zoals het in België gebruikt wordt?\n\nA. Nederlander met Indonesische afkomst\nB. te gelde maken, benutten\nC. aandraaien, vastschroeven\nD. basketbal spelen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B. Nederlander met Indonesische afkomst is geen Nederlands woord en heeft geen directe betekenis in de context van \"valoriseren\" zoals het in België gebruikt wordt.\n\n\"Valoriseren\" in de context van België verwijst naar het proces van het verhogen van de waarde van iets, het benutten van de potentie of het versterken van de positie van iets of iemand. Het is een term die vaak gebruikt wordt in de academische wereld, bijvoorbeeld bij het beschrijven van onderzoek dat bijdraagt aan kennis of bij het verhogen van de economische waarde van een product of dienst.\n\nHet juiste antwoord in deze context is dus B. te gelde maken, benutten.",
+  "input_tokens": 150,
+  "output_tokens": 194,
+  "reasoning_tokens": 0,
+  "model_reported": "flembench/geitje-7b-ultra:q8_0@fd1459adb6db7d23520f6ab07980673160bb947293082b44b6f14fe904344ad7",
+  "stop_reason": "stop",
+  "raw": {}
+ },
+ "cost_usd": 0.0,
+ "cached_at": "2026-09-22T16:09:33+00:00"
+}

@@ -1,0 +1,34 @@
+pair_id: a1a-0441
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: verpinken
+  register: standard
+  prompt: Wat betekent het woord "verpinken" zoals het in België gebruikt wordt?
+  choices:
+  - zonder een spier te vertrekken
+  - haastig en slordig afmaken
+  - linoleum (vloerbedekking)
+  - gelegenheid; tweedehandswagen
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: cassave
+  register: unspecified
+  prompt: Wat betekent het woord "cassave" zoals het in Nederland gebruikt wordt?
+  choices:
+  - maniok
+  - toernooien
+  - dat wordt laat
+  - stokdoof
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

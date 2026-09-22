@@ -1,0 +1,33 @@
+pair_id: a1a-0130
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: doteren
+  register: unspecified
+  prompt: Wat betekent het woord "doteren" zoals het in België gebruikt wordt?
+  choices:
+  - een toelage toekennen, subsidiëren
+  - algemeen secundair onderwijs
+  - zich verrekken bij tillen
+  - taartje met wrongel (streekgebak)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: cheffin
+  register: unspecified
+  prompt: Wat betekent het woord "cheffin" zoals het in Nederland gebruikt wordt?
+  choices:
+  - vrouwelijke chef
+  - beoefenaar van haptonomie
+  - half, gedeeltelijk
+  - aardewerk met boerenbloemmotief
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

@@ -1,0 +1,33 @@
+pair_id: a1a-0210
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: kadee
+  register: unspecified
+  prompt: Wat betekent het woord "kadee" zoals het in België gebruikt wordt?
+  choices:
+  - kerel, gast
+  - graszoden
+  - notenboom
+  - wegwerkzaamheden
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: vut
+  register: unspecified
+  prompt: Wat betekent het woord "vut" zoals het in Nederland gebruikt wordt?
+  choices:
+  - vervroegde uittreding
+  - onder elkaar, door elkaar
+  - spaarbon van een bank
+  - uit de gratie zijn
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

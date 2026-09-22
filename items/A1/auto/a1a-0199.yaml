@@ -1,0 +1,33 @@
+pair_id: a1a-0199
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: inhoudstafel
+  register: unspecified
+  prompt: Wat betekent het woord "inhoudstafel" zoals het in België gebruikt wordt?
+  choices:
+  - inhoudsopgave
+  - biljoenste van een seconde
+  - gek, dom
+  - op goed geluk
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: inruimen
+  register: unspecified
+  prompt: Wat betekent het woord "inruimen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - inruimen (vaatwasser); ruimte maken
+  - glazen wand, schuifpui
+  - officiële goedkeuring, bekrachtiging
+  - (onverwacht, te laat) aan komen zetten
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

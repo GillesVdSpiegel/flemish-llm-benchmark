@@ -1,0 +1,34 @@
+pair_id: a1a-0241
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: koterij
+  register: unspecified
+  prompt: Wat betekent het woord "koterij" zoals het in België gebruikt wordt?
+  choices:
+  - aanbouwsel, bijgebouwtje
+  - haakse slijper
+  - paddenstoel met hallucinogene werking
+  - door regen bedorven worden
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: stavast
+  register: unspecified
+  prompt: Wat betekent het woord "stavast" zoals het in Nederland gebruikt wordt?
+  choices:
+  - onverzettelijk, flink en betrouwbaar (persoon)
+  - kever met lange sprieten
+  - schoolverblijf in de natuur
+  - kleine jongen, deugniet
+  drafted_by: nl_reviewer
+  reviewed_by:
+  - nl_reviewer
+  notes: 'gold gloss: nl_reviewer; decided_by: nl_reviewer'

@@ -1,0 +1,29 @@
+{
+ "model_key": "gemma4-12b",
+ "model_id": "gemma4:12b-it-qat",
+ "provider": "ollama",
+ "params": {
+  "temperature": 0,
+  "seed": 0,
+  "num_ctx": 4096,
+  "think": false
+ },
+ "reasoning": "thinking disabled",
+ "item_id": "a1a-0444-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"vestimentair\" zoals het in België gebruikt wordt?\n\nA. onsympathiek\nB. huishoudelijke hulp\nC. wat kleding betreft\nD. smijten, gooien\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 111,
+  "output_tokens": 2,
+  "reasoning_tokens": 0,
+  "model_reported": "gemma4:12b-it-qat@38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+  "stop_reason": "stop",
+  "raw": {}
+ },
+ "cost_usd": 0.0,
+ "cached_at": "2026-09-22T15:48:48+00:00"
+}

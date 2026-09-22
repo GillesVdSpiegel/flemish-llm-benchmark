@@ -1,0 +1,33 @@
+pair_id: a1a-0349
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: producen
+  register: unspecified
+  prompt: Wat betekent het woord "producen" zoals het in België gebruikt wordt?
+  choices:
+  - produceren (muziek)
+  - verbondenheid
+  - een beetje dik
+  - portemonnee
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: zieligjes
+  register: unspecified
+  prompt: Wat betekent het woord "zieligjes" zoals het in Nederland gebruikt wordt?
+  choices:
+  - een beetje zielig
+  - parallelweg
+  - vervelend kind
+  - lessen die niet doorgaan
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

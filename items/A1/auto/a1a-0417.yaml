@@ -1,0 +1,33 @@
+pair_id: a1a-0417
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: tateren
+  register: unspecified
+  prompt: Wat betekent het woord "tateren" zoals het in België gebruikt wordt?
+  choices:
+  - kakelen, snateren
+  - kleinigheid
+  - kaartspel
+  - touwslagerij
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: kuub
+  register: unspecified
+  prompt: Wat betekent het woord "kuub" zoals het in Nederland gebruikt wordt?
+  choices:
+  - kubieke meter
+  - uitventen, rondbrengen
+  - luiaard
+  - verwaarlozen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

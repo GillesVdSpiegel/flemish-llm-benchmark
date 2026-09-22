@@ -1,0 +1,35 @@
+pair_id: a1a-0118
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: dikoor
+  register: unspecified
+  prompt: Wat betekent het woord "dikoor" zoals het in België gebruikt wordt?
+  choices:
+  - niet willen horen, koppig zijn, stijfkop
+  - een jaar overdoen, blijven zitten
+  - intercom, huistelefoon
+  - leerling van een gymnasium
+  drafted_by: author
+  reviewed_by:
+  - author
+  notes: 'gold gloss: author; decided_by: author'
+nl:
+  marker: kopschuw
+  register: standard
+  prompt: Wat betekent het woord "kopschuw" zoals het in Nederland gebruikt wordt?
+  choices:
+  - schichtig
+  - pruimenboom
+  - zetpil
+  - geluksvogel
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'

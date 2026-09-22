@@ -1,0 +1,33 @@
+pair_id: a1a-0448
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: vismijn
+  register: unspecified
+  prompt: Wat betekent het woord "vismijn" zoals het in België gebruikt wordt?
+  choices:
+  - visafslag
+  - aankunnen, verwerken
+  - polijsten
+  - harken
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: sinas
+  register: unspecified
+  prompt: Wat betekent het woord "sinas" zoals het in Nederland gebruikt wordt?
+  choices:
+  - sinaasappellimonade
+  - heel graag
+  - zware tabak om te rollen
+  - finish, eindstreep
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

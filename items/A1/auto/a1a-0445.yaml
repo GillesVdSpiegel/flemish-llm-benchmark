@@ -1,0 +1,34 @@
+pair_id: a1a-0445
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: vidé
+  register: unspecified
+  prompt: Wat betekent het woord "vidé" zoals het in België gebruikt wordt?
+  choices:
+  - koninginnenhapje; pasteitje
+  - onder elkaar, door elkaar
+  - waterloop, sloot
+  - verwaand, bekakt
+  drafted_by: gemini
+  reviewed_by:
+  - author
+  notes: 'gold gloss: gemini (chosen by author); decided_by: author'
+nl:
+  marker: kift
+  register: unspecified
+  prompt: Wat betekent het woord "kift" zoals het in Nederland gebruikt wordt?
+  choices:
+  - afgunst
+  - driftkop
+  - huppelen
+  - afknijpen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

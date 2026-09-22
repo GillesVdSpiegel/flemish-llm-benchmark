@@ -1,0 +1,33 @@
+pair_id: a1a-0119
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: dissectie
+  register: unspecified
+  prompt: Wat betekent het woord "dissectie" zoals het in België gebruikt wordt?
+  choices:
+  - ontleding (anatomie)
+  - vanillepuddingpoeder
+  - oplichten, bedriegen
+  - wegwerkzaamheden
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: meewegen
+  register: unspecified
+  prompt: Wat betekent het woord "meewegen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - mee in rekening brengen
+  - sentimentele film
+  - pechverhelping, takeldienst
+  - zwart klussen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

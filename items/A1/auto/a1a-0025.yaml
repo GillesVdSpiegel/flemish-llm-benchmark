@@ -1,0 +1,33 @@
+pair_id: a1a-0025
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: assisen
+  register: unspecified
+  prompt: Wat betekent het woord "assisen" zoals het in België gebruikt wordt?
+  choices:
+  - hof van assisen (strafhof met jury)
+  - elektronisch betaalchipje op de bankpas (vroeger)
+  - sinaasappellimonade
+  - klein kind, snotneus
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: kloffie
+  register: unspecified
+  prompt: Wat betekent het woord "kloffie" zoals het in Nederland gebruikt wordt?
+  choices:
+  - oude, gemakkelijke kleren
+  - verzonnen, fictief
+  - kattenkwaad uithalen, iets fout doen
+  - joepie, hoera, yes
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

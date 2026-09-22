@@ -1,0 +1,33 @@
+pair_id: a1a-0285
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: miniemen
+  register: unspecified
+  prompt: Wat betekent het woord "miniemen" zoals het in België gebruikt wordt?
+  choices:
+  - jeugdcategorie in de sport (ca. 10-12 jaar)
+  - onderscheppen; wegvangen
+  - vereniging van beroepsclubs
+  - met een prijs of toelage verbonden
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: darter
+  register: unspecified
+  prompt: Wat betekent het woord "darter" zoals het in Nederland gebruikt wordt?
+  choices:
+  - dartsspeler
+  - opzetten van dieren
+  - vervelen, ergeren
+  - afsnauwen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

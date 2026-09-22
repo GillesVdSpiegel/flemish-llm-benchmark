@@ -1,0 +1,33 @@
+pair_id: a1a-0160
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: gamel
+  register: unspecified
+  prompt: Wat betekent het woord "gamel" zoals het in België gebruikt wordt?
+  choices:
+  - eetketeltje (van soldaten)
+  - dynamo (van een auto)
+  - groentegerecht (Chinees-Indisch)
+  - optillen; geld ontvangen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: borgpen
+  register: unspecified
+  prompt: Wat betekent het woord "borgpen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - borgpen, splitpen
+  - te behappen, hanteerbaar
+  - overladen, te veel voorgeschoteld
+  - knolselderij
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

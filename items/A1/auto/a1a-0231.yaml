@@ -1,0 +1,35 @@
+pair_id: a1a-0231
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: klissen
+  register: unspecified
+  prompt: Wat betekent het woord "klissen" zoals het in België gebruikt wordt?
+  choices:
+  - betrappen, te pakken krijgen
+  - algemeen secundair onderwijs
+  - Wassenaar (rijke villagemeente bij Den Haag)
+  - betasten, begrabbelen
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (chosen by author); decided_by: author'
+nl:
+  marker: aankakken
+  register: unspecified
+  prompt: Wat betekent het woord "aankakken" zoals het in Nederland gebruikt wordt?
+  choices:
+  - (onverwacht, te laat) aan komen zetten
+  - fanvak achter het doel
+  - geduld om te blijven zitten
+  - kop, briefhoofd, titel
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (switched on author''s instruction); decided_by: author'

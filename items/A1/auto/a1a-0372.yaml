@@ -1,0 +1,33 @@
+pair_id: a1a-0372
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: sakkeren
+  register: unspecified
+  prompt: Wat betekent het woord "sakkeren" zoals het in België gebruikt wordt?
+  choices:
+  - vloeken, mopperen
+  - rozenstruik
+  - bastuba (koperblaasinstrument)
+  - niet mijn taak
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: uithof
+  register: unspecified
+  prompt: Wat betekent het woord "uithof" zoals het in Nederland gebruikt wordt?
+  choices:
+  - universiteitscampus (Utrecht)
+  - een beetje bang
+  - geluidstechnicus
+  - winnaar, geslaagde
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

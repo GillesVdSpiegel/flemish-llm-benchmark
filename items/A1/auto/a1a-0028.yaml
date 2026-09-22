@@ -1,0 +1,34 @@
+pair_id: a1a-0028
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: augmentatie
+  register: unspecified
+  prompt: Wat betekent het woord "augmentatie" zoals het in België gebruikt wordt?
+  choices:
+  - verhoging (van loon, prijs)
+  - flauw gerechtje
+  - groentegerecht (Chinees-Indisch)
+  - voortkruipen op ellebogen
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: recalcitrantie
+  register: unspecified
+  prompt: Wat betekent het woord "recalcitrantie" zoals het in Nederland gebruikt wordt?
+  choices:
+  - weerspannigheid
+  - pleisterwerk; bepleistering
+  - achterzak
+  - zorgen, narigheid
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

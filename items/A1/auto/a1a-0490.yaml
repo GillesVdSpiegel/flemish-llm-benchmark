@@ -1,0 +1,33 @@
+pair_id: a1a-0490
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: zwans
+  register: unspecified
+  prompt: Wat betekent het woord "zwans" zoals het in België gebruikt wordt?
+  choices:
+  - flauwe grap, zever
+  - onder elkaar, door elkaar
+  - bij eb over het wad lopen
+  - middelbaar beroepsonderwijs
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: gefingeerd
+  register: unspecified
+  prompt: Wat betekent het woord "gefingeerd" zoals het in Nederland gebruikt wordt?
+  choices:
+  - verzonnen, fictief
+  - pleisterlaag op een muur
+  - stukadoren
+  - grote, ronde, dunne koek
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
