@@ -1,0 +1,32 @@
+{
+ "model_key": "geitje-7b-ultra",
+ "model_id": "flembench/geitje-7b-ultra:q8_0",
+ "provider": "ollama",
+ "params": {
+  "temperature": 0,
+  "seed": 0,
+  "num_ctx": 4096,
+  "chat_template": "config/chat_templates/geitje-7b-ultra.jinja",
+  "bos_token": "",
+  "eos_token": "</s>",
+  "chat_template_sha256": "66291cf0045c2425a3a667cf3cbb7af2b11f09e025c02f97245323ab79119362"
+ },
+ "reasoning": "none",
+ "item_id": "a1a-0461-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"waterkans\" zoals het in België gebruikt wordt?\n\nA. circulaire\nB. herrie, ophef\nC. stijfkop\nD. heel kleine kans\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 138,
+  "output_tokens": 2,
+  "reasoning_tokens": 0,
+  "model_reported": "flembench/geitje-7b-ultra:q8_0@fd1459adb6db7d23520f6ab07980673160bb947293082b44b6f14fe904344ad7",
+  "stop_reason": "stop",
+  "raw": {}
+ },
+ "cost_usd": 0.0,
+ "cached_at": "2026-09-22T16:09:52+00:00"
+}

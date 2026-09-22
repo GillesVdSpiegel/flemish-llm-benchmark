@@ -1,0 +1,32 @@
+{
+ "model_key": "eurollm-9b",
+ "model_id": "flembench/eurollm-9b-instruct-2512:q8_0",
+ "provider": "ollama",
+ "params": {
+  "temperature": 0,
+  "seed": 0,
+  "num_ctx": 4096,
+  "chat_template": "config/chat_templates/eurollm-9b.jinja",
+  "bos_token": "",
+  "eos_token": "<|im_end|>",
+  "chat_template_sha256": "9850c24e4c4adc21d258566d1b1f0c1855c44256287143956631e892a38fc4de"
+ },
+ "reasoning": "none",
+ "item_id": "a1a-0308-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"scootmobiel\" zoals het in Nederland gebruikt wordt?\n\nA. elektrisch voertuig voor mindervaliden\nB. skiverblijf met de school\nC. Surinaams gerecht (plat brood met curry)\nD. ervandoor gaan, snel weggaan\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 124,
+  "output_tokens": 2,
+  "reasoning_tokens": 0,
+  "model_reported": "flembench/eurollm-9b-instruct-2512:q8_0@4d26b69599da40bf0a20d6be4d84cc75214a78b4da55119843a9b466e3ead740",
+  "stop_reason": "stop",
+  "raw": {}
+ },
+ "cost_usd": 0.0,
+ "cached_at": "2026-09-22T15:58:05+00:00"
+}

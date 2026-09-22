@@ -1,0 +1,32 @@
+{
+ "model_key": "chocollama-8b",
+ "model_id": "flembench/chocollama-8b-instruct:q8_0",
+ "provider": "ollama",
+ "params": {
+  "temperature": 0,
+  "seed": 0,
+  "num_ctx": 4096,
+  "chat_template": "config/chat_templates/chocollama-8b.jinja",
+  "bos_token": "",
+  "eos_token": "<|eot_id|>",
+  "chat_template_sha256": "ba03a121d097859c7b5b9cd03af99aafe95275210d2876f642ad9929a150f122"
+ },
+ "reasoning": "none",
+ "item_id": "a1a-0398-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"kissebissen\" zoals het in Nederland gebruikt wordt?\n\nA. kruidenier\nB. kibbelen\nC. vismijn\nD. generiek\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 110,
+  "output_tokens": 2,
+  "reasoning_tokens": 0,
+  "model_reported": "flembench/chocollama-8b-instruct:q8_0@2c3939cade8c4974842bdb08038ef0064b2a810e9fcd76c07223a3841f9a3ce9",
+  "stop_reason": "stop",
+  "raw": {}
+ },
+ "cost_usd": 0.0,
+ "cached_at": "2026-09-22T16:17:28+00:00"
+}

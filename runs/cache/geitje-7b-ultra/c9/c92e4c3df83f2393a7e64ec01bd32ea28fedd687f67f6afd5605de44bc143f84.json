@@ -1,0 +1,32 @@
+{
+ "model_key": "geitje-7b-ultra",
+ "model_id": "flembench/geitje-7b-ultra:q8_0",
+ "provider": "ollama",
+ "params": {
+  "temperature": 0,
+  "seed": 0,
+  "num_ctx": 4096,
+  "chat_template": "config/chat_templates/geitje-7b-ultra.jinja",
+  "bos_token": "",
+  "eos_token": "</s>",
+  "chat_template_sha256": "66291cf0045c2425a3a667cf3cbb7af2b11f09e025c02f97245323ab79119362"
+ },
+ "reasoning": "none",
+ "item_id": "a1a-0187-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"hoederecht\" zoals het in België gebruikt wordt?\n\nA. laadschop (bouwmachine)\nB. voogdij, recht om voor een kind te zorgen\nC. gekozen politicus, ambtsdrager\nD. biljoenste van een seconde\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B. laadschop (bouwmachine)\nC. gekozen politicus, ambtsdrager\nD. biljoenste van een seconde\n\nHet woord \"hoederecht\" zoals het in België gebruikt wordt, verwijst naar het recht van een ouder om de voogdij over een kind te hebben, oftewel het ouderlijk gezag. Dit is een juridisch concept dat in Nederland ook bekend staat als \"ouderlijk gezag\". Het is dus geen bouwmachine, geen gekozen politicus of een eenheid van tijd.",
+  "input_tokens": 163,
+  "output_tokens": 145,
+  "reasoning_tokens": 0,
+  "model_reported": "flembench/geitje-7b-ultra:q8_0@fd1459adb6db7d23520f6ab07980673160bb947293082b44b6f14fe904344ad7",
+  "stop_reason": "stop",
+  "raw": {}
+ },
+ "cost_usd": 0.0,
+ "cached_at": "2026-09-22T16:06:18+00:00"
+}
