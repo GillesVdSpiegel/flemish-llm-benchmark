@@ -78,11 +78,11 @@ def main() -> None:
 
     # 3. Does the gold's origin matter? (author/reviewer-checked vs bulk-kept)
     dec = curate.load_decisions()
+    checked_by = ("author", "nl_reviewer")
     s["gold_source"] = [
-        "checked" if dec.get((r.variety, r.marker), {}).get("decided_by") in ("author", "nl_reviewer")
-        else "bulk"
+        "checked" if dec.get((r.variety, r.marker), {}).get("decided_by") in checked_by else "bulk"
         for r in s.itertuples()
-    ]  # fmt: skip
+    ]
     tab = s.pivot_table(
         index="gold_source", columns="variety", values="correct", aggfunc=["mean", "count"]
     )
