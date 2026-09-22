@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0350-nl",
+ "repeat": 2,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"kachelen\" zoals het in Nederland gebruikt wordt?\n\nA. kleine jongen, deugniet\nB. nachtpot\nC. dwarsbomen; tegenwerken\nD. hard rijden\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 96,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0125a926b62785d6016ab2cf4cb00887d2a422996f0f75d5c8"
+  }
+ },
+ "cost_usd": 0.000252,
+ "cached_at": "2026-09-22T18:56:12+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0172-nl",
+ "repeat": 1,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"vertillen\" zoals het in Nederland gebruikt wordt?\n\nA. zich verrekken bij tillen\nB. ambulancebroeder\nC. onderzoek, opzoekwerk\nD. gymnastiekvereniging\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 95,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0f4526a5929ef5e1016ab2cede7bc887d2becc5bb42d89fc0d"
+  }
+ },
+ "cost_usd": 0.00025,
+ "cached_at": "2026-09-22T18:54:23+00:00"
+}

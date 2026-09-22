@@ -137,6 +137,24 @@ Aan Belgische kant vallen eten, drank en huishouden op (*vidé*, *witteke*, *nie
 Eén item wordt door alle zes modellen fout beantwoord: *konijnenpijp* (konijnenhol), waar ze
 allemaal "aanbouwsel, bijgebouwtje" kiezen.
 
+### Hoe stabiel zijn de antwoorden?
+
+Elk model kreeg een deelverzameling van 60 paren drie keer voorgelegd, met identieke instellingen.
+Het aandeel vragen waarop alle drie de antwoorden gelijk zijn:
+
+| Model | Identiek antwoord in 3 runs |
+|---|---|
+| GEITje-7B-ultra | 99,2 % |
+| Claude Sonnet 5 | 99,1 % |
+| EuroLLM-9B | 98,3 % |
+| Gemma 4 12B | 98,3 % |
+| GPT-5.6 Terra | 96,5 % |
+| ChocoLlama-8B | 93,3 % |
+
+Geen enkel model is volledig deterministisch, ook niet lokaal met temperatuur 0 en een vaste seed.
+Praktisch betekent dit: **verschillen kleiner dan ongeveer 1 tot 2 procentpunten kunnen ruis zijn**,
+voor ChocoLlama iets meer. Alle gerapporteerde kloven boven de 3 punten liggen daarboven.
+
 ### Geen aanwijzing voor systematische vertekening
 
 Als een model fout antwoordt, kiest het ongeveer even vaak een Belgische als een Nederlandse
