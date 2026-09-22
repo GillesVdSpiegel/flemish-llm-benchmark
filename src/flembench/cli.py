@@ -402,7 +402,10 @@ def _select(
         import random
 
         pairs = sorted({i.pair_id for i in its if i.pair_id})
-        chosen = set(random.Random(seed).sample(pairs, min(sample_pairs, len(pairs))))
+        # Namespaced seed: plain seed 0 reproduces generate-a1's held-out draw exactly (same
+        # RNG, same population size), which would sample almost only held-out pairs.
+        rng = random.Random(f"sample_pairs-{seed}")
+        chosen = set(rng.sample(pairs, min(sample_pairs, len(pairs))))
         its = [i for i in its if i.pair_id in chosen]
     return [reg[k] for k in keys], its
 
