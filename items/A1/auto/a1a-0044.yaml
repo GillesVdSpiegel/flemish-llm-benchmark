@@ -1,0 +1,34 @@
+pair_id: a1a-0044
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: beterhand
+  register: standard
+  prompt: Wat betekent het woord "beterhand" zoals het in België gebruikt wordt?
+  choices:
+  - herstellende zijn
+  - spoedklus
+  - winkelgevel
+  - overbodig dubbel
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (chosen by author); decided_by: author'
+nl:
+  marker: dotteren
+  register: unspecified
+  prompt: Wat betekent het woord "dotteren" zoals het in Nederland gebruikt wordt?
+  choices:
+  - een vernauwde kransslagader oprekken
+  - aspirant-lid van een studentenvereniging (schacht)
+  - denkrichting, mogelijkheid
+  - aanbouwsel, bijgebouwtje
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

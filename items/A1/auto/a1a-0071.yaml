@@ -1,0 +1,34 @@
+pair_id: a1a-0071
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: bultenaar
+  register: unspecified
+  prompt: Wat betekent het woord "bultenaar" zoals het in België gebruikt wordt?
+  choices:
+  - gebochelde
+  - vervroegde uittreding
+  - opscheppen, luid pochen
+  - slagboom (bij overweg)
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (chosen by author); decided_by: author'
+nl:
+  marker: custard
+  register: unspecified
+  prompt: Wat betekent het woord "custard" zoals het in Nederland gebruikt wordt?
+  choices:
+  - vanillepuddingpoeder
+  - driemanschap
+  - sukkel, onbenul
+  - exact vak (wiskunde, natuurwetenschap)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

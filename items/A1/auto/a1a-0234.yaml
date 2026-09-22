@@ -1,0 +1,35 @@
+pair_id: a1a-0234
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: koer
+  register: unspecified
+  prompt: Wat betekent het woord "koer" zoals het in België gebruikt wordt?
+  choices:
+  - binnenplaats, speelplaats
+  - kleinigheid, fluitje van een cent
+  - jaar dat men overdoet
+  - voetbalveldje
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: viezig
+  register: unspecified
+  prompt: Wat betekent het woord "viezig" zoals het in Nederland gebruikt wordt?
+  choices:
+  - een beetje vies
+  - de paardensport betreffend
+  - kroeshaar
+  - rommel, chaos
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'

@@ -1,0 +1,34 @@
+pair_id: a1a-0037
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: bavet
+  register: unspecified
+  prompt: Wat betekent het woord "bavet" zoals het in België gebruikt wordt?
+  choices:
+  - slabbetje
+  - absurd van stijl
+  - jeu de boules spelen
+  - smurrie, drab
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: leges
+  register: unspecified
+  prompt: Wat betekent het woord "leges" zoals het in Nederland gebruikt wordt?
+  choices:
+  - administratiekosten (gemeente)
+  - groentekwekerij
+  - poep (kindertaal)
+  - kleinigheid, fluitje van een cent
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'

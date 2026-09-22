@@ -1,0 +1,33 @@
+pair_id: a1a-0057
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: bolwassing
+  register: unspecified
+  prompt: Wat betekent het woord "bolwassing" zoals het in België gebruikt wordt?
+  choices:
+  - uitbrander, flinke berisping
+  - joepie, hoera, yes
+  - zaak voor het hof van assisen
+  - tank voor drijfmest
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: poli
+  register: unspecified
+  prompt: Wat betekent het woord "poli" zoals het in Nederland gebruikt wordt?
+  choices:
+  - polikliniek
+  - intercom, huistelefoon
+  - te veel leiding
+  - kaartspel
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

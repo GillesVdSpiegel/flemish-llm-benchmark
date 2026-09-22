@@ -1,0 +1,33 @@
+pair_id: a1a-0340
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: pletwals
+  register: unspecified
+  prompt: Wat betekent het woord "pletwals" zoals het in België gebruikt wordt?
+  choices:
+  - wegwals
+  - visafslag
+  - gymspullen
+  - geweer
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: digibeet
+  register: unspecified
+  prompt: Wat betekent het woord "digibeet" zoals het in Nederland gebruikt wordt?
+  choices:
+  - computeranalfabeet
+  - pak slaag
+  - bruine basterdsuiker
+  - vrije trap
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

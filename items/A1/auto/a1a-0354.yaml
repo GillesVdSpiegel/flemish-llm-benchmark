@@ -1,0 +1,33 @@
+pair_id: a1a-0354
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: raid
+  register: unspecified
+  prompt: Wat betekent het woord "raid" zoals het in België gebruikt wordt?
+  choices:
+  - trektocht (sport); inval
+  - kantongerecht
+  - ontdekken via kinderactiviteit
+  - sentimentele film
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: dreutelen
+  register: unspecified
+  prompt: Wat betekent het woord "dreutelen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - treuzelen
+  - aardappelras
+  - enkellaars, laarsje
+  - krabbeltekening
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

@@ -1,0 +1,34 @@
+pair_id: a1a-0104
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: datief
+  register: unspecified
+  prompt: Wat betekent het woord "datief" zoals het in België gebruikt wordt?
+  choices:
+  - derde naamval
+  - winnaar, geslaagde
+  - zaagsel
+  - eigen doelpunt
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: rondte
+  register: unspecified
+  prompt: Wat betekent het woord "rondte" zoals het in Nederland gebruikt wordt?
+  choices:
+  - ronde vorm; omtrek van iets
+  - keelpastille (zwart, zoet)
+  - gebakje met chocolade en slagroom
+  - koninginnenhapje; pasteitje
+  drafted_by: nl_reviewer
+  reviewed_by:
+  - nl_reviewer
+  notes: 'gold gloss: nl_reviewer; decided_by: nl_reviewer'

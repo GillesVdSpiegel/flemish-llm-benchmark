@@ -1,0 +1,33 @@
+pair_id: a1a-0191
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: homologatie
+  register: unspecified
+  prompt: Wat betekent het woord "homologatie" zoals het in België gebruikt wordt?
+  choices:
+  - officiële goedkeuring, bekrachtiging
+  - plagiaat, gejat werk
+  - biljoenste van een seconde
+  - opvangen, ontvangen (signaal); winnen (water)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: overvoerd
+  register: unspecified
+  prompt: Wat betekent het woord "overvoerd" zoals het in Nederland gebruikt wordt?
+  choices:
+  - overladen, te veel voorgeschoteld
+  - dringend poststuk
+  - eerste jaar van een hbo- of universitaire opleiding
+  - gedwongen opname in een psychiatrische instelling
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

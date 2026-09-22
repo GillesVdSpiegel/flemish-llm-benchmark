@@ -357,6 +357,31 @@ def lex_prefilter_report() -> None:
     console.print_json(data=prefilter.report(curate.load_decisions()))
 
 
+@app.command("generate-a1")
+def generate_a1(seed: int = 0) -> None:
+    """(Re)generate the automatic lexicon track from lexicon_pairs.csv and the decisions."""
+    import os
+    import shutil
+    from collections import Counter
+    from pathlib import Path
+
+    from flembench import curate, generate
+
+    heldout_root = os.environ.get(items_mod.HELDOUT_ENV)
+    if not heldout_root:
+        console.print(f"[red]set {items_mod.HELDOUT_ENV} to the private held-out repo first[/]")
+        raise typer.Exit(1)
+    public_dir = ITEMS_DIR / "A1" / "auto"
+    heldout_dir = Path(heldout_root) / "items" / "A1" / "auto"
+    for d in (public_dir, heldout_dir):
+        shutil.rmtree(d, ignore_errors=True)
+    docs = generate.build(curate.load_decisions(), generate.load_pairs(), seed=seed)
+    counts = generate.write(docs, public_dir, heldout_dir)
+    sub = Counter((d["split"], d["subcategory"]) for d in docs)
+    console.print(f"pairs written: {counts}")
+    console.print_json(data={f"{a}:{b}": n for (a, b), n in sorted(sub.items())})
+
+
 # ------------------------------------------------------------------ runs
 
 

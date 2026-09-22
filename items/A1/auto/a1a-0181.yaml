@@ -1,0 +1,33 @@
+pair_id: a1a-0181
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: heenronde
+  register: unspecified
+  prompt: Wat betekent het woord "heenronde" zoals het in België gebruikt wordt?
+  choices:
+  - heenronde (eerste helft van een competitie)
+  - beurtregeling, rooster
+  - onderdirecteur van een school
+  - een vernauwde kransslagader oprekken
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: liflafje
+  register: unspecified
+  prompt: Wat betekent het woord "liflafje" zoals het in Nederland gebruikt wordt?
+  choices:
+  - flauw gerechtje
+  - slim, snugger
+  - drukte, jachtigheid
+  - bestrijden
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

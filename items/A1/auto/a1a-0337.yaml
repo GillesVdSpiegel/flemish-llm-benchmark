@@ -1,0 +1,34 @@
+pair_id: a1a-0337
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: plafonnering
+  register: unspecified
+  prompt: Wat betekent het woord "plafonnering" zoals het in België gebruikt wordt?
+  choices:
+  - pleisterwerk; bepleistering
+  - betaalrekening
+  - spreekuur (van een ambtenaar of politicus)
+  - los, niet vast (zand)
+  drafted_by: gemini
+  reviewed_by:
+  - author
+  notes: 'gold gloss: gemini (chosen by author); decided_by: author'
+nl:
+  marker: vlonder
+  register: unspecified
+  prompt: Wat betekent het woord "vlonder" zoals het in Nederland gebruikt wordt?
+  choices:
+  - houten plankier
+  - vertrekken
+  - hoereren
+  - afsnauwen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

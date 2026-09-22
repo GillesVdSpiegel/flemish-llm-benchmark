@@ -1,0 +1,35 @@
+pair_id: a1a-0074
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: camionette
+  register: unspecified
+  prompt: Wat betekent het woord "camionette" zoals het in België gebruikt wordt?
+  choices:
+  - bestelwagen
+  - verwaand, bekakt
+  - werkloos
+  - selderij
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: werkeloze
+  register: unspecified
+  prompt: Wat betekent het woord "werkeloze" zoals het in Nederland gebruikt wordt?
+  choices:
+  - werkloze
+  - haalbaar, doenlijk
+  - gezicht, smoel
+  - uit de gratie zijn
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'

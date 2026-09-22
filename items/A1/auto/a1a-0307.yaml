@@ -1,0 +1,33 @@
+pair_id: a1a-0307
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: ongesofisticeerd
+  register: unspecified
+  prompt: Wat betekent het woord "ongesofisticeerd" zoals het in België gebruikt wordt?
+  choices:
+  - eenvoudig, onverfijnd
+  - omwerken, herschrijven
+  - koffieliefhebber
+  - oprekking, verruiming (van regels)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: contactueel
+  register: unspecified
+  prompt: Wat betekent het woord "contactueel" zoals het in Nederland gebruikt wordt?
+  choices:
+  - in de omgang met anderen (contactuele vaardigheden)
+  - vat; statiegeld op kratten en flessen
+  - gekonfijte schil van citrusvruchten
+  - pechverhelping, takeldienst
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

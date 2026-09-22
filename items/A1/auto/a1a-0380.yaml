@@ -1,0 +1,33 @@
+pair_id: a1a-0380
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: sedentair
+  register: unspecified
+  prompt: Wat betekent het woord "sedentair" zoals het in België gebruikt wordt?
+  choices:
+  - zittend
+  - stofblik
+  - vak, beroep
+  - schol
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: galbult
+  register: unspecified
+  prompt: Wat betekent het woord "galbult" zoals het in Nederland gebruikt wordt?
+  choices:
+  - jeukende bult (netelroos)
+  - gedoe, gezeur
+  - weerspannigheid
+  - achteruitgaan, verslechteren
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

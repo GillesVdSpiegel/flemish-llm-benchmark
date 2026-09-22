@@ -1,0 +1,34 @@
+pair_id: a1a-0069
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: buisvak
+  register: unspecified
+  prompt: Wat betekent het woord "buisvak" zoals het in België gebruikt wordt?
+  choices:
+  - vak waarvoor men een onvoldoende heeft
+  - elektronisch betaalchipje op de bankpas (vroeger)
+  - zonder een spier te vertrekken
+  - vereniging van beroepsclubs
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: pfeiffer
+  register: unspecified
+  prompt: Wat betekent het woord "pfeiffer" zoals het in Nederland gebruikt wordt?
+  choices:
+  - ziekte van Pfeiffer (klierkoorts)
+  - tweepitskookplaat
+  - gast die men meebrengt
+  - g-sleutel (muziek)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

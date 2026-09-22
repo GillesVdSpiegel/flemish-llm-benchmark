@@ -1,0 +1,33 @@
+pair_id: a1a-0128
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: dopgeld
+  register: unspecified
+  prompt: Wat betekent het woord "dopgeld" zoals het in België gebruikt wordt?
+  choices:
+  - werkloosheidsuitkering
+  - half, gedeeltelijk
+  - wat kleding betreft
+  - verbondenheid
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: sores
+  register: unspecified
+  prompt: Wat betekent het woord "sores" zoals het in Nederland gebruikt wordt?
+  choices:
+  - zorgen, narigheid
+  - gymnastiekvereniging
+  - kruidenier
+  - kersenboom
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

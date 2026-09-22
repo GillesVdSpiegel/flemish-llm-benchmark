@@ -1,0 +1,35 @@
+pair_id: a1a-0419
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: tegenkanting
+  register: unspecified
+  prompt: Wat betekent het woord "tegenkanting" zoals het in België gebruikt wordt?
+  choices:
+  - tegenstand, verzet
+  - onderscheppen; wegvangen
+  - slabbetje
+  - gerookt spek
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: hachee
+  register: unspecified
+  prompt: Wat betekent het woord "hachee" zoals het in Nederland gebruikt wordt?
+  choices:
+  - stoofpot van rundvlees met uien
+  - die, welke (betrekkelijk voornaamwoord)
+  - vat; statiegeld op kratten en flessen
+  - actie tijdens de sperperiode
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'

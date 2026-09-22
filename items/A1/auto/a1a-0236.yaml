@@ -1,0 +1,33 @@
+pair_id: a1a-0236
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: konijnenpijp
+  register: unspecified
+  prompt: Wat betekent het woord "konijnenpijp" zoals het in België gebruikt wordt?
+  choices:
+  - konijnenhol
+  - worteltjes
+  - vrije trap
+  - aanbouwsel, bijgebouwtje
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: saampjes
+  register: unspecified
+  prompt: Wat betekent het woord "saampjes" zoals het in Nederland gebruikt wordt?
+  choices:
+  - samen, met z'n tweeën
+  - talenpracticum
+  - kleingesneden soepvlees
+  - savooiekool
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

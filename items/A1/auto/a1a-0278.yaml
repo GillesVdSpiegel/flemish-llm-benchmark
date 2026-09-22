@@ -1,0 +1,33 @@
+pair_id: a1a-0278
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: matuur
+  register: unspecified
+  prompt: Wat betekent het woord "matuur" zoals het in België gebruikt wordt?
+  choices:
+  - rijp, volwassen
+  - te laat, verlaat
+  - Twentenaar
+  - verdorie
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: giertank
+  register: unspecified
+  prompt: Wat betekent het woord "giertank" zoals het in Nederland gebruikt wordt?
+  choices:
+  - tank voor drijfmest
+  - vrouwelijke arts
+  - recreatieve hardloopwedstrijd
+  - kleine of middelgrote onderneming
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

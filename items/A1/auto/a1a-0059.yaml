@@ -1,0 +1,33 @@
+pair_id: a1a-0059
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: bompa
+  register: unspecified
+  prompt: Wat betekent het woord "bompa" zoals het in België gebruikt wordt?
+  choices:
+  - opa
+  - zaagsel
+  - sex
+  - wegwals
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: giebelen
+  register: unspecified
+  prompt: Wat betekent het woord "giebelen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - giechelen
+  - zonnebaarder
+  - walgelijk
+  - atletiekbaan
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

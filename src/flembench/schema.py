@@ -40,6 +40,7 @@ class Register(StrEnum):
     STANDARD = "standard"
     TUSSENTAAL = "tussentaal"
     DIALECT = "dialect"
+    UNSPECIFIED = "unspecified"  # not rated (e.g. bulk-kept lexicon candidates)
 
 
 class Format(StrEnum):
@@ -58,6 +59,9 @@ class MatchBasis(StrEnum):
 class Provenance(StrEnum):
     HUMAN_WRITTEN = "human_written"
     LLM_DRAFTED_HUMAN_VERIFIED = "llm_drafted_human_verified"
+    # Built by a script from a fixed template; the gold answer's origin is in `drafted_by`
+    # and `notes` (author, nl_reviewer, or an LLM gloss draft).
+    TEMPLATE_GENERATED = "template_generated"
 
 
 class Split(StrEnum):

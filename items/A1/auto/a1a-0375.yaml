@@ -1,0 +1,33 @@
+pair_id: a1a-0375
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: savooikool
+  register: unspecified
+  prompt: Wat betekent het woord "savooikool" zoals het in België gebruikt wordt?
+  choices:
+  - savooiekool
+  - nevelig
+  - snuffelen, neuzen
+  - fiche, penning
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: poedelen
+  register: unspecified
+  prompt: Wat betekent het woord "poedelen" zoals het in Nederland gebruikt wordt?
+  choices:
+  - plassen, plonzen (in water)
+  - tussenuur (op school)
+  - slapen; stinken
+  - vak waarvoor men een onvoldoende heeft
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

@@ -1,0 +1,34 @@
+pair_id: a1a-0301
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: notelaren
+  register: unspecified
+  prompt: Wat betekent het woord "notelaren" zoals het in België gebruikt wordt?
+  choices:
+  - walnotenbomen; okkernootbomen
+  - in de omgang met anderen (contactuele vaardigheden)
+  - uit de gratie zijn
+  - haalbaar, doenlijk
+  drafted_by: gemini
+  reviewed_by:
+  - author
+  notes: 'gold gloss: gemini (chosen by author); decided_by: author'
+nl:
+  marker: royement
+  register: unspecified
+  prompt: Wat betekent het woord "royement" zoals het in Nederland gebruikt wordt?
+  choices:
+  - uitsluiting als lid
+  - kleingesneden soepvlees
+  - borgpen, splitpen
+  - schurk, smeerlap
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

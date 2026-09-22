@@ -1,0 +1,33 @@
+pair_id: a1a-0232
+category: A1
+subcategory: A1a-overlap
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: knolselder
+  register: unspecified
+  prompt: Wat betekent het woord "knolselder" zoals het in België gebruikt wordt?
+  choices:
+  - knolselderij
+  - bitumen dakbedekking
+  - paneermeel
+  - voetbalveldje
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: chipknip
+  register: unspecified
+  prompt: Wat betekent het woord "chipknip" zoals het in Nederland gebruikt wordt?
+  choices:
+  - elektronisch betaalchipje op de bankpas (vroeger)
+  - grasveld in Den Haag (demonstratieplek)
+  - wet op voedsel- en productveiligheid
+  - voortkruipen op ellebogen
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

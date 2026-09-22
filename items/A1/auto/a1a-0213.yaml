@@ -1,0 +1,33 @@
+pair_id: a1a-0213
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: kassierster
+  register: unspecified
+  prompt: Wat betekent het woord "kassierster" zoals het in België gebruikt wordt?
+  choices:
+  - caissière
+  - schatter (van waarde)
+  - stressvol
+  - achterland
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: gepriegel
+  register: unspecified
+  prompt: Wat betekent het woord "gepriegel" zoals het in Nederland gebruikt wordt?
+  choices:
+  - fijn, precies werkje
+  - penis (plat)
+  - finish, eindstreep
+  - geluksvogel
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

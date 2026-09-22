@@ -1,0 +1,33 @@
+pair_id: a1a-0077
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: capteren
+  register: unspecified
+  prompt: Wat betekent het woord "capteren" zoals het in België gebruikt wordt?
+  choices:
+  - opvangen, ontvangen (signaal); winnen (water)
+  - verhoging voor huis (tegen overstroming)
+  - exact vak (wiskunde, natuurwetenschap)
+  - uit een vereniging gezet
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
+nl:
+  marker: aju
+  register: unspecified
+  prompt: Wat betekent het woord "aju" zoals het in Nederland gebruikt wordt?
+  choices:
+  - dag, doei
+  - gehuil, gebrul
+  - reeks, hele boel
+  - friet
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

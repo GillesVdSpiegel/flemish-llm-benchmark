@@ -1,0 +1,34 @@
+pair_id: a1a-0147
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: flan
+  register: unspecified
+  prompt: Wat betekent het woord "flan" zoals het in België gebruikt wordt?
+  choices:
+  - pudding, vla
+  - geldautomaat
+  - spoedklus
+  - zwembad
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (chosen by author); decided_by: author'
+nl:
+  marker: hospiteren
+  register: unspecified
+  prompt: Wat betekent het woord "hospiteren" zoals het in Nederland gebruikt wordt?
+  choices:
+  - stage lopen (lerarenopleiding); kennismaken met een kamerkandidaat
+  - inzamelwagen voor klein chemisch afval
+  - lege flessen, statiegeldverpakking
+  - uiterwaard (land tussen dijk en rivier)
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'

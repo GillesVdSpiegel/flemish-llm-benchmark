@@ -1,0 +1,34 @@
+pair_id: a1a-0432
+category: A1
+subcategory: A1a-clean
+format: mc
+match_basis: dcp_prevalence
+lexical_source: DCP prevalence norms (Brysbaert et al. 2019)
+author: flembench-generator
+provenance: template_generated
+split: public
+be:
+  marker: vadsigaard
+  register: unspecified
+  prompt: Wat betekent het woord "vadsigaard" zoals het in België gebruikt wordt?
+  choices:
+  - luiaard
+  - ambachtelijk
+  - fiets
+  - sukkel, onbenul
+  drafted_by: claude-opus-5
+  reviewed_by:
+  - author
+  notes: 'gold gloss: claude-opus-5 (accepted by author); decided_by: author'
+nl:
+  marker: hapsnap
+  register: unspecified
+  prompt: Wat betekent het woord "hapsnap" zoals het in Nederland gebruikt wordt?
+  choices:
+  - willekeurig, onsamenhangend
+  - klein en precies (werk)
+  - siroop van sinaasappel
+  - stoofpot van rundvlees met uien
+  drafted_by: claude-opus-5
+  reviewed_by: []
+  notes: 'gold gloss: claude-opus-5; decided_by: bulk'
