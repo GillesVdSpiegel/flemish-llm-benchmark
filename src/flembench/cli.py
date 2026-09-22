@@ -473,21 +473,29 @@ def rescore(repeats: int = 3) -> None:
     df = pd.DataFrame(rows)
     df = df[df["correct"].notna()]
     acc = df.pivot_table(
-        index=["model", "category"], columns="variety", values="correct", aggfunc="mean"
+        index=["model", "subcategory"], columns="variety", values="correct", aggfunc="mean"
     )
     console.print(acc.round(3).to_string())
     parse_fail = df.groupby("model")["parse"].apply(lambda s: (s == "none").mean())
     console.print("\nunparseable share per model:\n" + parse_fail.round(3).to_string())
+    groups = {
+        "A1 clean (headline)": lambda s: s["subcategory"] == "A1a-clean",
+        "A1 look-alike": lambda s: s["subcategory"] == "A1a-overlap",
+        "A1 all": lambda s: s["category"] == "A1",
+        "context (B)": lambda s: s["category"] == "B1",
+    }
+    t = Table("model", "track", "acc BE", "acc NL", "gap BE-NL", "95% CI", "pairs", "p")
     for model, g in df[df["pair_id"].notna()].groupby("model"):
-        for track, cats in {"language (A)": {"A1", "A2"}, "context (B)": {"B1"}}.items():
-            sub = g[g["category"].isin(cats)]
+        for track, sel in groups.items():
+            sub = g[sel(g)]
             if sub.empty:
                 continue
             gp = stats.paired_gap(sub)
-            console.print(
-                f"{model:>18} {track:<13} gap {gp.gap:+.3f} "
-                f"[{gp.ci_low:+.3f}, {gp.ci_high:+.3f}] n={gp.n_pairs} p={gp.p_mcnemar:.3f}"
-            )
+            t.add_row(
+                model, track, f"{gp.acc_be:.3f}", f"{gp.acc_nl:.3f}", f"{gp.gap:+.3f}",
+                f"[{gp.ci_low:+.3f}, {gp.ci_high:+.3f}]", str(gp.n_pairs), f"{gp.p_mcnemar:.3f}",
+            )  # fmt: skip
+    console.print(t)
     console.print(f"\nwrote {len(public)} public rows to runs/scores.csv")
 
 
