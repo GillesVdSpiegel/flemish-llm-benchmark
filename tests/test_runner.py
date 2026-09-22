@@ -81,3 +81,25 @@ def test_heldout_needs_private_dir(pair_items, spec):
     held = [i.model_copy(update={"split": "heldout"}) for i in pair_items]
     with pytest.raises(RuntimeError, match="FLEMBENCH_HELDOUT_DIR"):
         runner.plan(held, [spec])
+
+
+def test_retry_on_transient_then_success_and_permanent_raises():
+    calls = {"n": 0}
+
+    def flaky():
+        calls["n"] += 1
+        if calls["n"] < 3:
+            raise RuntimeError("503 UNAVAILABLE: high demand")
+        return Completion(text="A", input_tokens=1, output_tokens=1)
+
+    waits = []
+    assert runner.call_with_retry(flaky, sleep=waits.append).text == "A"
+    assert waits == [10, 30]
+
+    def broke():
+        raise RuntimeError("429 insufficient_quota: no credits")
+
+    with pytest.raises(RuntimeError, match="insufficient_quota"):
+        runner.call_with_retry(broke, sleep=waits.append)
+    assert waits == [10, 30]  # no waiting on permanent errors
+    assert not runner.is_transient(RuntimeError("400 INVALID_ARGUMENT thinking level"))

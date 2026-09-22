@@ -69,11 +69,11 @@ def test_gemini_adapter_counts_thoughts_as_output():
     )
     rec = Recorder(resp)
     c = GeminiAdapter(client=NS(models=NS(generate_content=rec))).complete(
-        "gemini-3.8-flash", "sys", "user", 1024, {"temperature": 0, "thinking_level": "MINIMAL"}
+        "gemini-3.8-flash", "sys", "user", 1024, {"temperature": 0, "thinking_level": "LOW"}
     )
     assert (c.output_tokens, c.reasoning_tokens) == (13, 12)
     cfg = rec.calls[0]["config"]
-    assert cfg.temperature == 0 and cfg.thinking_config.thinking_level.value == "MINIMAL"
+    assert cfg.temperature == 0 and cfg.thinking_config.thinking_level.value == "LOW"
 
 
 def test_ollama_adapter_records_digest():
