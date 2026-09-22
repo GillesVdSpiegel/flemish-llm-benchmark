@@ -4,12 +4,14 @@ scoring only ever reads it."""
 from __future__ import annotations
 
 import csv
+import time
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass
+from functools import partial
 from pathlib import Path
 
 from flembench import cache
-from flembench.adapters import Adapter, make_adapter
+from flembench.adapters import Adapter, Completion, make_adapter
 from flembench.prompts import PROMPT_VERSION, render
 from flembench.registry import ModelSpec
 from flembench.schema import Format, Item
@@ -74,11 +76,37 @@ def estimate(jobs: list[Job]) -> list[Estimate]:
     return list(out.values())
 
 
+# Provider errors that are worth waiting out (overload, rate limit), as opposed to permanent
+# ones (no credits, invalid request) that must stop the run immediately.
+_TRANSIENT = ("503", "unavailable", "overloaded", "high demand", "529", "rate limit", "timeout")
+_PERMANENT = ("insufficient_quota", "credit_balance", "invalid_argument", "400", "401", "403")
+RETRY_WAITS = (10, 30, 60, 120, 240)
+
+
+def is_transient(exc: Exception) -> bool:
+    msg = f"{type(exc).__name__} {exc}".lower()
+    if any(p in msg for p in _PERMANENT):
+        return False
+    return any(t in msg for t in _TRANSIENT)
+
+
+def call_with_retry(fn: Callable[[], Completion], sleep: Callable[[float], None] = time.sleep):
+    for wait in (*RETRY_WAITS, None):
+        try:
+            return fn()
+        except Exception as exc:
+            if wait is None or not is_transient(exc):
+                raise
+            sleep(wait)
+    raise AssertionError("unreachable")
+
+
 def execute(
     jobs: list[Job],
     budget_usd: float,
     adapter_factory: Callable[[str], Adapter] = make_adapter,
     progress: Callable[[Job, dict], None] | None = None,
+    sleep: Callable[[float], None] = time.sleep,
 ) -> float:
     """Run uncached jobs; stop before exceeding the budget. Returns USD spent."""
     adapters: dict[str, Adapter] = {}
@@ -89,7 +117,12 @@ def execute(
         if spent >= budget_usd:
             raise BudgetExceeded(f"budget ${budget_usd:.2f} reached after ${spent:.4f}")
         adapter = adapters.setdefault(j.model.provider, adapter_factory(j.model.provider))
-        c = adapter.complete(j.model.model_id, j.system, j.user, j.max_tokens, j.model.params)
+        c = call_with_retry(
+            partial(
+                adapter.complete, j.model.model_id, j.system, j.user, j.max_tokens, j.model.params
+            ),
+            sleep=sleep,
+        )
         cost = j.model.cost_usd(c.input_tokens, c.output_tokens)
         spent += cost
         entry = {

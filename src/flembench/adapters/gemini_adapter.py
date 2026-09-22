@@ -30,6 +30,8 @@ class GeminiAdapter:
             system_instruction=system,
             max_output_tokens=max_tokens,
             thinking_config=types.ThinkingConfig(thinking_level=level) if level else None,
+            # No tools are ever passed; disabling AFC just silences an SDK warning.
+            automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),
             **params,
         )
         r = self.client.models.generate_content(model=model_id, contents=user, config=config)

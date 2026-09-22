@@ -23,8 +23,8 @@ models:
   gemini-3.8-flash:
     provider: gemini
     model_id: gemini-3.8-flash
-    params: {temperature: 0, thinking_level: MINIMAL}
-    reasoning: minimal (cannot be disabled)
+    params: {temperature: 0, thinking_level: LOW}
+    reasoning: low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)
     price: {input: 0.75, output: 3.75}  # introductory price until 2026-12-31
 
   # Local models (Ollama on RTX 5070, 12 GB); weights pinned in config/local_models.yaml.
