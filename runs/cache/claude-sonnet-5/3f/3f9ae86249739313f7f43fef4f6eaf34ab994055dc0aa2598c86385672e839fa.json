@@ -1,0 +1,30 @@
+{
+ "model_key": "claude-sonnet-5",
+ "model_id": "claude-sonnet-5",
+ "provider": "anthropic",
+ "params": {
+  "thinking": {
+   "type": "disabled"
+  }
+ },
+ "reasoning": "disabled; temperature not supported by the API",
+ "item_id": "a1a-0470-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"wetstraat\" zoals het in België gebruikt wordt?\n\nA. paddenstoel met hallucinogene werking\nB. kluizenaar, eenzelvig persoon\nC. de federale politiek (naar de straat van het parlement)\nD. achteruitgaan, verslechteren\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 187,
+  "output_tokens": 3,
+  "reasoning_tokens": 0,
+  "model_reported": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "raw": {
+   "id": "msg_011CfJrsHXi5cqvEjJNCEHfs"
+  }
+ },
+ "cost_usd": 0.000404,
+ "cached_at": "2026-09-22T17:19:27+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0089-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"collocatie\" zoals het in België gebruikt wordt?\n\nA. (vrouwelijke) begeleider, monitor\nB. fysiotherapie; fysiotherapeut\nC. gedwongen opname in een psychiatrische instelling\nD. gekonfijte schil van citrusvruchten\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 111,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0a7967c8db478e58016ab2ba92e3a887d2a082c97f165e58f0"
+  }
+ },
+ "cost_usd": 0.000282,
+ "cached_at": "2026-09-22T17:27:46+00:00"
+}

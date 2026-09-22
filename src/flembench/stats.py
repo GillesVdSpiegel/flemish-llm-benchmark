@@ -28,6 +28,8 @@ def pair_table(scores: pd.DataFrame) -> pd.DataFrame:
     s = scores[scores["pair_id"].notna() & scores["correct"].notna()].copy()
     s["correct"] = s["correct"].astype(float)
     t = s.groupby(["pair_id", "variety"])["correct"].mean().unstack("variety")
+    # A partial run can leave a variety missing entirely; those pairs are simply incomplete.
+    t = t.reindex(columns=["be", "nl"])
     return t.dropna(subset=["be", "nl"])
 
 

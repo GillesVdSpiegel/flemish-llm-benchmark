@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0063-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"bricoleren\" zoals het in België gebruikt wordt?\n\nA. onrustig, geneigd tot rellen\nB. akker, veld\nC. fatsoenlijk, net\nD. knutselen, klussen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 103,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_098273ddf8bcb96a016ab2ba4f52b487d287b86fdf667faaf8"
+  }
+ },
+ "cost_usd": 0.000266,
+ "cached_at": "2026-09-22T17:26:39+00:00"
+}

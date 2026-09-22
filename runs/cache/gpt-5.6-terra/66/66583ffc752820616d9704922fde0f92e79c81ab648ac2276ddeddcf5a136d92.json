@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0101-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"glom\" zoals het in Nederland gebruikt wordt?\n\nA. mestkar voor drijfmest\nB. smurrie, drab\nC. verleden tijd van glimmen\nD. klein kind, snotneus\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 102,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_03dc018ae3551a72016ab2bab1a89887d2ad75af5254cb5b8c"
+  }
+ },
+ "cost_usd": 0.000264,
+ "cached_at": "2026-09-22T17:28:17+00:00"
+}

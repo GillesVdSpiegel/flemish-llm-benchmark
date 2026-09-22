@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0178-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"blauwbekken\" zoals het in Nederland gebruikt wordt?\n\nA. in de kou staan wachten\nB. slagboom (bij overweg)\nC. dwarsliggers (spoorweg)\nD. bonbon met rum\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 103,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_06af37d4f0338f0b016ab2bb64f0cc87d2afc005f5517d1b7e"
+  }
+ },
+ "cost_usd": 0.000266,
+ "cached_at": "2026-09-22T17:31:16+00:00"
+}

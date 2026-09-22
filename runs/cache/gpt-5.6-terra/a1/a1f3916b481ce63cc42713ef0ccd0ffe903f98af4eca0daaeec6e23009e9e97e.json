@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0144-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"derrie\" zoals het in Nederland gebruikt wordt?\n\nA. terugvallen, recidiveren\nB. wijnstok, druivenplant\nC. leerling van een gymnasium\nD. smurrie, drab\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 101,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0b4a8e2486a0cd1d016ab2bb17192487d2b206e7faccb28aae"
+  }
+ },
+ "cost_usd": 0.000262,
+ "cached_at": "2026-09-22T17:29:59+00:00"
+}

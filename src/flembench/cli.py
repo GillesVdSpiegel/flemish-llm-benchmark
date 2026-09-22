@@ -488,8 +488,8 @@ def rescore(repeats: int = 3) -> None:
     for model, g in df[df["pair_id"].notna()].groupby("model"):
         for track, sel in groups.items():
             sub = g[sel(g)]
-            if sub.empty:
-                continue
+            if sub.empty or stats.pair_table(sub).empty:
+                continue  # nothing scored yet, or only one side of every pair (partial run)
             gp = stats.paired_gap(sub)
             t.add_row(
                 model, track, f"{gp.acc_be:.3f}", f"{gp.acc_nl:.3f}", f"{gp.gap:+.3f}",

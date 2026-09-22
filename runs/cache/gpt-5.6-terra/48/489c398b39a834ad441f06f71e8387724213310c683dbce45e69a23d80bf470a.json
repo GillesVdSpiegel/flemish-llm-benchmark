@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0480-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"corpsbal\" zoals het in Nederland gebruikt wordt?\n\nA. walnotenbomen; okkernootbomen\nB. belegd broodje met groenten\nC. lid van een studentencorps (bekakt)\nD. opvallende, drukke homo\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 111,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_03197d4b5489fa70016ab2bdc532c887d282eec0ac92b4f8db"
+  }
+ },
+ "cost_usd": 0.000282,
+ "cached_at": "2026-09-22T17:41:25+00:00"
+}

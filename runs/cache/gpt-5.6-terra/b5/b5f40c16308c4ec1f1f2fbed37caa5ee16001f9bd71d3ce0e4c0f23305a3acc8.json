@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0301-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"notelaren\" zoals het in België gebruikt wordt?\n\nA. walnotenbomen; okkernootbomen\nB. uit de gratie zijn\nC. haalbaar, doenlijk\nD. in de omgang met anderen (contactuele vaardigheden)\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 108,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0990f3d1507089ea016ab2bc57368487d282b8cc4cdb0e6981"
+  }
+ },
+ "cost_usd": 0.000276,
+ "cached_at": "2026-09-22T17:35:18+00:00"
+}

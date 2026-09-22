@@ -1,0 +1,30 @@
+{
+ "model_key": "claude-sonnet-5",
+ "model_id": "claude-sonnet-5",
+ "provider": "anthropic",
+ "params": {
+  "thinking": {
+   "type": "disabled"
+  }
+ },
+ "reasoning": "disabled; temperature not supported by the API",
+ "item_id": "a1a-0163-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"gebuisd\" zoals het in België gebruikt wordt?\n\nA. aanhangsel bij een testament\nB. allriskverzekering (omnium)\nC. aankunnen, verwerken\nD. gezakt (voor een examen)\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 169,
+  "output_tokens": 3,
+  "reasoning_tokens": 0,
+  "model_reported": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "raw": {
+   "id": "msg_011CfJr6n99nCF8aFvVmY3Gp"
+  }
+ },
+ "cost_usd": 0.000368,
+ "cached_at": "2026-09-22T17:09:23+00:00"
+}

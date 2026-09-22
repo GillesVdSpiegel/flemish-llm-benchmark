@@ -1,0 +1,30 @@
+{
+ "model_key": "claude-sonnet-5",
+ "model_id": "claude-sonnet-5",
+ "provider": "anthropic",
+ "params": {
+  "thinking": {
+   "type": "disabled"
+  }
+ },
+ "reasoning": "disabled; temperature not supported by the API",
+ "item_id": "a1a-0325-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"klunen\" zoals het in Nederland gebruikt wordt?\n\nA. opvallende, drukke homo\nB. haastig en slordig afmaken\nC. krabbeltekening\nD. op schaatsen over land lopen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 165,
+  "output_tokens": 3,
+  "reasoning_tokens": 0,
+  "model_reported": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "raw": {
+   "id": "msg_011CfJrVt6E7MeXS6B66isBw"
+  }
+ },
+ "cost_usd": 0.00036,
+ "cached_at": "2026-09-22T17:14:36+00:00"
+}

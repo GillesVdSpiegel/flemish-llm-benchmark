@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0034-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"woei\" zoals het in Nederland gebruikt wordt?\n\nA. binnen een pand\nB. gerookt spek\nC. verleden tijd van waaien\nD. woninginbraak om autosleutels te stelen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 102,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_02187166c66fb2fb016ab2ba1dc5f887d2934b28afb9897d4d"
+  }
+ },
+ "cost_usd": 0.000264,
+ "cached_at": "2026-09-22T17:25:50+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0053-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"banjeren\" zoals het in Nederland gebruikt wordt?\n\nA. denkrichting, mogelijkheid\nB. onderdirecteur van een school\nC. pech verhelpen; iemand uit de nood helpen\nD. met grote passen rondlopen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 105,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_04c76b456eaed012016ab2ba3b54d087d2b6f98cc838114c74"
+  }
+ },
+ "cost_usd": 0.00027,
+ "cached_at": "2026-09-22T17:26:18+00:00"
+}

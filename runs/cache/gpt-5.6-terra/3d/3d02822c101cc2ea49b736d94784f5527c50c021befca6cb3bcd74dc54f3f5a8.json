@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0311-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"gierkar\" zoals het in Nederland gebruikt wordt?\n\nA. heel kleine kans\nB. bevoordelen; matsen\nC. categorisch, beslist\nD. mestkar voor drijfmest\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 97,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0a5a6a504833e99d016ab2bc70bd2c87d29aaf738e0b1600c4"
+  }
+ },
+ "cost_usd": 0.000254,
+ "cached_at": "2026-09-22T17:35:44+00:00"
+}

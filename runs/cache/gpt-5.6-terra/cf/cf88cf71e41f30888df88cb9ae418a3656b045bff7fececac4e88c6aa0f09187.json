@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0104-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"rondte\" zoals het in Nederland gebruikt wordt?\n\nA. gebakje met chocolade en slagroom\nB. koninginnenhapje; pasteitje\nC. keelpastille (zwart, zoet)\nD. ronde vorm; omtrek van iets\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 113,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_017a7409bd57d976016ab2bab8554087d2ba75824ec5d8490d"
+  }
+ },
+ "cost_usd": 0.000286,
+ "cached_at": "2026-09-22T17:28:23+00:00"
+}

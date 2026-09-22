@@ -1,0 +1,30 @@
+{
+ "model_key": "claude-sonnet-5",
+ "model_id": "claude-sonnet-5",
+ "provider": "anthropic",
+ "params": {
+  "thinking": {
+   "type": "disabled"
+  }
+ },
+ "reasoning": "disabled; temperature not supported by the API",
+ "item_id": "a1a-0338-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"traproede\" zoals het in Nederland gebruikt wordt?\n\nA. Wassenaar (rijke villagemeente bij Den Haag)\nB. staaf om traploper vast te houden\nC. op schaatsen over land lopen\nD. trainingsdag, cursus (sport)\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 186,
+  "output_tokens": 3,
+  "reasoning_tokens": 0,
+  "model_reported": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "raw": {
+   "id": "msg_011CfJrYJNXLegG8X9J5VXEb"
+  }
+ },
+ "cost_usd": 0.000402,
+ "cached_at": "2026-09-22T17:15:09+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0408-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"strooiwei\" zoals het in België gebruikt wordt?\n\nA. eerste jaar van een hbo- of universitaire opleiding\nB. weide waarop de as van overledenen wordt uitgestrooid\nC. zaak voor het hof van assisen\nD. overladen, te veel voorgeschoteld\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 119,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0a9f46c268b77c48016ab2bd3c8acc87d287e5257cf8e247bc"
+  }
+ },
+ "cost_usd": 0.000298,
+ "cached_at": "2026-09-22T17:39:07+00:00"
+}

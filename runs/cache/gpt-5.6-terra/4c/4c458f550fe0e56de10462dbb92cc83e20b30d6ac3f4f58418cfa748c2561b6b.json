@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0418-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"botter\" zoals het in Nederland gebruikt wordt?\n\nA. diaconie (armenzorg van de kerk)\nB. te veel leiding\nC. skiverblijf met de school\nD. platbodem vissersboot\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 104,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_08d66de5a93dcce6016ab2bd4ba33487d2a94c010093bf972b"
+  }
+ },
+ "cost_usd": 0.000268,
+ "cached_at": "2026-09-22T17:39:23+00:00"
+}

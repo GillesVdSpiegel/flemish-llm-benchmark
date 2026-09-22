@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0379-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"grijpstuiver\" zoals het in Nederland gebruikt wordt?\n\nA. klein bedrag, bijverdienste\nB. flauwe grap, zever\nC. geslinger, gezwerf\nD. laboratoriumjas\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 102,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0ff40850f1ca34b5016ab2bcf7c4ec87d2ae7f72fd6b537383"
+  }
+ },
+ "cost_usd": 0.000264,
+ "cached_at": "2026-09-22T17:37:59+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0122-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"doenbaar\" zoals het in België gebruikt wordt?\n\nA. haalbaar, doenlijk\nB. immigrant, nieuwkomer\nC. houten plankier\nD. fijne hagel\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 95,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_00bb65f988fbfb6e016ab2bade5ea087d28c93dd7dc08f7d2a"
+  }
+ },
+ "cost_usd": 0.00025,
+ "cached_at": "2026-09-22T17:29:01+00:00"
+}

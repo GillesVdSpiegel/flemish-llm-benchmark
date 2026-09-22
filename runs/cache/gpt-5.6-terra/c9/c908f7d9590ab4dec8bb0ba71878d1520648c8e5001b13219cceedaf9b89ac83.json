@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0068-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"vwo'er\" zoals het in Nederland gebruikt wordt?\n\nA. enkellaars, laarsje\nB. toetje van vla en yoghurt met siroop\nC. leerling van het vwo\nD. weerspannigheid\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 106,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_07f81222871f2055016ab2ba694d4487d28e10fb8f88cc09b3"
+  }
+ },
+ "cost_usd": 0.000272,
+ "cached_at": "2026-09-22T17:27:04+00:00"
+}

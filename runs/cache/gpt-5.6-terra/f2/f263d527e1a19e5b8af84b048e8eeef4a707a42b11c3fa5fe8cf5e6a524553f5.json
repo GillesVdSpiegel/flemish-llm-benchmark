@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0037-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"leges\" zoals het in Nederland gebruikt wordt?\n\nA. poep (kindertaal)\nB. groentekwekerij\nC. kleinigheid, fluitje van een cent\nD. administratiekosten (gemeente)\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 104,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_09f48f1274a7d69c016ab2ba26178487d2b34a1c5ea322cc67"
+  }
+ },
+ "cost_usd": 0.000268,
+ "cached_at": "2026-09-22T17:25:57+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0241-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"stavast\" zoals het in Nederland gebruikt wordt?\n\nA. schoolverblijf in de natuur\nB. kleine jongen, deugniet\nC. onverzettelijk, flink en betrouwbaar (persoon)\nD. kever met lange sprieten\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 106,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0fa5caebc9efb508016ab2bbe9247087d2b41a686ae9d47a3b"
+  }
+ },
+ "cost_usd": 0.000272,
+ "cached_at": "2026-09-22T17:33:28+00:00"
+}

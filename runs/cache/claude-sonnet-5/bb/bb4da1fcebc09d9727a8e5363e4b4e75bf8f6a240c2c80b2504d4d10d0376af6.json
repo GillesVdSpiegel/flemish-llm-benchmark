@@ -1,0 +1,30 @@
+{
+ "model_key": "claude-sonnet-5",
+ "model_id": "claude-sonnet-5",
+ "provider": "anthropic",
+ "params": {
+  "thinking": {
+   "type": "disabled"
+  }
+ },
+ "reasoning": "disabled; temperature not supported by the API",
+ "item_id": "a1a-0300-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"mavo\" zoals het in Nederland gebruikt wordt?\n\nA. middelbaar algemeen voortgezet onderwijs (vroeger)\nB. administratiekosten (gemeente)\nC. wijden, (tijd) besteden aan\nD. poeslief, overdreven zoet\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 189,
+  "output_tokens": 3,
+  "reasoning_tokens": 0,
+  "model_reported": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "raw": {
+   "id": "msg_011CfJrSNbs99AuoUk7tqJBy"
+  }
+ },
+ "cost_usd": 0.000408,
+ "cached_at": "2026-09-22T17:13:49+00:00"
+}

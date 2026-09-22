@@ -175,3 +175,8 @@ def test_gloss_review_queue_and_set_gloss():
     after = curate.set_gloss(decided, ("be", "a"), "x", "gemini (chosen by author)")
     assert after[("be", "a")]["decided_by"] == "author" and after[("be", "a")]["gloss"] == "x"
     assert curate.gloss_review_queue(after, drafts) == []
+
+
+def test_pair_table_handles_a_missing_variety():
+    rows = [{"pair_id": "p1", "variety": "be", "correct": True}]
+    assert stats.pair_table(pd.DataFrame(rows)).empty

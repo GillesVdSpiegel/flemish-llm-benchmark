@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0358-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"reekshoofd\" zoals het in België gebruikt wordt?\n\nA. laadschop (bouwmachine)\nB. bijstandsuitkering\nC. dwarsliggers (spoorweg)\nD. geplaatste speler; rami-hoofd\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 106,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_004219dbbdcbddf3016ab2bccec64c87d2aad864c7d39cb645"
+  }
+ },
+ "cost_usd": 0.000272,
+ "cached_at": "2026-09-22T17:37:19+00:00"
+}

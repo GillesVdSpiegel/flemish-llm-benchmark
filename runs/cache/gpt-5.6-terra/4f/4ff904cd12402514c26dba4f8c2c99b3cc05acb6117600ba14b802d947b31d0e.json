@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0357-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"jodenkoek\" zoals het in Nederland gebruikt wordt?\n\nA. bijna, zo goed als\nB. voorbereidend wetenschappelijk onderwijs\nC. grote, ronde, dunne koek\nD. afslachten; verknoeien\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 103,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0dfb2884a4121e21016ab2bccda49c87d2b1e9cb1307682006"
+  }
+ },
+ "cost_usd": 0.000266,
+ "cached_at": "2026-09-22T17:37:17+00:00"
+}

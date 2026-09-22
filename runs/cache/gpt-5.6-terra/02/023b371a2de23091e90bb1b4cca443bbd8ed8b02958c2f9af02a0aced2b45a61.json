@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0002-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"aardeweg\" zoals het in België gebruikt wordt?\n\nA. paddenstoel met hallucinogene werking\nB. absurd van stijl\nC. runderlap om te sudderen\nD. onverharde weg, zandweg\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 104,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_03b34d7b74762b10016ab2b9cac2f887d2ae6905d87578de13"
+  }
+ },
+ "cost_usd": 0.000268,
+ "cached_at": "2026-09-22T17:24:27+00:00"
+}

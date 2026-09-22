@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0138-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"tijgeren\" zoals het in Nederland gebruikt wordt?\n\nA. die, welke (betrekkelijk voornaamwoord)\nB. gymnastiekvereniging\nC. voortkruipen op ellebogen\nD. geplaatste speler; rami-hoofd\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 109,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_04b1717a83f3f3d6016ab2bafadf3487d2bf3627159a248f59"
+  }
+ },
+ "cost_usd": 0.000278,
+ "cached_at": "2026-09-22T17:29:30+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0424-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"oprekking\" zoals het in Nederland gebruikt wordt?\n\nA. Cito-toets (eindtoets basisschool)\nB. gasbrander in een laboratorium\nC. oprekking, verruiming (van regels)\nD. kattenkwaad uithalen, iets fout doen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 115,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0bdbec6890bc502f016ab2bd5519f487d2bb02690e639b466e"
+  }
+ },
+ "cost_usd": 0.00029,
+ "cached_at": "2026-09-22T17:39:32+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0039-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"begingeneriek\" zoals het in België gebruikt wordt?\n\nA. uitblinker, topper\nB. toetje van vla en yoghurt met siroop\nC. begintitels (van film of programma)\nD. ontgroening (studenten)\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 110,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_09d37a0408745afe016ab2ba2758a487d289ecc16444cfbf5c"
+  }
+ },
+ "cost_usd": 0.00028,
+ "cached_at": "2026-09-22T17:25:58+00:00"
+}

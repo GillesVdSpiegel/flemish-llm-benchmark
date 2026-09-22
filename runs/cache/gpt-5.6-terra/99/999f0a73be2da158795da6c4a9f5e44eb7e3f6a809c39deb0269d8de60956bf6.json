@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0185-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"herwerken\" zoals het in België gebruikt wordt?\n\nA. gerookt spek\nB. uiterwaard (land tussen dijk en rivier)\nC. boers, lomp\nD. omwerken, herschrijven\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 102,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_020c2d2eb33ad9d8016ab2bb6ff5a887d29327f5d7dcf9b2bf"
+  }
+ },
+ "cost_usd": 0.000264,
+ "cached_at": "2026-09-22T17:31:27+00:00"
+}

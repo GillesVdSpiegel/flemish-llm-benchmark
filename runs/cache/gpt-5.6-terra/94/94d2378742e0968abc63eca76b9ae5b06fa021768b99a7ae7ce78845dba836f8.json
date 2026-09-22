@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0068-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"brugdag\" zoals het in België gebruikt wordt?\n\nA. stempas (oproep om te stemmen)\nB. opkoper van etensresten (vroeger)\nC. werkdag tussen feestdag en weekend waarop men vrij neemt\nD. vereniging zonder winstoogmerk\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 114,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0d4ebea8c7a3b3d6016ab2ba5d8f2487d2b53cc23e0fb67334"
+  }
+ },
+ "cost_usd": 0.000288,
+ "cached_at": "2026-09-22T17:27:03+00:00"
+}

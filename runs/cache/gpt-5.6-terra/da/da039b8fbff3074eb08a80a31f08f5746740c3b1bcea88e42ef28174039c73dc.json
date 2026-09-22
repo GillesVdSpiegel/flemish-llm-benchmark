@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0222-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"kerkfabriek\" zoals het in België gebruikt wordt?\n\nA. geduld om te blijven zitten\nB. siroop van sinaasappel\nC. kerkbestuur (beheer van kerkgoederen)\nD. elektronisch betaalchipje op de bankpas (vroeger)\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 114,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0758218c8a2a3b4a016ab2bbbf7d7087d2876c6b7971182b38"
+  }
+ },
+ "cost_usd": 0.000288,
+ "cached_at": "2026-09-22T17:32:47+00:00"
+}

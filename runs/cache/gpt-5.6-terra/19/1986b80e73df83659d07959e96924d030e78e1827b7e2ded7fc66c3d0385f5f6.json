@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0427-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"porem\" zoals het in Nederland gebruikt wordt?\n\nA. wie illegaal afval dumpt\nB. (hand)boormachine\nC. gezicht, smoel\nD. in voorkomend geval\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 99,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_01a14cf40a9c84b4016ab2bd599f1487d2a5410a3ef7e250b9"
+  }
+ },
+ "cost_usd": 0.000258,
+ "cached_at": "2026-09-22T17:39:37+00:00"
+}

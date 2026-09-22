@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0099-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"cutter\" zoals het in België gebruikt wordt?\n\nA. breekmes, stanleymes\nB. een beetje dom\nC. vak waarvoor men een onvoldoende heeft\nD. vatbaar voor chantage\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 99,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_04535852f3bdb87c016ab2baaaf00087d2b65a532b08278add"
+  }
+ },
+ "cost_usd": 0.000258,
+ "cached_at": "2026-09-22T17:28:10+00:00"
+}

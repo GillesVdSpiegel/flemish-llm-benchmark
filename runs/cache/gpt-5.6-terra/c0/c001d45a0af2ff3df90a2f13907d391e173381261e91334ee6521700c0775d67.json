@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0194-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"hoofdvogel\" zoals het in België gebruikt wordt?\n\nA. vat; statiegeld op kratten en flessen\nB. een grote blunder begaan; de hoofdprijs; de belangrijkste buit\nC. belangstelling (van het andere geslacht)\nD. stoofpot van rundvlees met uien\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 121,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0670c9d5b556ef21016ab2bb852cdc87d28f4ab0e74ae3a9f2"
+  }
+ },
+ "cost_usd": 0.000302,
+ "cached_at": "2026-09-22T17:31:48+00:00"
+}

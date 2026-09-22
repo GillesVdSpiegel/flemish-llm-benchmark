@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0091-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"trekzalf\" zoals het in Nederland gebruikt wordt?\n\nA. zalf die ontstekingen uittrekt\nB. zelfgerolde sigaret\nC. mestkar voor drijfmest\nD. basketbal spelen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 103,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_05cdea892bbc92a6016ab2ba9816f087d29c18dcd0757a6513"
+  }
+ },
+ "cost_usd": 0.000266,
+ "cached_at": "2026-09-22T17:27:51+00:00"
+}

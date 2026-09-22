@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0384-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"bamibal\" zoals het in Nederland gebruikt wordt?\n\nA. verhoging (van loon, prijs)\nB. opvallende, drukke homo\nC. gefrituurde bal met bami\nD. wie illegaal afval dumpt\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 106,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0fc8cda1ea546837016ab2bd04446c87d2aa37f9fd8fb2bbc3"
+  }
+ },
+ "cost_usd": 0.000272,
+ "cached_at": "2026-09-22T17:38:12+00:00"
+}

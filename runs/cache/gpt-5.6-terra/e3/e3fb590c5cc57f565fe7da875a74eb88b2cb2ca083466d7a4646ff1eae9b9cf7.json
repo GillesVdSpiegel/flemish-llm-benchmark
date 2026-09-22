@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0147-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"hospiteren\" zoals het in Nederland gebruikt wordt?\n\nA. inzamelwagen voor klein chemisch afval\nB. uiterwaard (land tussen dijk en rivier)\nC. lege flessen, statiegeldverpakking\nD. stage lopen (lerarenopleiding); kennismaken met een kamerkandidaat\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 121,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_05da07911ebeb779016ab2bb27817c87d2a09c7a37d8aa1249"
+  }
+ },
+ "cost_usd": 0.000302,
+ "cached_at": "2026-09-22T17:30:15+00:00"
+}

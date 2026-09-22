@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0407-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"dubbelop\" zoals het in Nederland gebruikt wordt?\n\nA. verkeersreglement\nB. penis (plat)\nC. overbodig dubbel\nD. stokbrood met frieten en vlees\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 97,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_05adecbc23ba19bf016ab2bd3b1e3c87d2ad434e45f433fd98"
+  }
+ },
+ "cost_usd": 0.000254,
+ "cached_at": "2026-09-22T17:39:06+00:00"
+}

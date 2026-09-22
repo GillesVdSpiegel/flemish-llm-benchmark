@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0044-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"dotteren\" zoals het in Nederland gebruikt wordt?\n\nA. aanbouwsel, bijgebouwtje\nB. aspirant-lid van een studentenvereniging (schacht)\nC. een vernauwde kransslagader oprekken\nD. denkrichting, mogelijkheid\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 111,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_063fed33cb7c06cf016ab2ba32527c87d29c5fc42c823aa019"
+  }
+ },
+ "cost_usd": 0.000282,
+ "cached_at": "2026-09-22T17:26:09+00:00"
+}

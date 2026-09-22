@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0189-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"mitella\" zoals het in Nederland gebruikt wordt?\n\nA. afgelopen nacht\nB. geldig, aanvaardbaar\nC. draagdoek voor een arm\nD. dat wordt laat\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 94,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0b46d8695a0fd359016ab2bb7af7e887d2a5dcf49cebdf7c42"
+  }
+ },
+ "cost_usd": 0.000248,
+ "cached_at": "2026-09-22T17:31:38+00:00"
+}

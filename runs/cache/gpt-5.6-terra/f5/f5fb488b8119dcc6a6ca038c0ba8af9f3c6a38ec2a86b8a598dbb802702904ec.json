@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0097-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"verliggen\" zoals het in Nederland gebruikt wordt?\n\nA. harde renner, klassiekerspecialist\nB. administratiekosten (gemeente)\nC. stoofpot met groenten en vlees\nD. even anders gaan liggen; bederven door te lang te liggen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 112,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_04572a0084bda233016ab2baa9948c87d2b4716c34405d476a"
+  }
+ },
+ "cost_usd": 0.000284,
+ "cached_at": "2026-09-22T17:28:09+00:00"
+}
