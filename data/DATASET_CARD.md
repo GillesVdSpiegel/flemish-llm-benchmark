@@ -76,7 +76,7 @@ a particular letter cannot produce a gap.
 ```python
 from datasets import load_dataset
 
-ds = load_dataset("GillesVdSpiegel/flembench", split="train")
+ds = load_dataset("Goomey/flembench", split="train")
 item = ds[0]
 prompt = item["prompt"] + "\n\n" + "\n".join(
     f"{letter}. {choice}" for letter, choice in zip("ABCD", item["choices"])

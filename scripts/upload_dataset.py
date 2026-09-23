@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ITEMS = ROOT / "data" / "items.jsonl"
 CARD = ROOT / "data" / "DATASET_CARD.md"
-DEFAULT_REPO = "GillesVdSpiegel/flembench"
+DEFAULT_REPO = "Goomey/flembench"
 
 
 def check(items: Path) -> dict:
