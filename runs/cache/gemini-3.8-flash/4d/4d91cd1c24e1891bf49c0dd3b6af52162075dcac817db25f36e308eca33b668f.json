@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0147-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"hospiteren\" zoals het in Nederland gebruikt wordt?\n\nA. inzamelwagen voor klein chemisch afval\nB. uiterwaard (land tussen dijk en rivier)\nC. lege flessen, statiegeldverpakking\nD. stage lopen (lerarenopleiding); kennismaken met een kamerkandidaat\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 125,
+  "output_tokens": 133,
+  "reasoning_tokens": 132,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "P6-zar3UG-finsEP-sq1mAw"
+  }
+ },
+ "cost_usd": 0.0005925,
+ "cached_at": "2026-09-23T10:51:42+00:00"
+}

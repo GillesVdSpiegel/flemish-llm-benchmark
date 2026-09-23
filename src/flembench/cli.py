@@ -385,7 +385,9 @@ def generate_a1(seed: int = 0) -> None:
 # ------------------------------------------------------------------ runs
 
 
-def _select(models: str, category: str | None) -> tuple[list, list[Item]]:
+def _select(
+    models: str, category: str | None, sample_pairs: int | None = None, seed: int = 0
+) -> tuple[list, list[Item]]:
     reg = load_registry()
     keys = [m.strip() for m in models.split(",")]
     missing = [k for k in keys if k not in reg]
@@ -396,15 +398,26 @@ def _select(models: str, category: str | None) -> tuple[list, list[Item]]:
     if category:
         cats = set(category.split(","))
         its = [i for i in its if i.category in cats]
+    if sample_pairs:
+        import random
+
+        pairs = sorted({i.pair_id for i in its if i.pair_id})
+        # Namespaced seed: plain seed 0 reproduces generate-a1's held-out draw exactly (same
+        # RNG, same population size), which would sample almost only held-out pairs.
+        rng = random.Random(f"sample_pairs-{seed}")
+        chosen = set(rng.sample(pairs, min(sample_pairs, len(pairs))))
+        its = [i for i in its if i.pair_id in chosen]
     return [reg[k] for k in keys], its
 
 
 @app.command()
-def estimate(models: str, category: str | None = None, repeats: int = 1) -> None:
+def estimate(
+    models: str, category: str | None = None, repeats: int = 1, sample_pairs: int = 0
+) -> None:
     """Estimate the cost of a run without calling any model."""
     from flembench import runner
 
-    specs, its = _select(models, category)
+    specs, its = _select(models, category, sample_pairs or None)
     _print_estimate(runner.estimate(runner.plan(its, specs, repeats)))
 
 
@@ -429,12 +442,13 @@ def run(
     budget: float = typer.Option(..., help="Hard stop in USD for this invocation."),
     category: str | None = None,
     repeats: int = 1,
+    sample_pairs: int = typer.Option(0, help="Use only N pairs (seeded), e.g. for variance runs."),
     yes: bool = typer.Option(False, "--yes", help="Skip the confirmation prompt."),
 ) -> None:
     """Query models for all uncached items, after showing the cost estimate."""
     from flembench import runner
 
-    specs, its = _select(models, category)
+    specs, its = _select(models, category, sample_pairs or None)
     jobs = runner.plan(its, specs, repeats)
     _print_estimate(runner.estimate(jobs))
     if not yes and not typer.confirm("run?"):
@@ -471,7 +485,9 @@ def rescore(repeats: int = 3) -> None:
         console.print("no cached responses yet")
         return
     df = pd.DataFrame(rows)
-    df = df[df["correct"].notna()]
+    # Headline numbers use the first run only: extra repeats exist for a subset (variance
+    # runs), and averaging them in would make the result depend on which items were repeated.
+    df = df[df["correct"].notna() & (df["repeat"] == 0)]
     acc = df.pivot_table(
         index=["model", "subcategory"], columns="variety", values="correct", aggfunc="mean"
     )

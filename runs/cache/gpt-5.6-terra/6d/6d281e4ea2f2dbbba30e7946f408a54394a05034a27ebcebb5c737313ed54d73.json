@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0404-be",
+ "repeat": 1,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"stoemp\" zoals het in België gebruikt wordt?\n\nA. produceren (muziek)\nB. walgelijk\nC. stamppot\nD. opvouwen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 91,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0fbe42b56e52c7c1016ab2cf58f0e487d2b9101ce11d1020f6"
+  }
+ },
+ "cost_usd": 0.000242,
+ "cached_at": "2026-09-22T18:56:24+00:00"
+}

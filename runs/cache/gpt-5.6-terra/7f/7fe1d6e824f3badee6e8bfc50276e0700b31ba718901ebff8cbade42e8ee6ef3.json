@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0092-nl",
+ "repeat": 2,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"ginnegappen\" zoals het in Nederland gebruikt wordt?\n\nA. giechelen, gniffelen\nB. schurk, smeerlap\nC. gewild, in trek\nD. neerplenzen; kletsen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 104,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_08a69b8382f9f901016ab2cebf595887d2b1210350cd3a2c29"
+  }
+ },
+ "cost_usd": 0.000268,
+ "cached_at": "2026-09-22T18:53:50+00:00"
+}

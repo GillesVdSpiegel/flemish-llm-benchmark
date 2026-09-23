@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0296-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"nachtraaf\" zoals het in België gebruikt wordt?\n\nA. sukkel\nB. dunne viltstift\nC. nachtbraker\nD. hard rijden\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 88,
+  "output_tokens": 107,
+  "reasoning_tokens": 106,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "HrGzaoLRKZG6sOIPt7nN8Qo"
+  }
+ },
+ "cost_usd": 0.00046725,
+ "cached_at": "2026-09-23T10:59:41+00:00"
+}

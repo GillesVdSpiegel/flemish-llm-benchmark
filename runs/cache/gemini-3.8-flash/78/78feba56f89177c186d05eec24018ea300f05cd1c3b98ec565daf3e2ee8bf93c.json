@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0405-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"stofhagel\" zoals het in België gebruikt wordt?\n\nA. stroomsnelheid\nB. loonschaal, tariefschaal\nC. studentenzangfeest\nD. fijne hagel\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 98,
+  "output_tokens": 44,
+  "reasoning_tokens": 43,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "nrKzaq2CCYjX7M8PgNbcwQ8"
+  }
+ },
+ "cost_usd": 0.0002385,
+ "cached_at": "2026-09-23T11:06:05+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0294-be",
+ "repeat": 1,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"mouwveger\" zoals het in België gebruikt wordt?\n\nA. sinaasappellimonade\nB. bedelen, schooien\nC. casino, feestzaal aan zee\nD. slijmbal, vleier\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 104,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0473cecd355bbc17016ab2cf0b7d5487d29da5d0fc86554ee2"
+  }
+ },
+ "cost_usd": 0.000268,
+ "cached_at": "2026-09-22T18:55:06+00:00"
+}

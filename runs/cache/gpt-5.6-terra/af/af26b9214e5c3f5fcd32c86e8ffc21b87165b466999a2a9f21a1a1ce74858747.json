@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0135-nl",
+ "repeat": 1,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"duppie\" zoals het in Nederland gebruikt wordt?\n\nA. dubbeltje\nB. zandige kleigrond\nC. afpersen, chanteren\nD. infuus\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 94,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0d1e62b1fe236305016ab2ced2ced087d2a2831b016c62f169"
+  }
+ },
+ "cost_usd": 0.000248,
+ "cached_at": "2026-09-22T18:54:10+00:00"
+}

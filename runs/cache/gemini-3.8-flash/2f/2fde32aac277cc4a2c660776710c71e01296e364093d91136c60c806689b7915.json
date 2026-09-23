@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0280-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"bolus\" zoals het in Nederland gebruikt wordt?\n\nA. gek, dom\nB. drol\nC. papa\nD. zetpil\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 82,
+  "output_tokens": 85,
+  "reasoning_tokens": 84,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "87CzarvLMJvonsEPp4G08Qo"
+  }
+ },
+ "cost_usd": 0.00038025,
+ "cached_at": "2026-09-23T10:58:59+00:00"
+}

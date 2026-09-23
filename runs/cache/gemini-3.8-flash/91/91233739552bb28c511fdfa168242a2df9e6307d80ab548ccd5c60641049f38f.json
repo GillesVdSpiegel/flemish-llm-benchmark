@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0219-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"jasses\" zoals het in Nederland gebruikt wordt?\n\nA. bah\nB. deuk\nC. toernooi\nD. diarree\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 82,
+  "output_tokens": 72,
+  "reasoning_tokens": 71,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "I7Czavn1JeXGnsEPrNih6Qo"
+  }
+ },
+ "cost_usd": 0.0003315,
+ "cached_at": "2026-09-23T10:55:30+00:00"
+}

@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0419-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"tegenkanting\" zoals het in België gebruikt wordt?\n\nA. tegenstand, verzet\nB. gerookt spek\nC. slabbetje\nD. onderscheppen; wegvangen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 97,
+  "output_tokens": 82,
+  "reasoning_tokens": 81,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "xLKzat2uDs7HnsEPq5f-gAw"
+  }
+ },
+ "cost_usd": 0.00038025,
+ "cached_at": "2026-09-23T11:06:43+00:00"
+}

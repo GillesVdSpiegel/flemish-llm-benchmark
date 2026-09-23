@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0074-be",
+ "repeat": 2,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"camionette\" zoals het in België gebruikt wordt?\n\nA. bestelwagen\nB. werkloos\nC. selderij\nD. verwaand, bekakt\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 92,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_05a2ed13c5d75aa9016ab2ceae093087d2a1e5a89128cf5065"
+  }
+ },
+ "cost_usd": 0.000244,
+ "cached_at": "2026-09-22T18:53:33+00:00"
+}

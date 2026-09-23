@@ -1,0 +1,30 @@
+{
+ "model_key": "claude-sonnet-5",
+ "model_id": "claude-sonnet-5",
+ "provider": "anthropic",
+ "params": {
+  "thinking": {
+   "type": "disabled"
+  }
+ },
+ "reasoning": "disabled; temperature not supported by the API",
+ "item_id": "a1a-0461-nl",
+ "repeat": 2,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"raggen\" zoals het in Nederland gebruikt wordt?\n\nA. zwakke zet\nB. visafslag\nC. walgelijk\nD. sex\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 143,
+  "output_tokens": 3,
+  "reasoning_tokens": 0,
+  "model_reported": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "raw": {
+   "id": "msg_011CfJxgXYiSa25h52ruRjby"
+  }
+ },
+ "cost_usd": 0.000316,
+ "cached_at": "2026-09-22T18:35:42+00:00"
+}

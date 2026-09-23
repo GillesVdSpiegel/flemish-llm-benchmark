@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0473-be",
+ "repeat": 1,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"windpokken\" zoals het in België gebruikt wordt?\n\nA. huppelen\nB. ontgroening (studenten)\nC. waterpokken\nD. vleeswaren\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 93,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_036fc038898d3107016ab2cf89e69887d2aa7a79a2d66647ca"
+  }
+ },
+ "cost_usd": 0.000246,
+ "cached_at": "2026-09-22T18:57:13+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "model_key": "claude-sonnet-5",
+ "model_id": "claude-sonnet-5",
+ "provider": "anthropic",
+ "params": {
+  "thinking": {
+   "type": "disabled"
+  }
+ },
+ "reasoning": "disabled; temperature not supported by the API",
+ "item_id": "a1a-0473-nl",
+ "repeat": 1,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"vwo\" zoals het in Nederland gebruikt wordt?\n\nA. afhandig maken, aftroggelen\nB. keel-, neus- en oorarts\nC. voorbereidend wetenschappelijk onderwijs\nD. stamppot van aardappelen, wortel en ui\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 187,
+  "output_tokens": 3,
+  "reasoning_tokens": 0,
+  "model_reported": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "raw": {
+   "id": "msg_011CfJyweNmUyAdAPsQai4h4"
+  }
+ },
+ "cost_usd": 0.000404,
+ "cached_at": "2026-09-22T18:52:14+00:00"
+}

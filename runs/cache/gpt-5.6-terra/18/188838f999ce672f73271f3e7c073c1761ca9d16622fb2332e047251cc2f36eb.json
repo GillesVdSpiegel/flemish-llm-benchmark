@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0028-be",
+ "repeat": 1,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"augmentatie\" zoals het in België gebruikt wordt?\n\nA. flauw gerechtje\nB. verhoging (van loon, prijs)\nC. voortkruipen op ellebogen\nD. groentegerecht (Chinees-Indisch)\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 106,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0fb1a0340fcfc017016ab2ce8b992487d284cdcbc720bf540e"
+  }
+ },
+ "cost_usd": 0.000272,
+ "cached_at": "2026-09-22T18:52:59+00:00"
+}

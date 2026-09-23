@@ -54,3 +54,17 @@ def test_build_pairs_share_template_and_split_is_seeded():
     assert doc["be"]["choices"][0] == "klotsen" and doc["be"]["reviewed_by"] == ["author"]
     assert doc["nl"]["reviewed_by"] == [] and doc["subcategory"] == "A1a-clean"
     assert doc == generate.build(decisions, pairs, seed=0)[0]
+
+
+def test_sample_seed_is_namespaced_against_the_heldout_draw():
+    """A plain Random(0) sample over the same population reproduces generate.build's held-out
+    draw; the CLI must not do that (regression: variance sample was 92% held-out)."""
+    import random
+
+    pairs = [f"a1a-{i:04d}" for i in range(1, 494)]
+    heldout_idx = set(random.Random(0).sample(range(len(pairs)), 99))
+    heldout = {pairs[i] for i in heldout_idx}
+    naive = set(random.Random(0).sample(pairs, 60))
+    namespaced = set(random.Random("sample_pairs-0").sample(pairs, 60))
+    assert len(naive & heldout) > 50  # the collision this guards against
+    assert len(namespaced & heldout) < 25  # roughly the 20% you would expect

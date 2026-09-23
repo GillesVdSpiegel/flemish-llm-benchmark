@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0222-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"apenrots\" zoals het in Nederland gebruikt wordt?\n\nA. los, niet vast (zand)\nB. zandige kleigrond\nC. rangordegedrag\nD. vak, beroep\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 96,
+  "output_tokens": 99,
+  "reasoning_tokens": 99,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "LrCzar3zG5by-8YProGf8Qo"
+  }
+ },
+ "cost_usd": 0.00044325,
+ "cached_at": "2026-09-23T10:55:41+00:00"
+}

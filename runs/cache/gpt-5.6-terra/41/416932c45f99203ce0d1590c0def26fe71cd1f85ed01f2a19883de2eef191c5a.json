@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0467-be",
+ "repeat": 1,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"wegenwerken\" zoals het in België gebruikt wordt?\n\nA. wegwerkzaamheden\nB. snoepen, grijpen\nC. mogelijk, misschien\nD. smurrie, drab\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 96,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0d47634bc289dfa8016ab2cf84bd7c87d2af37f86305d88e7e"
+  }
+ },
+ "cost_usd": 0.000252,
+ "cached_at": "2026-09-22T18:57:08+00:00"
+}

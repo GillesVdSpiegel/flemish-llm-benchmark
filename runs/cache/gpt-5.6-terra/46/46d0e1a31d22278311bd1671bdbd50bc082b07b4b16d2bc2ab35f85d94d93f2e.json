@@ -1,0 +1,30 @@
+{
+ "model_key": "gpt-5.6-terra",
+ "model_id": "gpt-5.6-terra",
+ "provider": "openai",
+ "params": {
+  "reasoning": {
+   "effort": "none"
+  }
+ },
+ "reasoning": "effort none",
+ "item_id": "a1a-0028-nl",
+ "repeat": 2,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"recalcitrantie\" zoals het in Nederland gebruikt wordt?\n\nA. pleisterwerk; bepleistering\nB. weerspannigheid\nC. zorgen, narigheid\nD. achterzak\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 98,
+  "output_tokens": 5,
+  "reasoning_tokens": 0,
+  "model_reported": "gpt-5.6-terra",
+  "stop_reason": "completed",
+  "raw": {
+   "id": "resp_0f8ef8402df58de2016ab2ce8ede0087d29de822c65ebd55c1"
+  }
+ },
+ "cost_usd": 0.000256,
+ "cached_at": "2026-09-22T18:53:02+00:00"
+}

@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0358-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"reekshoofd\" zoals het in België gebruikt wordt?\n\nA. laadschop (bouwmachine)\nB. bijstandsuitkering\nC. dwarsliggers (spoorweg)\nD. geplaatste speler; rami-hoofd\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 109,
+  "output_tokens": 107,
+  "reasoning_tokens": 106,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "BbKzaqyFFtqU3boPvujtkAs"
+  }
+ },
+ "cost_usd": 0.000483,
+ "cached_at": "2026-09-23T11:03:32+00:00"
+}

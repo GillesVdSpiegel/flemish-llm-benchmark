@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0481-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"afraffelen\" zoals het in Nederland gebruikt wordt?\n\nA. opzetten van dieren\nB. rond een stad lopend (ringweg)\nC. in bad spelen, plonzen\nD. haastig en slordig afmaken\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 105,
+  "output_tokens": 76,
+  "reasoning_tokens": 75,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "ebOzavXPJIzj7M8Px-ud4As"
+  }
+ },
+ "cost_usd": 0.00036375,
+ "cached_at": "2026-09-23T11:09:44+00:00"
+}
