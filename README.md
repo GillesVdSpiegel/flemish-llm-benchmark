@@ -72,7 +72,7 @@ through Ollama; `scripts/setup_local_models.py` pins their weights by SHA-256 an
 `scripts/check_local_tokenization.py` verifies each one receives exactly the token sequence its
 original tokenizer would produce.
 
-Total API cost of the full study: **about €1.50**.
+Total API cost of the full study, including repeat runs: **$1.25 (about €1.15)**.
 
 ## What this does not show
 

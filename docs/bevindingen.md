@@ -101,7 +101,7 @@ zijn geprompt met hun **eigen originele chattemplate**, en een controle toont da
 evenveel tokens ontvangt als met zijn oorspronkelijke tokenizer: een verkeerd sjabloon zou een
 model stil benadelen.
 
-Totale API-kost voor de volledige meting: **ongeveer € 1**.
+Totale API-kost voor de volledige meting, inclusief herhaalruns: **$ 1,25 (ongeveer € 1,15)**.
 
 ## Resultaten
 
@@ -112,31 +112,33 @@ hoger (ChocoLlama) en één toont geen verschil (Gemma).
 
 ### Moeilijkere woorden zijn ook voor modellen moeilijker
 
-Gemiddeld over de zes modellen die toen voltooid waren, per bekendheidsklasse in eigen land:
+Gemiddeld over de zeven modellen, per bekendheidsklasse in eigen land:
 
 | Gekend door … van eigen bevolking | Belgisch | Nederlands |
 |---|---|---|
-| 79–85 % | 75,9 % | 80,5 % |
-| 85–90 % | 81,1 % | 84,7 % |
-| 90–95 % | 82,6 % | 84,4 % |
-| 95–100 % | 88,6 % | 89,0 % |
+| 79–85 % | 79,2 % | 83,3 % |
+| 85–90 % | 83,5 % | 86,8 % |
+| 90–95 % | 85,0 % | 86,6 % |
+| 95–100 % | 90,2 % | 90,6 % |
 
 Dat de curve netjes stijgt, is een teken dat de test meet wat ze moet meten. In elke klasse ligt de
 Belgische kant iets lager.
 
 ### Welke woorden gaan mis
 
-Belgische woorden die de meeste modellen missen: *konijnenpijp*, *balkleed*, *bezetsel*,
-*roefelen*, *baancafé*, *champetter*, *nieuwkuis*, *vidé*, *witteke*, *omwringen*.
+Negentien Belgische woorden worden door de meerderheid van de modellen gemist: *konijnenpijp*,
+*balkleed*, *solsleutel*, *bezetsel*, *roefelen*, *beterhand*, *baancafé*, *champetter*,
+*bombardon*, *klissen*, *afpitsen*.
 
-Nederlandse woorden die de meeste modellen missen: *apezuur*, *glom*, *poepdoos*, *klunen*,
-*moetje*, *eigenheimer*, *gierton*, *bul*.
+Aan Nederlandse kant zijn dat er tien: *apezuur*, *glom*, *poepdoos*, *eigenheimer*, *giebel*,
+*gierton*, *klunen*, *bul*, *moetje*, *staalpil*.
 
-Aan Belgische kant vallen eten, drank en huishouden op (*vidé*, *witteke*, *nieuwkuis*,
-*bezetsel*). Precies bij die woorden gaven de modellen eerder ook zelf een foute betekenis op.
+Aan Belgische kant vallen eten, drank, bouw en huishouden op (*vidé*, *witteke*, *bezetsel*,
+*nieuwkuis*). Precies bij dat soort woorden gaven de modellen eerder ook zelf een foute betekenis
+op toen ze de betekenissen mochten voorstellen.
 
-Eén item wordt door alle zes toen voltooide modellen fout beantwoord: *konijnenpijp* (konijnenhol), waar ze
-allemaal "aanbouwsel, bijgebouwtje" kiezen.
+Geen enkel item wordt door alle zeven modellen fout beantwoord. Het moeilijkste is *konijnenpijp*
+(konijnenhol): zes van de zeven kiezen daar "aanbouwsel, bijgebouwtje".
 
 ### Hoe stabiel zijn de antwoorden?
 
