@@ -1,11 +1,34 @@
 # Design document — Flemish-Dutch LLM benchmark (Phase 1)
 
-Status: **draft for review** · 2026-09-21 · Owner: @GillesVdSpiegel
+Status: **plan as written on 2026-09-21, before any model was run** · Owner: @GillesVdSpiegel
 
 This document fixes the research question, the measurement design and the analysis plan
 *before* any model is run on the full dataset. Committing it first is a lightweight form of
 pre-registration: every analysis reported later is either listed here or explicitly labelled
 exploratory.
+
+> ## What v1 actually shipped (added 2026-09-23)
+>
+> The plan below is kept **unchanged** as the pre-registration record. What was built differs
+> from it, and the differences are listed here rather than quietly edited into the text above.
+>
+> | Planned | Shipped in v1 |
+> |---|---|
+> | Five categories (A1 lexicon, A2 letters, B1/B2 institutions, C variety ID, D generation) | **Only A1 (lexicon)**. The rest need hand-written items and moved to a possible v2. |
+> | 150–250 hand-written items | **986 template-generated items** (493 pairs) from curated word pairs |
+> | Two headline numbers (language gap, context gap) | **One**: the lexicon gap |
+> | Author writes every item and owns every gold answer | Gold answers drafted by two LLMs, 63 disagreements plus 11 uncertain words resolved by the author and a Netherlands-Dutch reviewer; provenance recorded per item |
+> | Human baseline on a subset; second Flemish reviewer | **Not done.** The largest gap in v1; stated as a limitation. |
+> | Judge–human agreement for the generation track | Not applicable, track D not built |
+> | ~€3–4 total API spend | **$1.25** |
+>
+> Two design elements were added that the plan did not anticipate:
+> - **Clean vs look-alike pairs.** 120 pairs whose gold answer resembles its own word are
+>   reported separately; the headline uses the 373 clean pairs.
+> - **Gemini availability.** Gemini 3.8 Flash is unusable on the free tier (20 requests/day);
+>   the paid tier was needed, which also keeps the held-out items out of Google's training data.
+>
+> Results: [`bevindingen.md`](bevindingen.md) (Dutch) · [`../README.md`](../README.md).
 
 ---
 
@@ -343,9 +366,25 @@ golds contestable on re-read. Expect at least one category to be cut or redesign
   speech, deep dialect, or French-language Belgium.
 - A positive result says models are worse on these items — not on "Flemish" in general.
 
-## 13. Decisions still open
+## 13. Decisions still open (as of the plan; resolved below)
 
 1. Package manager: `uv` (faster, lockfile) vs plain `venv` + `pip-tools`. Recommendation:
-   `uv`, a one-time user install.
-2. Exact open general model and GGUF quantisation — fixed at the start of Phase 5.
-3. Whether the optional frontier-model subset is run.
+   `uv`, a one-time user install. → **`uv`.**
+2. Exact open general model and GGUF quantisation — fixed at the start of Phase 5. →
+   **Gemma 4 12B** (Google QAT 4-bit) plus Q8_0 community builds of EuroLLM-9B-Instruct-2512,
+   GEITje-7B-ultra and ChocoLlama-8B, pinned by SHA-256 in `config/local_models.yaml`.
+3. Whether the optional frontier-model subset is run. → **Not run**; the three API models were
+   Claude Sonnet 5, GPT-5.6 Terra and Gemini 3.8 Flash.
+
+## 14. What a v2 would do first
+
+In order of value for effort:
+
+1. **Human baseline** on the existing questions (the missing reference point), with a Netherlands
+   speaker for the double-dissociation check.
+2. **A harder question format**, because Gemini and Claude sit at 97-100 % and the current test can
+   barely measure their difference: word-in-context, free answer, or distractors drawn from the
+   same semantic field.
+3. **The categories cut from v1**: administrative letters (A2) and Belgian institutions (B1), which
+   is what Flemish public services actually care about.
+4. **Second Flemish reviewer** on a random sample, reporting agreement.
