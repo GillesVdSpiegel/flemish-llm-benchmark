@@ -52,7 +52,8 @@ points).
 **Measure human performance on the items themselves, not just word familiarity.** Prevalence is a
 proxy for difficulty; a small human baseline on the actual questions would be a direct measure and
 would also show whether a Netherlands speaker really does worse on the Belgian items, which is the
-strongest validity check available. That is planned for v1.1 and is the largest gap in v1.
+strongest validity check available. It was deliberately left out of v1 to keep the scope small, and
+it is the largest gap in the current results.
 
 A cheaper second improvement: match on **frequency in a Belgian and a Netherlands corpus** as well
 as on prevalence, so exposure and familiarity are both held constant.

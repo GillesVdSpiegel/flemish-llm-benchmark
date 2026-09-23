@@ -181,6 +181,11 @@ Gemma (0,3 %).
   model, wel iets over beschikbaarheid.
 - **Lokale modellen draaien gekwantiseerd** (Q8_0, Gemma 4-bit). Kwantisatie kan prestaties drukken,
   vermoedelijk voor beide variëteiten gelijk.
+- **Geen menselijke referentie.** De modelscores zijn niet vergeleken met mensen die dezelfde
+  vragen beantwoorden. Daardoor weten we wel hoe modellen zich onderling verhouden, maar niet hoe
+  ze zich verhouden tot een Vlaamse of Nederlandse moedertaalspreker. De koppeling op
+  prevalentie maakt beide kanten even moeilijk *voor mensen in eigen land*, maar dat is een
+  indirecte maatstaf; een directe meting ontbreekt. Dit is het grootste hiaat van v1.
 - **Eén auteur.** Een tweede Vlaamse beoordelaar heeft nog geen steekproef nagekeken; die controle
   volgt in een volgende versie.
 

@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0062-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"pakkie-an\" zoals het in Nederland gebruikt wordt?\n\nA. weerspannig\nB. lessen die niet doorgaan\nC. rijtjeshuis\nD. niet mijn taak\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 95,
+  "output_tokens": 48,
+  "reasoning_tokens": 47,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "Iq6zavOxK5LinsEPq4__yA8"
+  }
+ },
+ "cost_usd": 0.00025125,
+ "cached_at": "2026-09-23T10:46:57+00:00"
+}
