@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0432-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"vadsigaard\" zoals het in België gebruikt wordt?\n\nA. ambachtelijk\nB. sukkel, onbenul\nC. luiaard\nD. fiets\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 89,
+  "output_tokens": 141,
+  "reasoning_tokens": 140,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "57Kzaum3HLPnnsEPlMTYqQE"
+  }
+ },
+ "cost_usd": 0.0005955,
+ "cached_at": "2026-09-23T11:07:18+00:00"
+}

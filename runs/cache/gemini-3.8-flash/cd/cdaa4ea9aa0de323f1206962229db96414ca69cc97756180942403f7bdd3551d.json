@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0398-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"kissebissen\" zoals het in Nederland gebruikt wordt?\n\nA. kruidenier\nB. kibbelen\nC. vismijn\nD. generiek\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 87,
+  "output_tokens": 103,
+  "reasoning_tokens": 102,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "hLKzaq2MDqTl7M8P9IvQwAs"
+  }
+ },
+ "cost_usd": 0.0004515,
+ "cached_at": "2026-09-23T11:05:39+00:00"
+}

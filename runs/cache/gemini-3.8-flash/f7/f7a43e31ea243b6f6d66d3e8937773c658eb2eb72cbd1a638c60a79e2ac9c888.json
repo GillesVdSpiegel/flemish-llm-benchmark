@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0169-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"gelijkaardig\" zoals het in België gebruikt wordt?\n\nA. waakzaam\nB. postduif\nC. soortgelijk\nD. baljurk\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 88,
+  "output_tokens": 48,
+  "reasoning_tokens": 47,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "e6-zapyaGrHGnsEPy7PR6Qo"
+  }
+ },
+ "cost_usd": 0.000246,
+ "cached_at": "2026-09-23T10:52:42+00:00"
+}

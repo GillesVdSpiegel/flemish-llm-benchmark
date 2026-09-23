@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0083-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"cervela\" zoals het in België gebruikt wordt?\n\nA. fijn, precies werk doen\nB. cervelaatworst\nC. klodder\nD. verdorie\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "B",
+  "input_tokens": 89,
+  "output_tokens": 99,
+  "reasoning_tokens": 98,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "X66zav3XK-e_nsEPiNOL-As"
+  }
+ },
+ "cost_usd": 0.000438,
+ "cached_at": "2026-09-23T10:47:58+00:00"
+}

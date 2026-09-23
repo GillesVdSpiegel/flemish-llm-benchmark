@@ -485,7 +485,9 @@ def rescore(repeats: int = 3) -> None:
         console.print("no cached responses yet")
         return
     df = pd.DataFrame(rows)
-    df = df[df["correct"].notna()]
+    # Headline numbers use the first run only: extra repeats exist for a subset (variance
+    # runs), and averaging them in would make the result depend on which items were repeated.
+    df = df[df["correct"].notna() & (df["repeat"] == 0)]
     acc = df.pivot_table(
         index=["model", "subcategory"], columns="variety", values="correct", aggfunc="mean"
     )

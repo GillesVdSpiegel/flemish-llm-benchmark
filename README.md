@@ -13,10 +13,12 @@ effect is not the provider or the model size, but what went into training:
 | GPT-5.6 Terra | 92.5% | 96.0% | −3.5 | −7.0 … −0.3 |
 | Claude Sonnet 5 | 96.8% | 98.4% | −1.6 | −3.8 … +0.5 |
 | EuroLLM-9B | 88.2% | 89.8% | −1.6 | −6.2 … +2.9 |
+| Gemini 3.8 Flash | 98.7% | 100.0% | −1.3 | −2.7 … −0.3 |
 | Gemma 4 12B | 63.3% | 63.0% | +0.3 | −6.7 … +7.0 |
 
-A positive gap means better on Belgian Dutch. 373 matched pairs; after Holm correction for six
-models only ChocoLlama is significant. Full results and limitations:
+A positive gap means better on Belgian Dutch. 373 matched pairs, first run per model; after Holm
+correction for seven models only ChocoLlama is significant. Five of seven models score lower on
+Belgian words, but each difference on its own stays within the noise once corrected. Full results and limitations:
 **[docs/bevindingen.md](docs/bevindingen.md)** (in Dutch).
 
 ## Why this exists

@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0152-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"frietchinees\" zoals het in België gebruikt wordt?\n\nA. opdringen, aansmeren\nB. willekeurig, onsamenhangend\nC. dagschool (geen internaat)\nD. frituur uitgebaat door Chinezen\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "D",
+  "input_tokens": 108,
+  "output_tokens": 1,
+  "reasoning_tokens": 0,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "Sa-zatK3O_bHnsEPt73E8As"
+  }
+ },
+ "cost_usd": 8.475e-05,
+ "cached_at": "2026-09-23T10:51:54+00:00"
+}

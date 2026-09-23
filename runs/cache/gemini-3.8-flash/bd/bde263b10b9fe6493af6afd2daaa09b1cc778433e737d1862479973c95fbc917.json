@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0272-be",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"macadam\" zoals het in België gebruikt wordt?\n\nA. steenslagverharding, asfaltweg\nB. lessen die niet doorgaan\nC. een beetje zielig\nD. wip (speeltuig)\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "A",
+  "input_tokens": 98,
+  "output_tokens": 103,
+  "reasoning_tokens": 102,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "2rCzaujDOpTlnsEPgsqVyAk"
+  }
+ },
+ "cost_usd": 0.00045975,
+ "cached_at": "2026-09-23T10:58:33+00:00"
+}

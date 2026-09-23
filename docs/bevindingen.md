@@ -16,10 +16,11 @@ modellen vooral hun trainingsdata:
 | GPT-5.6 Terra | 92,5 % | 96,0 % | −3,5 | −7,0 … −0,3 | 0,060 |
 | Claude Sonnet 5 | 96,8 % | 98,4 % | −1,6 | −3,8 … +0,5 | 0,210 |
 | EuroLLM-9B | 88,2 % | 89,8 % | −1,6 | −6,2 … +2,9 | 0,561 |
+| Gemini 3.8 Flash | 98,7 % | 100,0 % | −1,3 | −2,7 … −0,3 | 0,062 |
 | Gemma 4 12B | 63,3 % | 63,0 % | +0,3 | −6,7 … +7,0 | 1,000 |
 
 Een positieve kloof betekent: beter op Belgisch-Nederlands. Cijfers voor de 373 "schone" paren
-(zie [Methode](#methode)). Na correctie voor het testen van zes modellen (Holm) blijft alleen
+(zie [Methode](#methode)). Na correctie voor het testen van zeven modellen (Holm) blijft alleen
 ChocoLlama significant.
 
 **De kern van het resultaat is niet "modellen kunnen geen Vlaams".** Het is: *wie Belgische data
@@ -89,7 +90,7 @@ Zie [Beperkingen](#wat-dit-onderzoek-niet-aantoont).
 |---|---|---|
 | Claude Sonnet 5 | Anthropic API | uitgeschakeld (temperatuur wordt niet ondersteund) |
 | GPT-5.6 Terra | OpenAI API | effort `none` |
-| Gemini 3.8 Flash | Gemini API | *niet afgerond: zie onder* |
+| Gemini 3.8 Flash | Gemini API (betaalde tier) | denkniveau `LOW`, het laagste dat dit model aanvaardt |
 | EuroLLM-9B-Instruct-2512 | lokaal, Q8_0 | geen, temperatuur 0, vaste seed |
 | GEITje-7B-ultra | lokaal, Q8_0 | idem |
 | Llama-3-ChocoLlama-8B-instruct | lokaal, Q8_0 | idem |
@@ -106,12 +107,12 @@ Totale API-kost voor de volledige meting: **ongeveer € 1**.
 
 ### De kloof per model
 
-Zie de tabel bovenaan. Vier van de zes modellen scoren lager op Belgisch-Nederlands, één scoort
+Zie de tabel bovenaan. Vijf van de zeven modellen scoren lager op Belgisch-Nederlands, één scoort
 hoger (ChocoLlama) en één toont geen verschil (Gemma).
 
 ### Moeilijkere woorden zijn ook voor modellen moeilijker
 
-Gemiddeld over de zes modellen, per bekendheidsklasse in eigen land:
+Gemiddeld over de zes modellen die toen voltooid waren, per bekendheidsklasse in eigen land:
 
 | Gekend door … van eigen bevolking | Belgisch | Nederlands |
 |---|---|---|
@@ -134,7 +135,7 @@ Nederlandse woorden die de meeste modellen missen: *apezuur*, *glom*, *poepdoos*
 Aan Belgische kant vallen eten, drank en huishouden op (*vidé*, *witteke*, *nieuwkuis*,
 *bezetsel*). Precies bij die woorden gaven de modellen eerder ook zelf een foute betekenis op.
 
-Eén item wordt door alle zes modellen fout beantwoord: *konijnenpijp* (konijnenhol), waar ze
+Eén item wordt door alle zes toen voltooide modellen fout beantwoord: *konijnenpijp* (konijnenhol), waar ze
 allemaal "aanbouwsel, bijgebouwtje" kiezen.
 
 ### Hoe stabiel zijn de antwoorden?
@@ -176,9 +177,12 @@ Gemma (0,3 %).
   sterke modellen en tot ± 7 bij zwakke. Verschillen kleiner dan dat blijven onzichtbaar.
 - **Zes modellen, zes toetsen.** Na Holm-correctie houdt alleen ChocoLlama stand. De richting van de
   overige resultaten is suggestief, geen bewijs.
-- **Gemini ontbreekt.** Op 22 september 2026 waren Gemini 3.8 en 3.7 Flash urenlang onbeschikbaar
-  ("high demand"); 2 van 986 vragen raakten beantwoord. Dat zegt niets over de taalkwaliteit van het
-  model, wel iets over beschikbaarheid.
+- **Gemini vergt een betalende account.** Op de gratis tier gaf Gemini 3.8 Flash uren aan
+  "high demand"; de echte oorzaak was een dagquotum van 20 aanvragen. Met facturatie aan verliep de
+  volledige meting vlot. Merk op dat Google op de gratis tier invoer mag gebruiken om zijn
+  producten te verbeteren, wat voor een held-out set onwenselijk is.
+- **Gemini zit tegen het plafond** (100 % op Nederlandse woorden). De gemeten kloof van 1,3 punt is
+  daardoor een ondergrens: deze toets is voor dit model eigenlijk te makkelijk.
 - **Lokale modellen draaien gekwantiseerd** (Q8_0, Gemma 4-bit). Kwantisatie kan prestaties drukken,
   vermoedelijk voor beide variëteiten gelijk.
 - **Geen menselijke referentie.** De modelscores zijn niet vergeleken met mensen die dezelfde

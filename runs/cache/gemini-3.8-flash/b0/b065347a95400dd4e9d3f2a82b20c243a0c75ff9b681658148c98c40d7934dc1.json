@@ -1,0 +1,29 @@
+{
+ "model_key": "gemini-3.8-flash",
+ "model_id": "gemini-3.8-flash",
+ "provider": "gemini",
+ "params": {
+  "temperature": 0,
+  "thinking_level": "LOW"
+ },
+ "reasoning": "low (cannot be disabled; MINIMAL rejected by the API on 2026-09-22)",
+ "item_id": "a1a-0475-nl",
+ "repeat": 0,
+ "prompt_version": "p1",
+ "max_tokens": 1024,
+ "system": "Je beantwoordt vragen over Nederlandstalige teksten. Volg de antwoordinstructie nauwkeurig.",
+ "user": "Wat betekent het woord \"audicien\" zoals het in Nederland gebruikt wordt?\n\nA. met een prijs of toelage verbonden\nB. iemand bestempelen\nC. hoorapparatenspecialist\nD. iemand die heel hard studeert\n\nAntwoord met alleen de letter van het juiste antwoord (A, B, C of D).",
+ "completion": {
+  "text": "C",
+  "input_tokens": 101,
+  "output_tokens": 72,
+  "reasoning_tokens": 71,
+  "model_reported": "gemini-3.8-flash",
+  "stop_reason": "FinishReason.STOP",
+  "raw": {
+   "id": "a7OzaqDqBZuD3boP08qhoQU"
+  }
+ },
+ "cost_usd": 0.00034575,
+ "cached_at": "2026-09-23T11:09:29+00:00"
+}
